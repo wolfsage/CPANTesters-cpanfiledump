@@ -692,7 +692,7 @@ requires:
     Module::Runtime::Conflicts  0     0.001   
     MRO::Compat                 0.05  0.12    
     Package::DeprecationManager 0.11  0.13    
-    Package::Stash              0.32  0.37    
+    Package::Stash              0.32  missing
     Package::Stash::XS          0.24  0.28    
     Params::Util                1.00  1.07    
     parent                      0.223 0.228   

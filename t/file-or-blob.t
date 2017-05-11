@@ -5,6 +5,7 @@ use lib qw(lib);
 
 use Path::Tiny;
 use Test::More 0.88;
+use Test::Differences;
 
 use CPANTesters::cpanfiledump;
 
@@ -36,7 +37,7 @@ subtest "filename" => sub {
   my $dumper = CPANTesters::cpanfiledump->new;
 
   my $report = $dumper->parse_raw($filename);
-  is(
+  eq_or_diff(
     $report->to_cpanfile,
     $want,
     'our cpanfile looks good when passed a filename'
@@ -51,7 +52,7 @@ subtest "blob" => sub {
   my $dumper = CPANTesters::cpanfiledump->new;
 
   my $report = $dumper->parse_raw(\$data);
-  is(
+  eq_or_diff(
     $report->to_cpanfile,
     $want,
     'our cpanfile looks good when passed a ref to a string'

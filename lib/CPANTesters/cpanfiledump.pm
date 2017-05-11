@@ -6,6 +6,7 @@ use Path::Tiny;
 
 use CPANTesters::cpanfiledump::Report;
 use CPANTesters::cpanfiledump::Collector::ModuleToolchainVersions;
+use CPANTesters::cpanfiledump::Collector::Prerequisites;
 
 has _collectors => (
   is => 'ro',
@@ -16,6 +17,9 @@ has _collectors => (
 
     return [
       CPANTesters::cpanfiledump::Collector::ModuleToolchainVersions->new({
+        cpanfiledump => $self,
+      }),
+      CPANTesters::cpanfiledump::Collector::Prerequisites->new({
         cpanfiledump => $self,
       }),
     ];

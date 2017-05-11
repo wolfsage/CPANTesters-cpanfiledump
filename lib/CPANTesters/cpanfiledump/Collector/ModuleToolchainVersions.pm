@@ -13,8 +13,8 @@ sub collect {
       $found_start = 1;
 
     } elsif ($found_start && $line =~ /^\s*--\s*$/) {
-
       last;
+
     } elsif ($found_start && $line =~ /^\s*$/ && %prereqs) {
       # Found some prereqs and got a blank line? We're done
       last;

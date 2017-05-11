@@ -5,6 +5,7 @@ use lib qw(lib);
 
 use Path::Tiny;
 use Test::More 0.88;
+use Test::Differences;
 
 use CPANTesters::cpanfiledump;
 
@@ -36,7 +37,7 @@ EOF
   my $dumper = CPANTesters::cpanfiledump->new;
 
   my $report = $dumper->parse_raw($file);
-  is(
+  eq_or_diff(
     $report->to_cpanfile,
     $want,
     'our cpanfile looks good'
