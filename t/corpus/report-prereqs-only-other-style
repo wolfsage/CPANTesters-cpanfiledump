@@ -1,0 +1,1280 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head>
+
+
+<title>CPAN Testers Reports: Report for Moose-2.1200</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="title"       content="CPAN Testers Reports" />
+<meta name="author"      content="Barbie" />
+<meta name="language"    content="en" />
+<meta name="keywords"    content="perl, cpan, test, testing, tester, testers, reports, smoke, smoker, black box, automated, automation" />
+<meta name="description" content="Report listings of distributions and authors from reports submitted by the CPAN Testers community, who automatically black box test submissions to Perl's CPAN code repository" />
+
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="/css/layout2_setup.css" />
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="/css/layout2_text.css" />
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1826389-16");
+pageTracker._trackPageview();
+</script>
+
+<!--
+    Site Layout, Design &amp; Development by Miss Barbell Productions
+
+    Valid XHTML 1.0 - http://validator.w3.org/check?uri=referer
+    Powered by LAMP (Linux, Apache, MySQL &amp; Perl) technologies.
+    Produced by LABYRINTH, a state of the art Website Management System
+    available from Miss Barbell Productions.
+    For more information contact Barbie <barbie@missbarbell.co.uk>
+
+-->
+
+</head>
+<body  >
+
+  
+    <pre>
+From: <strong>Someone</strong>
+Subject: <strong>PASS Moose-2.1200 v5.19.7 Mac OS X</strong>
+Date: <strong>2014-01-07T14:09:20Z</strong>
+
+This distribution has been tested as part of the CPAN Testers
+project, supporting the Perl programming language.  See
+http://wiki.cpantesters.org/ for more information or email
+questions to cpan-testers-discuss@perl.org
+
+
+--
+Dear Someone,
+
+This is a computer-generated report for Moose-2.1200
+on perl 5.19.7, created by App::cpanminus::reporter 0.10 (1.7000).
+
+Thank you for uploading your work to CPAN.  Congratulations!
+All tests were successful.
+
+Sections of this report:
+
+    * Tester comments
+    * Program output
+    * Prerequisites
+    * Environment and other context
+
+------------------------------
+TESTER COMMENTS
+------------------------------
+
+Additional comments from tester:
+
+none provided
+
+------------------------------
+PROGRAM OUTPUT
+------------------------------
+
+Output from '':
+
+Building and testing Moose-2.1200
+cp lib/Moose/Exception/NeitherTypeNorTypeNameIsGiven.pm blib/lib/Moose/Exception/NeitherTypeNorTypeNameIsGiven.pm
+cp lib/Moose/Meta/Attribute/Native/Trait/Array.pm blib/lib/Moose/Meta/Attribute/Native/Trait/Array.pm
+cp lib/Moose/Exception/NeedsTypeConstraintUnionForTypeCoercionUnion.pm blib/lib/Moose/Exception/NeedsTypeConstraintUnionForTypeCoercionUnion.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/sort_in_place.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/sort_in_place.pm
+cp lib/Class/MOP/Method/Generated.pm blib/lib/Class/MOP/Method/Generated.pm
+cp lib/Moose/Exception/IsaDoesNotDoTheRole.pm blib/lib/Moose/Exception/IsaDoesNotDoTheRole.pm
+cp lib/Moose/Exception/Role/AttributeName.pm blib/lib/Moose/Exception/Role/AttributeName.pm
+cp lib/Moose/Exception/ClassNamesDoNotMatch.pm blib/lib/Moose/Exception/ClassNamesDoNotMatch.pm
+cp lib/Moose/Manual/Delta.pod blib/lib/Moose/Manual/Delta.pod
+cp lib/Moose/Exception/HandlesMustBeAHashRef.pm blib/lib/Moose/Exception/HandlesMustBeAHashRef.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/length.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/length.pm
+cp lib/Moose/Meta/Attribute/Native.pm blib/lib/Moose/Meta/Attribute/Native.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/inc.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/inc.pm
+cp lib/Moose/Intro.pod blib/lib/Moose/Intro.pod
+cp lib/Moose/Meta/Method/Accessor/Native/String/replace.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/replace.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/join.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/join.pm
+cp lib/Moose/Cookbook/Extending/Mooseish_MooseSugar.pod blib/lib/Moose/Cookbook/Extending/Mooseish_MooseSugar.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Array/shift.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/shift.pm
+cp lib/Moose/Cookbook.pod blib/lib/Moose/Cookbook.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/is_empty.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/is_empty.pm
+cp lib/Moose/Exception/CouldNotCreateWriter.pm blib/lib/Moose/Exception/CouldNotCreateWriter.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/shallow_clone.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/shallow_clone.pm
+cp lib/Moose/Exception/CannotAutoDereferenceTypeConstraint.pm blib/lib/Moose/Exception/CannotAutoDereferenceTypeConstraint.pm
+cp lib/Moose/Exception/ReferencesAreNotAllowedAsDefault.pm blib/lib/Moose/Exception/ReferencesAreNotAllowedAsDefault.pm
+cp lib/Moose/Exception/NeitherRoleNorRoleNameIsGiven.pm blib/lib/Moose/Exception/NeitherRoleNorRoleNameIsGiven.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Counter/dec.pm blib/lib/Moose/Meta/Method/Accessor/Native/Counter/dec.pm
+cp lib/Moose/Exception/CannotCallAnAbstractBaseMethod.pm blib/lib/Moose/Exception/CannotCallAnAbstractBaseMethod.pm
+cp lib/Moose/Exception/AttributeExtensionIsNotSupportedInRoles.pm blib/lib/Moose/Exception/AttributeExtensionIsNotSupportedInRoles.pm
+cp lib/Moose/Meta/Method/Meta.pm blib/lib/Moose/Meta/Method/Meta.pm
+cp lib/Moose/Exception/CannotMakeMetaclassCompatible.pm blib/lib/Moose/Exception/CannotMakeMetaclassCompatible.pm
+cp lib/Moose/Manual/Delegation.pod blib/lib/Moose/Manual/Delegation.pod
+cp lib/Moose/Exporter.pm blib/lib/Moose/Exporter.pm
+cp lib/Moose/Exception/MetaclassIsAClassNotASubclassOfGivenMetaclass.pm blib/lib/Moose/Exception/MetaclassIsAClassNotASubclassOfGivenMetaclass.pm
+cp lib/Class/MOP/Class.pm blib/lib/Class/MOP/Class.pm
+cp lib/Moose/Exception/CreateTakesHashRefOfAttributes.pm blib/lib/Moose/Exception/CreateTakesHashRefOfAttributes.pm
+cp lib/Moose/Exception/NoCasesMatched.pm blib/lib/Moose/Exception/NoCasesMatched.pm
+cp lib/Moose/Exception/CircularReferenceInAlso.pm blib/lib/Moose/Exception/CircularReferenceInAlso.pm
+cp lib/Moose/Deprecated.pm blib/lib/Moose/Deprecated.pm
+cp lib/Moose/Exception/ExtendsMissingArgs.pm blib/lib/Moose/Exception/ExtendsMissingArgs.pm
+cp lib/Moose/Exception/ClassDoesTheExcludedRole.pm blib/lib/Moose/Exception/ClassDoesTheExcludedRole.pm
+cp lib/Moose/Exception/TypeConstraintIsAlreadyCreated.pm blib/lib/Moose/Exception/TypeConstraintIsAlreadyCreated.pm
+cp lib/Moose/Exception/CreateMOPClassTakesArrayRefOfAttributes.pm blib/lib/Moose/Exception/CreateMOPClassTakesArrayRefOfAttributes.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/elements.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/elements.pm
+cp lib/Moose/Exception/CouldNotParseType.pm blib/lib/Moose/Exception/CouldNotParseType.pm
+cp lib/Moose/Exception/MustSpecifyAtleastOneMethod.pm blib/lib/Moose/Exception/MustSpecifyAtleastOneMethod.pm
+cp lib/Moose/Exception/MustSupplyAnAttributeToConstructWith.pm blib/lib/Moose/Exception/MustSupplyAnAttributeToConstructWith.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/shuffle.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/shuffle.pm
+cp lib/Moose/Exception/MustDefineAMethodName.pm blib/lib/Moose/Exception/MustDefineAMethodName.pm
+cp lib/Moose/Cookbook/Snack/Keywords.pod blib/lib/Moose/Cookbook/Snack/Keywords.pod
+cp lib/Moose/Exception/CannotFindType.pm blib/lib/Moose/Exception/CannotFindType.pm
+cp lib/Class/MOP/Package.pm blib/lib/Class/MOP/Package.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/substr.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/substr.pm
+cp lib/Moose/Exception/BuilderMethodNotSupportedForInlineAttribute.pm blib/lib/Moose/Exception/BuilderMethodNotSupportedForInlineAttribute.pm
+cp lib/Moose/Exception/CannotAddAsAnAttributeToARole.pm blib/lib/Moose/Exception/CannotAddAsAnAttributeToARole.pm
+cp lib/Moose/Manual/Exceptions/Manifest.pod blib/lib/Moose/Manual/Exceptions/Manifest.pod
+cp lib/Moose/Exception/MustProvideANameForTheAttribute.pm blib/lib/Moose/Exception/MustProvideANameForTheAttribute.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/set.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/set.pm
+cp lib/Moose/Exception/IncompatibleMetaclassOfSuperclass.pm blib/lib/Moose/Exception/IncompatibleMetaclassOfSuperclass.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/sub.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/sub.pm
+cp lib/Moose/Exception/MetaclassIsARoleNotASubclassOfGivenMetaclass.pm blib/lib/Moose/Exception/MetaclassIsARoleNotASubclassOfGivenMetaclass.pm
+cp lib/Moose/Meta/Role/Application/ToRole.pm blib/lib/Moose/Meta/Role/Application/ToRole.pm
+cp lib/Moose/Exception/CannotAutoDerefWithoutIsa.pm blib/lib/Moose/Exception/CannotAutoDerefWithoutIsa.pm
+cp lib/Moose/Exception/MustPassAMooseMetaRoleInstanceOrSubclass.pm blib/lib/Moose/Exception/MustPassAMooseMetaRoleInstanceOrSubclass.pm
+cp lib/Moose/Exception/MetaclassMustBeASubclassOfMooseMetaClass.pm blib/lib/Moose/Exception/MetaclassMustBeASubclassOfMooseMetaClass.pm
+cp lib/Moose/Exception/BadOptionFormat.pm blib/lib/Moose/Exception/BadOptionFormat.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Bool/unset.pm blib/lib/Moose/Meta/Method/Accessor/Native/Bool/unset.pm
+cp lib/Moose/Exception/InitMetaRequiresClass.pm blib/lib/Moose/Exception/InitMetaRequiresClass.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/match.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/match.pm
+cp lib/Class/MOP/Attribute.pm blib/lib/Class/MOP/Attribute.pm
+cp lib/Moose/Meta/Role/Application/ToClass.pm blib/lib/Moose/Meta/Role/Application/ToClass.pm
+cp lib/Moose/Manual/Unsweetened.pod blib/lib/Moose/Manual/Unsweetened.pod
+cp lib/Moose/Exception/UnableToRecognizeDelegateMetaclass.pm blib/lib/Moose/Exception/UnableToRecognizeDelegateMetaclass.pm
+cp lib/Moose/Exception/CannotCreateHigherOrderTypeWithoutATypeParameter.pm blib/lib/Moose/Exception/CannotCreateHigherOrderTypeWithoutATypeParameter.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/mod.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/mod.pm
+cp lib/Moose/Exception/CodeBlockMustBeACodeRef.pm blib/lib/Moose/Exception/CodeBlockMustBeACodeRef.pm
+cp lib/Moose/Exception/ConflictDetectedInCheckRoleExclusionsInToClass.pm blib/lib/Moose/Exception/ConflictDetectedInCheckRoleExclusionsInToClass.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/set.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/set.pm
+cp lib/Moose/Exception/MOPAttributeNewNeedsAttributeName.pm blib/lib/Moose/Exception/MOPAttributeNewNeedsAttributeName.pm
+cp lib/Moose/Exception/MetaclassTypeIncompatible.pm blib/lib/Moose/Exception/MetaclassTypeIncompatible.pm
+cp lib/Moose/Cookbook/Roles/ApplicationToInstance.pod blib/lib/Moose/Cookbook/Roles/ApplicationToInstance.pod
+cp lib/Moose/Exception/RequiredAttributeNeedsADefault.pm blib/lib/Moose/Exception/RequiredAttributeNeedsADefault.pm
+cp lib/Moose/Exception/CloneObjectExpectsAnInstanceOfMetaclass.pm blib/lib/Moose/Exception/CloneObjectExpectsAnInstanceOfMetaclass.pm
+cp lib/Moose/Meta/Method/Augmented.pm blib/lib/Moose/Meta/Method/Augmented.pm
+cp lib/Moose/Exception/MessageParameterMustBeCodeRef.pm blib/lib/Moose/Exception/MessageParameterMustBeCodeRef.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/count.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/count.pm
+cp lib/Moose/Meta/Attribute/Native/Trait/String.pm blib/lib/Moose/Meta/Attribute/Native/Trait/String.pm
+cp lib/Moose/Exception/MetaclassIsNotASubclassOfGivenMetaclass.pm blib/lib/Moose/Exception/MetaclassIsNotASubclassOfGivenMetaclass.pm
+cp lib/Moose/Cookbook/Basics/HTTP_SubtypesAndCoercion.pod blib/lib/Moose/Cookbook/Basics/HTTP_SubtypesAndCoercion.pod
+cp lib/Moose/Exception/InitializeTakesUnBlessedPackageName.pm blib/lib/Moose/Exception/InitializeTakesUnBlessedPackageName.pm
+cp lib/Moose/Exception/BuilderDoesNotExist.pm blib/lib/Moose/Exception/BuilderDoesNotExist.pm
+cp lib/Moose/Meta/Class/Immutable/Trait.pm blib/lib/Moose/Meta/Class/Immutable/Trait.pm
+cp lib/Moose/Exception/CoercingWithoutCoercions.pm blib/lib/Moose/Exception/CoercingWithoutCoercions.pm
+cp lib/Moose/Exception/CannotAugmentIfLocalMethodPresent.pm blib/lib/Moose/Exception/CannotAugmentIfLocalMethodPresent.pm
+cp lib/Moose/Exception/CouldNotGenerateInlineAttributeMethod.pm blib/lib/Moose/Exception/CouldNotGenerateInlineAttributeMethod.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/clear.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/clear.pm
+cp lib/Class/MOP/Method/Meta.pm blib/lib/Class/MOP/Method/Meta.pm
+cp lib/Moose/Exception/CannotCreateMethodAliasLocalMethodIsPresentInClass.pm blib/lib/Moose/Exception/CannotCreateMethodAliasLocalMethodIsPresentInClass.pm
+cp lib/Moose/Meta/Role/Application.pm blib/lib/Moose/Meta/Role/Application.pm
+cp lib/Moose/Exception/CoercionNeedsTypeConstraint.pm blib/lib/Moose/Exception/CoercionNeedsTypeConstraint.pm
+cp lib/Moose/Exception/DelegationToAClassWhichIsNotLoaded.pm blib/lib/Moose/Exception/DelegationToAClassWhichIsNotLoaded.pm
+cp lib/Moose/Meta/Attribute.pm blib/lib/Moose/Meta/Attribute.pm
+cp lib/Moose/Meta/Role/Application/ToInstance.pm blib/lib/Moose/Meta/Role/Application/ToInstance.pm
+cp lib/Moose/Meta/TypeConstraint/Enum.pm blib/lib/Moose/Meta/TypeConstraint/Enum.pm
+cp lib/Moose/Exception/CannotFixMetaclassCompatibility.pm blib/lib/Moose/Exception/CannotFixMetaclassCompatibility.pm
+cp lib/Moose/Meta/TypeConstraint/Class.pm blib/lib/Moose/Meta/TypeConstraint/Class.pm
+cp lib/Moose/Exception/InvalidHasProvidedInARole.pm blib/lib/Moose/Exception/InvalidHasProvidedInARole.pm
+cp lib/Moose/Exception/CallingReadOnlyMethodOnAnImmutableInstance.pm blib/lib/Moose/Exception/CallingReadOnlyMethodOnAnImmutableInstance.pm
+cp lib/Moose/Exception/CoercionAlreadyExists.pm blib/lib/Moose/Exception/CoercionAlreadyExists.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/div.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/div.pm
+cp lib/Moose/Exception/CannotApplyBaseClassRolesToRole.pm blib/lib/Moose/Exception/CannotApplyBaseClassRolesToRole.pm
+cp lib/Moose/Exception/Role/EitherAttributeOrAttributeName.pm blib/lib/Moose/Exception/Role/EitherAttributeOrAttributeName.pm
+cp lib/Moose/Exception/DefaultToMatchOnTypeMustBeCodeRef.pm blib/lib/Moose/Exception/DefaultToMatchOnTypeMustBeCodeRef.pm
+cp lib/Moose/Exception/AddRoleToARoleTakesAMooseMetaRole.pm blib/lib/Moose/Exception/AddRoleToARoleTakesAMooseMetaRole.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/natatime.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/natatime.pm
+cp lib/Moose/Meta/TypeCoercion/Union.pm blib/lib/Moose/Meta/TypeCoercion/Union.pm
+cp lib/Moose/Exception/CannotCreateMethodAliasLocalMethodIsPresent.pm blib/lib/Moose/Exception/CannotCreateMethodAliasLocalMethodIsPresent.pm
+cp lib/Moose/Manual.pod blib/lib/Moose/Manual.pod
+cp lib/Moose/Exception/IllegalMethodTypeToAddMethodModifier.pm blib/lib/Moose/Exception/IllegalMethodTypeToAddMethodModifier.pm
+cp lib/Moose/Exception/CannotDelegateLocalMethodIsPresent.pm blib/lib/Moose/Exception/CannotDelegateLocalMethodIsPresent.pm
+cp lib/Moose/Exception/MethodNameConflictInRoles.pm blib/lib/Moose/Exception/MethodNameConflictInRoles.pm
+cp lib/Moose/Meta/TypeConstraint/Registry.pm blib/lib/Moose/Meta/TypeConstraint/Registry.pm
+cp lib/Moose/Exception/Role/Method.pm blib/lib/Moose/Exception/Role/Method.pm
+cp lib/Moose/Cookbook/Basics/BankAccount_MethodModifiersAndSubclassing.pod blib/lib/Moose/Cookbook/Basics/BankAccount_MethodModifiersAndSubclassing.pod
+cp lib/Moose/Meta/Attribute/Native/Trait/Hash.pm blib/lib/Moose/Meta/Attribute/Native/Trait/Hash.pm
+cp lib/Moose/Exception/UnableToCanonicalizeHandles.pm blib/lib/Moose/Exception/UnableToCanonicalizeHandles.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/uniq.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/uniq.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/clear.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/clear.pm
+cp lib/Moose/Exception/MustSpecifyAtleastOneRoleToApplicant.pm blib/lib/Moose/Exception/MustSpecifyAtleastOneRoleToApplicant.pm
+cp lib/Moose/Exception/CallingMethodOnAnImmutableInstance.pm blib/lib/Moose/Exception/CallingMethodOnAnImmutableInstance.pm
+cp lib/Moose/Exception/WrongTypeConstraintGiven.pm blib/lib/Moose/Exception/WrongTypeConstraintGiven.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/reduce.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/reduce.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/delete.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/delete.pm
+cp lib/Moose/Exception/CanOnlyConsumeRole.pm blib/lib/Moose/Exception/CanOnlyConsumeRole.pm
+cp lib/Moose/Exception/RolesDoNotSupportRegexReferencesForMethodModifiers.pm blib/lib/Moose/Exception/RolesDoNotSupportRegexReferencesForMethodModifiers.pm
+cp lib/Moose/Exception/Role/RoleForCreateMOPClass.pm blib/lib/Moose/Exception/Role/RoleForCreateMOPClass.pm
+cp lib/Moose/Exception/RequiredMethodsNotImplementedByClass.pm blib/lib/Moose/Exception/RequiredMethodsNotImplementedByClass.pm
+cp lib/Moose.pm blib/lib/Moose.pm
+cp lib/Moose/Manual/Roles.pod blib/lib/Moose/Manual/Roles.pod
+cp lib/Moose/Meta/Method/Accessor/Native/String/chomp.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/chomp.pm
+cp lib/Moose/Exception/InvalidRoleApplication.pm blib/lib/Moose/Exception/InvalidRoleApplication.pm
+cp lib/Moose/Manual/Construction.pod blib/lib/Moose/Manual/Construction.pod
+cp lib/Moose/Exception/MustPassAPackageNameOrAnExistingClassMOPPackageInstance.pm blib/lib/Moose/Exception/MustPassAPackageNameOrAnExistingClassMOPPackageInstance.pm
+cp lib/Moose/Exception/AttachToClassNeedsAClassMOPClassInstanceOrASubclass.pm blib/lib/Moose/Exception/AttachToClassNeedsAClassMOPClassInstanceOrASubclass.pm
+cp lib/Moose/Manual/Contributing.pod blib/lib/Moose/Manual/Contributing.pod
+cp lib/Moose/Manual/Exceptions.pod blib/lib/Moose/Manual/Exceptions.pod
+cp lib/Moose/Exception/IllegalInheritedOptions.pm blib/lib/Moose/Exception/IllegalInheritedOptions.pm
+cp lib/Moose/Exception/Role/ParamsHash.pm blib/lib/Moose/Exception/Role/ParamsHash.pm
+cp lib/Moose/Exception/Role/Role.pm blib/lib/Moose/Exception/Role/Role.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/splice.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/splice.pm
+cp lib/Moose/Manual/Concepts.pod blib/lib/Moose/Manual/Concepts.pod
+cp lib/Moose/Exception/NeitherClassNorClassNameIsGiven.pm blib/lib/Moose/Exception/NeitherClassNorClassNameIsGiven.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/prepend.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/prepend.pm
+cp lib/Moose/Exception/ApplyTakesABlessedInstance.pm blib/lib/Moose/Exception/ApplyTakesABlessedInstance.pm
+cp lib/Moose/Cookbook/Meta/Table_MetaclassTrait.pod blib/lib/Moose/Cookbook/Meta/Table_MetaclassTrait.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/exists.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/exists.pm
+cp lib/Moose/Exception/IsaLacksDoesMethod.pm blib/lib/Moose/Exception/IsaLacksDoesMethod.pm
+cp lib/Moose/Cookbook/Extending/ExtensionOverview.pod blib/lib/Moose/Cookbook/Extending/ExtensionOverview.pod
+cp lib/Moose/Exception/MustPassEvenNumberOfArguments.pm blib/lib/Moose/Exception/MustPassEvenNumberOfArguments.pm
+cp lib/Moose/Manual/MethodModifiers.pod blib/lib/Moose/Manual/MethodModifiers.pod
+cp lib/Moose/Meta/Method/Accessor/Native/String/append.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/append.pm
+cp lib/Moose/Exception/CannotOverrideLocalMethodIsPresent.pm blib/lib/Moose/Exception/CannotOverrideLocalMethodIsPresent.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/map.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/map.pm
+cp lib/Moose/Exception/MethodExpectedAMetaclassObject.pm blib/lib/Moose/Exception/MethodExpectedAMetaclassObject.pm
+cp lib/Moose/Exception/RoleNameRequiredForMooseMetaRole.pm blib/lib/Moose/Exception/RoleNameRequiredForMooseMetaRole.pm
+cp lib/Moose/Exception/TriggerMustBeACodeRef.pm blib/lib/Moose/Exception/TriggerMustBeACodeRef.pm
+cp lib/Moose/Exception/CannotAugmentNoSuperMethod.pm blib/lib/Moose/Exception/CannotAugmentNoSuperMethod.pm
+cp lib/Moose/Cookbook/Extending/Debugging_BaseClassRole.pod blib/lib/Moose/Cookbook/Extending/Debugging_BaseClassRole.pod
+cp lib/Moose/Exception/CannotFindTypeGivenToMatchOnType.pm blib/lib/Moose/Exception/CannotFindTypeGivenToMatchOnType.pm
+cp lib/Moose/Cookbook/Roles/Restartable_AdvancedComposition.pod blib/lib/Moose/Cookbook/Roles/Restartable_AdvancedComposition.pod
+cp lib/Moose/Exception/CreateTakesArrayRefOfRoles.pm blib/lib/Moose/Exception/CreateTakesArrayRefOfRoles.pm
+cp lib/Moose/Exception/CouldNotLocateTypeConstraintForUnion.pm blib/lib/Moose/Exception/CouldNotLocateTypeConstraintForUnion.pm
+cp lib/Moose/Exception/RequiredAttributeLacksInitialization.pm blib/lib/Moose/Exception/RequiredAttributeLacksInitialization.pm
+cp lib/metaclass.pm blib/lib/metaclass.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/kv.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/kv.pm
+cp lib/Moose/Exception/CannotCoerceAWeakRef.pm blib/lib/Moose/Exception/CannotCoerceAWeakRef.pm
+cp lib/Moose/Meta/Attribute/Native/Trait.pm blib/lib/Moose/Meta/Attribute/Native/Trait.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Writer.pm blib/lib/Moose/Meta/Method/Accessor/Native/Writer.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/first.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/first.pm
+cp lib/Moose/Exception/NoBodyToInitializeInAnAbstractBaseClass.pm blib/lib/Moose/Exception/NoBodyToInitializeInAnAbstractBaseClass.pm
+cp lib/Class/MOP/Method/Overload.pm blib/lib/Class/MOP/Method/Overload.pm
+cp lib/Class/MOP/Mixin/AttributeCore.pm blib/lib/Class/MOP/Mixin/AttributeCore.pm
+cp lib/Moose/Exception/MustSpecifyAtleastOneRole.pm blib/lib/Moose/Exception/MustSpecifyAtleastOneRole.pm
+cp lib/Moose/Cookbook/Meta/PrivateOrPublic_MethodMetaclass.pod blib/lib/Moose/Cookbook/Meta/PrivateOrPublic_MethodMetaclass.pod
+cp lib/Moose/Manual/FAQ.pod blib/lib/Moose/Manual/FAQ.pod
+cp lib/Class/MOP/Class/Immutable/Trait.pm blib/lib/Class/MOP/Class/Immutable/Trait.pm
+cp lib/Moose/Exception/InstanceBlessedIntoWrongClass.pm blib/lib/Moose/Exception/InstanceBlessedIntoWrongClass.pm
+cp lib/Moose/Exception/ParameterIsNotSubtypeOfParent.pm blib/lib/Moose/Exception/ParameterIsNotSubtypeOfParent.pm
+cp lib/Moose/Util/TypeConstraints/Builtins.pm blib/lib/Moose/Util/TypeConstraints/Builtins.pm
+cp lib/Moose/Exception/RolesDoNotSupportAugment.pm blib/lib/Moose/Exception/RolesDoNotSupportAugment.pm
+cp lib/Moose/Exception/OperatorIsRequired.pm blib/lib/Moose/Exception/OperatorIsRequired.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/chop.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/chop.pm
+cp lib/Moose/Exception/CannotUseLazyBuildAndDefaultSimultaneously.pm blib/lib/Moose/Exception/CannotUseLazyBuildAndDefaultSimultaneously.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/get.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/get.pm
+cp lib/Moose/Exception/RoleDoesTheExcludedRole.pm blib/lib/Moose/Exception/RoleDoesTheExcludedRole.pm
+cp lib/Moose/Cookbook/Legacy/Labeled_AttributeMetaclass.pod blib/lib/Moose/Cookbook/Legacy/Labeled_AttributeMetaclass.pod
+cp lib/Moose/Exception/AutoDeRefNeedsArrayRefOrHashRef.pm blib/lib/Moose/Exception/AutoDeRefNeedsArrayRefOrHashRef.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Counter/Writer.pm blib/lib/Moose/Meta/Method/Accessor/Native/Counter/Writer.pm
+cp lib/Moose/Exception/TypeConstraintCannotBeUsedForAParameterizableType.pm blib/lib/Moose/Exception/TypeConstraintCannotBeUsedForAParameterizableType.pm
+cp lib/Moose/Exception/MustHaveAtLeastOneValueToEnumerate.pm blib/lib/Moose/Exception/MustHaveAtLeastOneValueToEnumerate.pm
+cp lib/Moose/Exception/AccessorMustReadWrite.pm blib/lib/Moose/Exception/AccessorMustReadWrite.pm
+cp lib/Moose/Cookbook/Roles/Comparable_CodeReuse.pod blib/lib/Moose/Cookbook/Roles/Comparable_CodeReuse.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Array/pop.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/pop.pm
+cp lib/Moose/Exception/EnumCalledWithAnArrayRefAndAdditionalArgs.pm blib/lib/Moose/Exception/EnumCalledWithAnArrayRefAndAdditionalArgs.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/elements.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/elements.pm
+cp lib/Moose/Cookbook/Meta/WhyMeta.pod blib/lib/Moose/Cookbook/Meta/WhyMeta.pod
+cp lib/Moose/Meta/Method/Overridden.pm blib/lib/Moose/Meta/Method/Overridden.pm
+cp lib/Moose/Exception/NoDestructorClassSpecified.pm blib/lib/Moose/Exception/NoDestructorClassSpecified.pm
+cp lib/Moose/Exception/SingleParamsToNewMustBeHashRef.pm blib/lib/Moose/Exception/SingleParamsToNewMustBeHashRef.pm
+cp lib/Moose/Exception/InstanceMustBeABlessedReference.pm blib/lib/Moose/Exception/InstanceMustBeABlessedReference.pm
+cp lib/Moose/Exception/Role/RoleForCreate.pm blib/lib/Moose/Exception/Role/RoleForCreate.pm
+cp lib/Moose/Meta/TypeConstraint/Parameterizable.pm blib/lib/Moose/Meta/TypeConstraint/Parameterizable.pm
+cp lib/Moose/Exception/EnumValuesMustBeString.pm blib/lib/Moose/Exception/EnumValuesMustBeString.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Code/execute_method.pm blib/lib/Moose/Meta/Method/Accessor/Native/Code/execute_method.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Code/execute.pm blib/lib/Moose/Meta/Method/Accessor/Native/Code/execute.pm
+cp lib/Moose/Meta/Attribute/Native/Trait/Bool.pm blib/lib/Moose/Meta/Attribute/Native/Trait/Bool.pm
+cp lib/Moose/Cookbook/Basics/Genome_OverloadingSubtypesAndCoercion.pod blib/lib/Moose/Cookbook/Basics/Genome_OverloadingSubtypesAndCoercion.pod
+cp lib/Moose/Meta/Method/Constructor.pm blib/lib/Moose/Meta/Method/Constructor.pm
+cp lib/Moose/Meta/Role/Attribute.pm blib/lib/Moose/Meta/Role/Attribute.pm
+cp lib/Moose/Manual/Attributes.pod blib/lib/Moose/Manual/Attributes.pod
+cp lib/Moose/Cookbook/Basics/Person_BUILDARGSAndBUILD.pod blib/lib/Moose/Cookbook/Basics/Person_BUILDARGSAndBUILD.pod
+cp lib/Class/MOP/Method/Wrapped.pm blib/lib/Class/MOP/Method/Wrapped.pm
+cp lib/Moose/Exception/BuilderMustBeAMethodName.pm blib/lib/Moose/Exception/BuilderMustBeAMethodName.pm
+cp lib/Moose/Cookbook/Basics/DateTime_ExtendingNonMooseParent.pod blib/lib/Moose/Cookbook/Basics/DateTime_ExtendingNonMooseParent.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/keys.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/keys.pm
+cp lib/Moose/Exception/MethodExpectsFewerArgs.pm blib/lib/Moose/Exception/MethodExpectsFewerArgs.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/get.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/get.pm
+cp lib/Moose/Manual/Types.pod blib/lib/Moose/Manual/Types.pod
+cp lib/Class/MOP/Method/Constructor.pm blib/lib/Class/MOP/Method/Constructor.pm
+cp lib/Moose/Exception/CannotAssignValueToReadOnlyAccessor.pm blib/lib/Moose/Exception/CannotAssignValueToReadOnlyAccessor.pm
+cp lib/Moose/Meta/Method/Accessor/Native.pm blib/lib/Moose/Meta/Method/Accessor/Native.pm
+cp lib/Moose/Exception/MustDefineAnAttributeName.pm blib/lib/Moose/Exception/MustDefineAnAttributeName.pm
+cp lib/Moose/Cookbook/Snack/Types.pod blib/lib/Moose/Cookbook/Snack/Types.pod
+cp lib/Moose/Exception/ConstructClassInstanceTakesPackageName.pm blib/lib/Moose/Exception/ConstructClassInstanceTakesPackageName.pm
+cp lib/Moose/Exception/NoAttributeFoundInSuperClass.pm blib/lib/Moose/Exception/NoAttributeFoundInSuperClass.pm
+cp lib/Moose/Exception/MetaclassMustBeDerivedFromClassMOPClass.pm blib/lib/Moose/Exception/MetaclassMustBeDerivedFromClassMOPClass.pm
+cp lib/Moose/Exception/RequiredMethodsImportedByClass.pm blib/lib/Moose/Exception/RequiredMethodsImportedByClass.pm
+cp lib/Moose/Meta/Role/Method/Conflicting.pm blib/lib/Moose/Meta/Role/Method/Conflicting.pm
+cp lib/Moose/Exception/CannotOverrideALocalMethod.pm blib/lib/Moose/Exception/CannotOverrideALocalMethod.pm
+cp lib/Moose/Manual/Classes.pod blib/lib/Moose/Manual/Classes.pod
+cp lib/Moose/Exception/Role/InvalidAttributeOptions.pm blib/lib/Moose/Exception/Role/InvalidAttributeOptions.pm
+cp lib/Moose/Exception/ClassDoesNotHaveInitMeta.pm blib/lib/Moose/Exception/ClassDoesNotHaveInitMeta.pm
+cp lib/Moose/Cookbook/Basics/BinaryTree_AttributeFeatures.pod blib/lib/Moose/Cookbook/Basics/BinaryTree_AttributeFeatures.pod
+cp lib/Moose/Object.pm blib/lib/Moose/Object.pm
+cp lib/Moose/Exception/OnlyInstancesCanBeCloned.pm blib/lib/Moose/Exception/OnlyInstancesCanBeCloned.pm
+cp lib/Moose/Meta/TypeConstraint.pm blib/lib/Moose/Meta/TypeConstraint.pm
+cp lib/Moose/Meta/TypeConstraint/Parameterized.pm blib/lib/Moose/Meta/TypeConstraint/Parameterized.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/shallow_clone.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/shallow_clone.pm
+cp lib/Moose/Exception/AttributeValueIsNotAnObject.pm blib/lib/Moose/Exception/AttributeValueIsNotAnObject.pm
+cp lib/Moose/Exception/CouldNotCreateMethod.pm blib/lib/Moose/Exception/CouldNotCreateMethod.pm
+cp lib/Moose/Exception/CannotOverrideNoSuperMethod.pm blib/lib/Moose/Exception/CannotOverrideNoSuperMethod.pm
+cp lib/Moose/Exception/MustPassAHashOfOptions.pm blib/lib/Moose/Exception/MustPassAHashOfOptions.pm
+cp lib/Moose/Exception/MethodModifierNeedsMethodName.pm blib/lib/Moose/Exception/MethodModifierNeedsMethodName.pm
+cp lib/Moose/Exception/PackageDoesNotUseMooseExporter.pm blib/lib/Moose/Exception/PackageDoesNotUseMooseExporter.pm
+cp lib/Class/MOP/MiniTrait.pm blib/lib/Class/MOP/MiniTrait.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/mul.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/mul.pm
+cp lib/Moose/Cookbook/Legacy/Debugging_BaseClassReplacement.pod blib/lib/Moose/Cookbook/Legacy/Debugging_BaseClassReplacement.pod
+cp lib/Moose/Meta/TypeConstraint/DuckType.pm blib/lib/Moose/Meta/TypeConstraint/DuckType.pm
+cp lib/Moose/Exception/MethodExpectsMoreArgs.pm blib/lib/Moose/Exception/MethodExpectsMoreArgs.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Counter/reset.pm blib/lib/Moose/Meta/Method/Accessor/Native/Counter/reset.pm
+cp lib/Moose/Exception/Legacy.pm blib/lib/Moose/Exception/Legacy.pm
+cp lib/Moose/Exception/RolesListMustBeInstancesOfMooseMetaRole.pm blib/lib/Moose/Exception/RolesListMustBeInstancesOfMooseMetaRole.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array.pm
+cp lib/Moose/Exception/DelegationToARoleWhichIsNotLoaded.pm blib/lib/Moose/Exception/DelegationToARoleWhichIsNotLoaded.pm
+cp lib/Moose/Exception/CouldNotFindTypeConstraintToCoerceFrom.pm blib/lib/Moose/Exception/CouldNotFindTypeConstraintToCoerceFrom.pm
+cp lib/Moose/Util.pm blib/lib/Moose/Util.pm
+cp lib/Moose/Exception/TypeParameterMustBeMooseMetaType.pm blib/lib/Moose/Exception/TypeParameterMustBeMooseMetaType.pm
+cp lib/oose.pm blib/lib/oose.pm
+cp lib/Moose/Exception/BothBuilderAndDefaultAreNotAllowed.pm blib/lib/Moose/Exception/BothBuilderAndDefaultAreNotAllowed.pm
+cp lib/Moose/Exception/AddRoleTakesAMooseMetaRoleInstance.pm blib/lib/Moose/Exception/AddRoleTakesAMooseMetaRoleInstance.pm
+cp lib/Moose/Cookbook/Legacy/Table_ClassMetaclass.pod blib/lib/Moose/Cookbook/Legacy/Table_ClassMetaclass.pod
+cp lib/Moose/Cookbook/Meta/Labeled_AttributeTrait.pod blib/lib/Moose/Cookbook/Meta/Labeled_AttributeTrait.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Bool/toggle.pm blib/lib/Moose/Meta/Method/Accessor/Native/Bool/toggle.pm
+cp lib/Moose/Util/MetaRole.pm blib/lib/Moose/Util/MetaRole.pm
+cp lib/Moose/Exception/UnionCalledWithAnArrayRefAndAdditionalArgs.pm blib/lib/Moose/Exception/UnionCalledWithAnArrayRefAndAdditionalArgs.pm
+cp lib/Moose/Util/TypeConstraints.pm blib/lib/Moose/Util/TypeConstraints.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/Writer.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/Writer.pm
+cp lib/Moose/Exception/AttributeValueIsNotDefined.pm blib/lib/Moose/Exception/AttributeValueIsNotDefined.pm
+cp lib/Moose/Exception/TypeNamesDoNotMatch.pm blib/lib/Moose/Exception/TypeNamesDoNotMatch.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/accessor.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/accessor.pm
+cp lib/Moose/Meta/Mixin/AttributeCore.pm blib/lib/Moose/Meta/Mixin/AttributeCore.pm
+cp lib/Moose/Conflicts.pm blib/lib/Moose/Conflicts.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/accessor.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/accessor.pm
+cp lib/Moose/Exception/MustSupplyAClassMOPAttributeInstance.pm blib/lib/Moose/Exception/MustSupplyAClassMOPAttributeInstance.pm
+cp lib/Moose/Exception/MustSupplyADelegateToMethod.pm blib/lib/Moose/Exception/MustSupplyADelegateToMethod.pm
+cp lib/Moose/Exception/CannotLocatePackageInINC.pm blib/lib/Moose/Exception/CannotLocatePackageInINC.pm
+cp lib/Moose/Exception/Role/Attribute.pm blib/lib/Moose/Exception/Role/Attribute.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/push.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/push.pm
+cp lib/Class/MOP/Method.pm blib/lib/Class/MOP/Method.pm
+cp lib/Class/MOP/Mixin/HasAttributes.pm blib/lib/Class/MOP/Mixin/HasAttributes.pm
+cp lib/Moose/Exception/MethodNameNotGiven.pm blib/lib/Moose/Exception/MethodNameNotGiven.pm
+cp lib/Class/MOP.pm blib/lib/Class/MOP.pm
+cp lib/Moose/Cookbook/Basics/Document_AugmentAndInner.pod blib/lib/Moose/Cookbook/Basics/Document_AugmentAndInner.pod
+cp lib/Class/MOP/Object.pm blib/lib/Class/MOP/Object.pm
+cp lib/Moose/Meta/Class.pm blib/lib/Moose/Meta/Class.pm
+cp lib/Moose/Exception/MatchActionMustBeACodeRef.pm blib/lib/Moose/Exception/MatchActionMustBeACodeRef.pm
+cp lib/Moose/Exception/RoleNamesDoNotMatch.pm blib/lib/Moose/Exception/RoleNamesDoNotMatch.pm
+cp lib/Moose/Exception/ValidationFailedForInlineTypeConstraint.pm blib/lib/Moose/Exception/ValidationFailedForInlineTypeConstraint.pm
+cp lib/Moose/Exception/CannotOverrideBodyOfMetaMethods.pm blib/lib/Moose/Exception/CannotOverrideBodyOfMetaMethods.pm
+cp lib/Moose/Exception/CreateTakesHashRefOfMethods.pm blib/lib/Moose/Exception/CreateTakesHashRefOfMethods.pm
+cp lib/Moose/Cookbook/Basics/BinaryTree_BuilderAndLazyBuild.pod blib/lib/Moose/Cookbook/Basics/BinaryTree_BuilderAndLazyBuild.pod
+cp lib/Moose/Cookbook/Basics/Immutable.pod blib/lib/Moose/Cookbook/Basics/Immutable.pod
+cp lib/Moose/Exception/UndefinedHashKeysPassedToMethod.pm blib/lib/Moose/Exception/UndefinedHashKeysPassedToMethod.pm
+cp lib/Moose/Exception/AttributeNamesDoNotMatch.pm blib/lib/Moose/Exception/AttributeNamesDoNotMatch.pm
+cp lib/Moose/Exception/CanReblessOnlyIntoASuperclass.pm blib/lib/Moose/Exception/CanReblessOnlyIntoASuperclass.pm
+cp lib/Class/MOP/Instance.pm blib/lib/Class/MOP/Instance.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/unshift.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/unshift.pm
+cp lib/Moose/Exception/MustSupplyAMetaclass.pm blib/lib/Moose/Exception/MustSupplyAMetaclass.pm
+cp lib/Moose/Manual/MooseX.pod blib/lib/Moose/Manual/MooseX.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/clear.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/clear.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash.pm
+cp lib/Moose/Meta/Method/Accessor.pm blib/lib/Moose/Meta/Method/Accessor.pm
+cp lib/Moose/Meta/TypeConstraint/Role.pm blib/lib/Moose/Meta/TypeConstraint/Role.pm
+cp lib/Moose/Exception/MustSupplyPackageNameAndName.pm blib/lib/Moose/Exception/MustSupplyPackageNameAndName.pm
+cp lib/Moose/Meta/Role/Application/RoleSummation.pm blib/lib/Moose/Meta/Role/Application/RoleSummation.pm
+cp lib/Moose/Role.pm blib/lib/Moose/Role.pm
+cp lib/Moose/Exception/CannotFindDelegateMetaclass.pm blib/lib/Moose/Exception/CannotFindDelegateMetaclass.pm
+cp lib/Moose/Exception/NoParentGivenToSubtype.pm blib/lib/Moose/Exception/NoParentGivenToSubtype.pm
+cp lib/Moose/Exception/OverrideConflictInComposition.pm blib/lib/Moose/Exception/OverrideConflictInComposition.pm
+cp lib/Moose/Cookbook/Style.pod blib/lib/Moose/Cookbook/Style.pod
+cp lib/Moose/Meta/TypeCoercion.pm blib/lib/Moose/Meta/TypeCoercion.pm
+cp lib/Moose/Meta/Attribute/Native/Trait/Code.pm blib/lib/Moose/Meta/Attribute/Native/Trait/Code.pm
+cp lib/Moose/Exception/AttributeIsRequired.pm blib/lib/Moose/Exception/AttributeIsRequired.pm
+cp lib/Moose/Exception/Role/TypeConstraint.pm blib/lib/Moose/Exception/Role/TypeConstraint.pm
+cp lib/Moose/Exception/CannotInlineTypeConstraintCheck.pm blib/lib/Moose/Exception/CannotInlineTypeConstraintCheck.pm
+cp lib/Moose/Exception/InvalidTypeGivenToCreateParameterizedTypeConstraint.pm blib/lib/Moose/Exception/InvalidTypeGivenToCreateParameterizedTypeConstraint.pm
+cp lib/Moose/Manual/Support.pod blib/lib/Moose/Manual/Support.pod
+cp lib/Moose/Exception/UnionTakesAtleastTwoTypeNames.pm blib/lib/Moose/Exception/UnionTakesAtleastTwoTypeNames.pm
+cp lib/Moose/Exception/AttributeMustBeAnClassMOPMixinAttributeCoreOrSubclass.pm blib/lib/Moose/Exception/AttributeMustBeAnClassMOPMixinAttributeCoreOrSubclass.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/count.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/count.pm
+cp lib/Moose/Exception/LazyAttributeNeedsADefault.pm blib/lib/Moose/Exception/LazyAttributeNeedsADefault.pm
+cp lib/Moose/Meta/Attribute/Native/Trait/Counter.pm blib/lib/Moose/Meta/Attribute/Native/Trait/Counter.pm
+cp lib/Class/MOP/Mixin.pm blib/lib/Class/MOP/Mixin.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/insert.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/insert.pm
+cp lib/Moose/Exception/PackagesAndModulesAreNotCachable.pm blib/lib/Moose/Exception/PackagesAndModulesAreNotCachable.pm
+cp lib/Moose/Exception/CannotAddAdditionalTypeCoercionsToUnion.pm blib/lib/Moose/Exception/CannotAddAdditionalTypeCoercionsToUnion.pm
+cp lib/Moose/Meta/Method.pm blib/lib/Moose/Meta/Method.pm
+cp lib/Moose/Exception/UnableToCanonicalizeNonRolePackage.pm blib/lib/Moose/Exception/UnableToCanonicalizeNonRolePackage.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Bool/set.pm blib/lib/Moose/Meta/Method/Accessor/Native/Bool/set.pm
+cp lib/Moose/Exception/NoImmutableTraitSpecifiedForClass.pm blib/lib/Moose/Exception/NoImmutableTraitSpecifiedForClass.pm
+cp lib/Moose/Exception/MustSupplyAMooseMetaAttributeInstance.pm blib/lib/Moose/Exception/MustSupplyAMooseMetaAttributeInstance.pm
+cp lib/Moose/Exception/AddParameterizableTypeTakesParameterizableType.pm blib/lib/Moose/Exception/AddParameterizableTypeTakesParameterizableType.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/defined.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/defined.pm
+cp lib/Moose/Unsweetened.pod blib/lib/Moose/Unsweetened.pod
+cp lib/Moose/Exception/CouldNotEvalConstructor.pm blib/lib/Moose/Exception/CouldNotEvalConstructor.pm
+cp lib/Moose/Meta/Object/Trait.pm blib/lib/Moose/Meta/Object/Trait.pm
+cp lib/Moose/Meta/Method/Delegation.pm blib/lib/Moose/Meta/Method/Delegation.pm
+cp lib/Moose/Exception/InvalidArgumentToMethod.pm blib/lib/Moose/Exception/InvalidArgumentToMethod.pm
+cp lib/Class/MOP/Deprecated.pm blib/lib/Class/MOP/Deprecated.pm
+cp lib/Moose/Exception/AttributeConflictInRoles.pm blib/lib/Moose/Exception/AttributeConflictInRoles.pm
+cp lib/Moose/Exception/InvalidArgumentsToTraitAliases.pm blib/lib/Moose/Exception/InvalidArgumentsToTraitAliases.pm
+cp lib/Class/MOP/Method/Inlined.pm blib/lib/Class/MOP/Method/Inlined.pm
+cp lib/Moose/Exception/CannotRegisterUnnamedTypeConstraint.pm blib/lib/Moose/Exception/CannotRegisterUnnamedTypeConstraint.pm
+cp lib/Moose/Meta/Attribute/Native/Trait/Number.pm blib/lib/Moose/Meta/Attribute/Native/Trait/Number.pm
+cp lib/Moose/Exception/NoConstraintCheckForTypeConstraint.pm blib/lib/Moose/Exception/NoConstraintCheckForTypeConstraint.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Collection.pm blib/lib/Moose/Meta/Method/Accessor/Native/Collection.pm
+cp lib/Moose/Meta/Role/Method.pm blib/lib/Moose/Meta/Role/Method.pm
+cp lib/Moose/Exception/CouldNotEvalDestructor.pm blib/lib/Moose/Exception/CouldNotEvalDestructor.pm
+cp lib/Moose/Exception/AttributeConflictInSummation.pm blib/lib/Moose/Exception/AttributeConflictInSummation.pm
+cp lib/Moose/Exception/RolesDoNotSupportExtends.pm blib/lib/Moose/Exception/RolesDoNotSupportExtends.pm
+cp lib/Moose/Cookbook/Basics/Company_Subtypes.pod blib/lib/Moose/Cookbook/Basics/Company_Subtypes.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/values.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/values.pm
+cp lib/Test/Moose.pm blib/lib/Test/Moose.pm
+cp lib/Moose/Exception/InvalidValueForIs.pm blib/lib/Moose/Exception/InvalidValueForIs.pm
+cp lib/Moose/Meta/Instance.pm blib/lib/Moose/Meta/Instance.pm
+cp lib/Moose/Exception/Role/Instance.pm blib/lib/Moose/Exception/Role/Instance.pm
+cp lib/Moose/Exception/CreateMOPClassTakesHashRefOfMethods.pm blib/lib/Moose/Exception/CreateMOPClassTakesHashRefOfMethods.pm
+cp lib/Moose/Meta/Method/Destructor.pm blib/lib/Moose/Meta/Method/Destructor.pm
+cp lib/Class/MOP/Mixin/HasMethods.pm blib/lib/Class/MOP/Mixin/HasMethods.pm
+cp lib/Moose/Exception/BuilderMethodNotSupportedForAttribute.pm blib/lib/Moose/Exception/BuilderMethodNotSupportedForAttribute.pm
+cp lib/Moose/Exception/OverrideConflictInSummation.pm blib/lib/Moose/Exception/OverrideConflictInSummation.pm
+cp lib/Moose/Exception/RolesDoNotSupportInner.pm blib/lib/Moose/Exception/RolesDoNotSupportInner.pm
+cp lib/Moose/Exception/ConflictDetectedInCheckRoleExclusions.pm blib/lib/Moose/Exception/ConflictDetectedInCheckRoleExclusions.pm
+cp lib/Moose/Meta/Role/Method/Required.pm blib/lib/Moose/Meta/Role/Method/Required.pm
+cp lib/Moose/Exception/MetaclassNotLoaded.pm blib/lib/Moose/Exception/MetaclassNotLoaded.pm
+cp lib/Class/MOP/Module.pm blib/lib/Class/MOP/Module.pm
+cp lib/Class/MOP/Method/Accessor.pm blib/lib/Class/MOP/Method/Accessor.pm
+cp lib/Moose/Cookbook/Basics/Point_AttributesAndSubclassing.pod blib/lib/Moose/Cookbook/Basics/Point_AttributesAndSubclassing.pod
+cp lib/Moose/Meta/TypeConstraint/Union.pm blib/lib/Moose/Meta/TypeConstraint/Union.pm
+cp lib/Moose/Exception/InvalidNameForType.pm blib/lib/Moose/Exception/InvalidNameForType.pm
+cp lib/Moose/Exception/InvalidHandleValue.pm blib/lib/Moose/Exception/InvalidHandleValue.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/sort.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/sort.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/is_empty.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/is_empty.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Reader.pm blib/lib/Moose/Meta/Method/Accessor/Native/Reader.pm
+cp lib/Moose/Exception/CannotCalculateNativeType.pm blib/lib/Moose/Exception/CannotCalculateNativeType.pm
+cp lib/Moose/Cookbook/Meta/GlobRef_InstanceMetaclass.pod blib/lib/Moose/Cookbook/Meta/GlobRef_InstanceMetaclass.pod
+cp lib/Moose/Meta/Role.pm blib/lib/Moose/Meta/Role.pm
+cp lib/Moose/Exception/CannotCallAnAbstractMethod.pm blib/lib/Moose/Exception/CannotCallAnAbstractMethod.pm
+cp lib/Moose/Exception/CannotGenerateInlineConstraint.pm blib/lib/Moose/Exception/CannotGenerateInlineConstraint.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/add.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/add.pm
+cp lib/Moose/Exception/ValidationFailedForTypeConstraint.pm blib/lib/Moose/Exception/ValidationFailedForTypeConstraint.pm
+cp lib/Moose/Exception/MustPassEvenNumberOfAttributeOptions.pm blib/lib/Moose/Exception/MustPassEvenNumberOfAttributeOptions.pm
+cp lib/Moose/Exception/DelegationToATypeWhichIsNotAClass.pm blib/lib/Moose/Exception/DelegationToATypeWhichIsNotAClass.pm
+cp lib/Moose/Exception/InvalidBaseTypeGivenToCreateParameterizedTypeConstraint.pm blib/lib/Moose/Exception/InvalidBaseTypeGivenToCreateParameterizedTypeConstraint.pm
+cp lib/Moose/Exception/RolesInCreateTakesAnArrayRef.pm blib/lib/Moose/Exception/RolesInCreateTakesAnArrayRef.pm
+cp lib/Moose/Exception/CannotDelegateWithoutIsa.pm blib/lib/Moose/Exception/CannotDelegateWithoutIsa.pm
+cp lib/Moose/Exception/Role/Class.pm blib/lib/Moose/Exception/Role/Class.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/delete.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/delete.pm
+cp lib/Moose/Exception/CanOnlyWrapBlessedCode.pm blib/lib/Moose/Exception/CanOnlyWrapBlessedCode.pm
+cp lib/Moose/Spec/Role.pod blib/lib/Moose/Spec/Role.pod
+cp lib/Moose/Exception/CanReblessOnlyIntoASubclass.pm blib/lib/Moose/Exception/CanReblessOnlyIntoASubclass.pm
+cp lib/Moose/Exception/InvalidArgPassedToMooseUtilMetaRole.pm blib/lib/Moose/Exception/InvalidArgPassedToMooseUtilMetaRole.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/abs.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/abs.pm
+cp lib/Moose/Exception/MethodNameNotFoundInInheritanceHierarchy.pm blib/lib/Moose/Exception/MethodNameNotFoundInInheritanceHierarchy.pm
+cp lib/Moose/Meta/Role/Composite.pm blib/lib/Moose/Meta/Role/Composite.pm
+cp lib/Moose/Exception/NeitherAttributeNorAttributeNameIsGiven.pm blib/lib/Moose/Exception/NeitherAttributeNorAttributeNameIsGiven.pm
+cp lib/Moose/Exception/PackageNameAndNameParamsNotGivenToWrap.pm blib/lib/Moose/Exception/PackageNameAndNameParamsNotGivenToWrap.pm
+cp lib/Moose/Exception/MustSupplyAnAccessorTypeToConstructWith.pm blib/lib/Moose/Exception/MustSupplyAnAccessorTypeToConstructWith.pm
+cp lib/Moose/Exception/CreateMOPClassTakesArrayRefOfSuperclasses.pm blib/lib/Moose/Exception/CreateMOPClassTakesArrayRefOfSuperclasses.pm
+cp lib/Moose/Manual/MOP.pod blib/lib/Moose/Manual/MOP.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Counter/set.pm blib/lib/Moose/Meta/Method/Accessor/Native/Counter/set.pm
+cp lib/Moose/Exception/CannotCoerceAttributeWhichHasNoCoercion.pm blib/lib/Moose/Exception/CannotCoerceAttributeWhichHasNoCoercion.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/first_index.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/first_index.pm
+cp lib/Moose/Manual/BestPractices.pod blib/lib/Moose/Manual/BestPractices.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Bool/not.pm blib/lib/Moose/Meta/Method/Accessor/Native/Bool/not.pm
+cp lib/Moose/Exception/InvalidTypeConstraint.pm blib/lib/Moose/Exception/InvalidTypeConstraint.pm
+cp lib/Moose/Exception.pm blib/lib/Moose/Exception.pm
+cp lib/Moose/Exception/WrapTakesACodeRefToBless.pm blib/lib/Moose/Exception/WrapTakesACodeRefToBless.pm
+cp lib/Moose/Exception/RoleNameRequired.pm blib/lib/Moose/Exception/RoleNameRequired.pm
+cp lib/Moose/Exception/DoesRequiresRoleName.pm blib/lib/Moose/Exception/DoesRequiresRoleName.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Counter/inc.pm blib/lib/Moose/Meta/Method/Accessor/Native/Counter/inc.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/Writer.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/Writer.pm
+cp lib/Moose/Exception/CanExtendOnlyClasses.pm blib/lib/Moose/Exception/CanExtendOnlyClasses.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/set.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/set.pm
+cp lib/Moose/Exception/CannotInitializeMooseMetaRoleComposite.pm blib/lib/Moose/Exception/CannotInitializeMooseMetaRoleComposite.pm
+cp lib/Moose/Exception/MustSupplyArrayRefAsCurriedArguments.pm blib/lib/Moose/Exception/MustSupplyArrayRefAsCurriedArguments.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array/grep.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array/grep.pm
+cp lib/Moose/Exception/MetaclassMustBeASubclassOfMooseMetaRole.pm blib/lib/Moose/Exception/MetaclassMustBeASubclassOfMooseMetaRole.pm
+cp lib/Moose/Exception/RoleExclusionConflict.pm blib/lib/Moose/Exception/RoleExclusionConflict.pm
+Running Mkbootstrap for Moose ()
+chmod 644 Moose.bs
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/Attribute.xs &gt; xs/Attribute.xsc &amp;&amp; mv xs/Attribute.xsc xs/Attribute.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Attribute.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/Attribute.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/AttributeCore.xs &gt; xs/AttributeCore.xsc &amp;&amp; mv xs/AttributeCore.xsc xs/AttributeCore.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/AttributeCore.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/AttributeCore.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/Class.xs &gt; xs/Class.xsc &amp;&amp; mv xs/Class.xsc xs/Class.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Class.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/Class.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/Generated.xs &gt; xs/Generated.xsc &amp;&amp; mv xs/Generated.xsc xs/Generated.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Generated.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/Generated.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/HasAttributes.xs &gt; xs/HasAttributes.xsc &amp;&amp; mv xs/HasAttributes.xsc xs/HasAttributes.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/HasAttributes.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/HasAttributes.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/HasMethods.xs &gt; xs/HasMethods.xsc &amp;&amp; mv xs/HasMethods.xsc xs/HasMethods.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/HasMethods.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/HasMethods.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/Inlined.xs &gt; xs/Inlined.xsc &amp;&amp; mv xs/Inlined.xsc xs/Inlined.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Inlined.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/Inlined.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/Instance.xs &gt; xs/Instance.xsc &amp;&amp; mv xs/Instance.xsc xs/Instance.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Instance.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/Instance.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/Method.xs &gt; xs/Method.xsc &amp;&amp; mv xs/Method.xsc xs/Method.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Method.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/Method.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/Moose.xs &gt; xs/Moose.xsc &amp;&amp; mv xs/Moose.xsc xs/Moose.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Moose.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/Moose.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/MOP.xs &gt; xs/MOP.xsc &amp;&amp; mv xs/MOP.xsc xs/MOP.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/MOP.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/MOP.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/Overload.xs &gt; xs/Overload.xsc &amp;&amp; mv xs/Overload.xsc xs/Overload.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Overload.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/Overload.c
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/ExtUtils/typemap  xs/Package.xs &gt; xs/Package.xsc &amp;&amp; mv xs/Package.xsc xs/Package.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Package.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   xs/Package.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o mop.o  "-I/Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level/CORE"   mop.c
+rm -f blib/arch/auto/Moose/Moose.bundle
+env MACOSX_DEPLOYMENT_TARGET=10.3 cc  -bundle -undefined dynamic_lookup -L/usr/local/lib -L/opt/local/lib -fstack-protector xs/Attribute.o xs/AttributeCore.o xs/Class.o xs/Generated.o xs/HasAttributes.o xs/HasMethods.o xs/Inlined.o xs/Instance.o xs/Method.o xs/Moose.o xs/MOP.o xs/Overload.o xs/Package.o mop.o  -o blib/arch/auto/Moose/Moose.bundle 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/Moose/Moose.bundle
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 -MExtUtils::Command::MM -e 'cp_nonempty' -- Moose.bs blib/arch/auto/Moose/Moose.bs 644
+cp bin/moose-outdated blib/script/moose-outdated
+/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 -MExtUtils::MY -e 'MY-&gt;fixin(shift)' -- blib/script/moose-outdated
+Manifying blib/man3/Class::MOP.3
+Manifying blib/man3/Class::MOP::Attribute.3
+Manifying blib/man3/Class::MOP::Class.3
+Manifying blib/man3/Class::MOP::Class::Immutable::Trait.3
+Manifying blib/man3/Class::MOP::Deprecated.3
+Manifying blib/man3/Class::MOP::Instance.3
+Manifying blib/man3/Class::MOP::Method.3
+Manifying blib/man3/Class::MOP::Method::Accessor.3
+Manifying blib/man3/Class::MOP::Method::Constructor.3
+Manifying blib/man3/Class::MOP::Method::Generated.3
+Manifying blib/man3/Class::MOP::Method::Inlined.3
+Manifying blib/man3/Class::MOP::Method::Meta.3
+Manifying blib/man3/Class::MOP::Method::Overload.3
+Manifying blib/man3/Class::MOP::Method::Wrapped.3
+Manifying blib/man3/Class::MOP::MiniTrait.3
+Manifying blib/man3/Class::MOP::Mixin.3
+Manifying blib/man3/Class::MOP::Mixin::AttributeCore.3
+Manifying blib/man3/Class::MOP::Mixin::HasAttributes.3
+Manifying blib/man3/Class::MOP::Mixin::HasMethods.3
+Manifying blib/man3/Class::MOP::Module.3
+Manifying blib/man3/Class::MOP::Object.3
+Manifying blib/man3/Class::MOP::Package.3
+Manifying blib/man3/Moose.3
+Manifying blib/man3/Moose::Conflicts.3
+Manifying blib/man3/Moose::Cookbook.3
+Manifying blib/man3/Moose::Cookbook::Basics::BankAccount_MethodModifiersAndSubclassing.3
+Manifying blib/man3/Moose::Cookbook::Basics::BinaryTree_AttributeFeatures.3
+Manifying blib/man3/Moose::Cookbook::Basics::BinaryTree_BuilderAndLazyBuild.3
+Manifying blib/man3/Moose::Cookbook::Basics::Company_Subtypes.3
+Manifying blib/man3/Moose::Cookbook::Basics::DateTime_ExtendingNonMooseParent.3
+Manifying blib/man3/Moose::Cookbook::Basics::Document_AugmentAndInner.3
+Manifying blib/man3/Moose::Cookbook::Basics::Genome_OverloadingSubtypesAndCoercion.3
+Manifying blib/man3/Moose::Cookbook::Basics::HTTP_SubtypesAndCoercion.3
+Manifying blib/man3/Moose::Cookbook::Basics::Immutable.3
+Manifying blib/man3/Moose::Cookbook::Basics::Person_BUILDARGSAndBUILD.3
+Manifying blib/man3/Moose::Cookbook::Basics::Point_AttributesAndSubclassing.3
+Manifying blib/man3/Moose::Cookbook::Extending::Debugging_BaseClassRole.3
+Manifying blib/man3/Moose::Cookbook::Extending::ExtensionOverview.3
+Manifying blib/man3/Moose::Cookbook::Extending::Mooseish_MooseSugar.3
+Manifying blib/man3/Moose::Cookbook::Legacy::Debugging_BaseClassReplacement.3
+Manifying blib/man3/Moose::Cookbook::Legacy::Labeled_AttributeMetaclass.3
+Manifying blib/man3/Moose::Cookbook::Legacy::Table_ClassMetaclass.3
+Manifying blib/man3/Moose::Cookbook::Meta::GlobRef_InstanceMetaclass.3
+Manifying blib/man3/Moose::Cookbook::Meta::Labeled_AttributeTrait.3
+Manifying blib/man3/Moose::Cookbook::Meta::PrivateOrPublic_MethodMetaclass.3
+Manifying blib/man3/Moose::Cookbook::Meta::Table_MetaclassTrait.3
+Manifying blib/man3/Moose::Cookbook::Meta::WhyMeta.3
+Manifying blib/man3/Moose::Cookbook::Roles::ApplicationToInstance.3
+Manifying blib/man3/Moose::Cookbook::Roles::Comparable_CodeReuse.3
+Manifying blib/man3/Moose::Cookbook::Roles::Restartable_AdvancedComposition.3
+Manifying blib/man3/Moose::Cookbook::Snack::Keywords.3
+Manifying blib/man3/Moose::Cookbook::Snack::Types.3
+Manifying blib/man3/Moose::Cookbook::Style.3
+Manifying blib/man3/Moose::Deprecated.3
+Manifying blib/man3/Moose::Exception.3
+Manifying blib/man3/Moose::Exporter.3
+Manifying blib/man3/Moose::Intro.3
+Manifying blib/man3/Moose::Manual.3
+Manifying blib/man3/Moose::Manual::Attributes.3
+Manifying blib/man3/Moose::Manual::BestPractices.3
+Manifying blib/man3/Moose::Manual::Classes.3
+Manifying blib/man3/Moose::Manual::Concepts.3
+Manifying blib/man3/Moose::Manual::Construction.3
+Manifying blib/man3/Moose::Manual::Contributing.3
+Manifying blib/man3/Moose::Manual::Delegation.3
+Manifying blib/man3/Moose::Manual::Delta.3
+Manifying blib/man3/Moose::Manual::Exceptions.3
+Manifying blib/man3/Moose::Manual::Exceptions::Manifest.3
+Manifying blib/man3/Moose::Manual::FAQ.3
+Manifying blib/man3/Moose::Manual::MOP.3
+Manifying blib/man3/Moose::Manual::MethodModifiers.3
+Manifying blib/man3/Moose::Manual::MooseX.3
+Manifying blib/man3/Moose::Manual::Roles.3
+Manifying blib/man3/Moose::Manual::Support.3
+Manifying blib/man3/Moose::Manual::Types.3
+Manifying blib/man3/Moose::Manual::Unsweetened.3
+Manifying blib/man3/Moose::Meta::Attribute.3
+Manifying blib/man3/Moose::Meta::Attribute::Native.3
+Manifying blib/man3/Moose::Meta::Attribute::Native::Trait.3
+Manifying blib/man3/Moose::Meta::Attribute::Native::Trait::Array.3
+Manifying blib/man3/Moose::Meta::Attribute::Native::Trait::Bool.3
+Manifying blib/man3/Moose::Meta::Attribute::Native::Trait::Code.3
+Manifying blib/man3/Moose::Meta::Attribute::Native::Trait::Counter.3
+Manifying blib/man3/Moose::Meta::Attribute::Native::Trait::Hash.3
+Manifying blib/man3/Moose::Meta::Attribute::Native::Trait::Number.3
+Manifying blib/man3/Moose::Meta::Attribute::Native::Trait::String.3
+Manifying blib/man3/Moose::Meta::Class.3
+Manifying blib/man3/Moose::Meta::Class::Immutable::Trait.3
+Manifying blib/man3/Moose::Meta::Instance.3
+Manifying blib/man3/Moose::Meta::Method.3
+Manifying blib/man3/Moose::Meta::Method::Accessor.3
+Manifying blib/man3/Moose::Meta::Method::Augmented.3
+Manifying blib/man3/Moose::Meta::Method::Constructor.3
+Manifying blib/man3/Moose::Meta::Method::Delegation.3
+Manifying blib/man3/Moose::Meta::Method::Destructor.3
+Manifying blib/man3/Moose::Meta::Method::Meta.3
+Manifying blib/man3/Moose::Meta::Method::Overridden.3
+Manifying blib/man3/Moose::Meta::Mixin::AttributeCore.3
+Manifying blib/man3/Moose::Meta::Object::Trait.3
+Manifying blib/man3/Moose::Meta::Role.3
+Manifying blib/man3/Moose::Meta::Role::Application.3
+Manifying blib/man3/Moose::Meta::Role::Application::RoleSummation.3
+Manifying blib/man3/Moose::Meta::Role::Application::ToClass.3
+Manifying blib/man3/Moose::Meta::Role::Application::ToInstance.3
+Manifying blib/man3/Moose::Meta::Role::Application::ToRole.3
+Manifying blib/man3/Moose::Meta::Role::Attribute.3
+Manifying blib/man3/Moose::Meta::Role::Composite.3
+Manifying blib/man3/Moose::Meta::Role::Method.3
+Manifying blib/man3/Moose::Meta::Role::Method::Conflicting.3
+Manifying blib/man3/Moose::Meta::Role::Method::Required.3
+Manifying blib/man3/Moose::Meta::TypeCoercion.3
+Manifying blib/man3/Moose::Meta::TypeCoercion::Union.3
+Manifying blib/man3/Moose::Meta::TypeConstraint.3
+Manifying blib/man3/Moose::Meta::TypeConstraint::Class.3
+Manifying blib/man3/Moose::Meta::TypeConstraint::DuckType.3
+Manifying blib/man3/Moose::Meta::TypeConstraint::Enum.3
+Manifying blib/man3/Moose::Meta::TypeConstraint::Parameterizable.3
+Manifying blib/man3/Moose::Meta::TypeConstraint::Parameterized.3
+Manifying blib/man3/Moose::Meta::TypeConstraint::Registry.3
+Manifying blib/man3/Moose::Meta::TypeConstraint::Role.3
+Manifying blib/man3/Moose::Meta::TypeConstraint::Union.3
+Manifying blib/man3/Moose::Object.3
+Manifying blib/man3/Moose::Role.3
+Manifying blib/man3/Moose::Spec::Role.3
+Manifying blib/man3/Moose::Unsweetened.3
+Manifying blib/man3/Moose::Util.3
+Manifying blib/man3/Moose::Util::MetaRole.3
+Manifying blib/man3/Moose::Util::TypeConstraints.3
+Manifying blib/man3/Moose::Util::TypeConstraints::Builtins.3
+Manifying blib/man3/Test::Moose.3
+Manifying blib/man3/metaclass.3
+Manifying blib/man3/oose.3
+Running Mkbootstrap for Moose ()
+chmod 644 Moose.bs
+PERL_DL_NONLAZY=1 /Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7 "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t t/attributes/*.t t/basics/*.t t/bugs/*.t t/cmop/*.t t/compat/*.t t/examples/*.t t/exceptions/*.t t/immutable/*.t t/metaclasses/*.t t/moose_util/*.t t/native_traits/*.t t/recipes/*.t t/roles/*.t t/test_moose/*.t t/todo_tests/*.t t/type_constraints/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+#    Version Module                     
+#   -------- ---------------------------
+#   2.133380 CPAN::Meta                 
+#      2.125 CPAN::Meta::Requirements   
+#       1.32 Carp                       
+#       0.20 Class::Load                
+#       0.06 Class::Load::XS            
+#      0.109 Data::OptList              
+#       0.12 Devel::GlobalDestruction   
+#       0.17 Devel::PartialDump         
+#       1.30 Devel::StackTrace          
+#       0.10 Dist::CheckConflicts       
+#       0.11 Eval::Closure              
+#   0.280212 ExtUtils::CBuilder         
+#       6.86 ExtUtils::MakeMaker        
+#       3.45 File::Spec                 
+#       0.33 List::MoreUtils            
+#       0.12 MRO::Compat                
+#      0.013 Module::Runtime            
+#       0.13 Package::DeprecationManager
+#       0.36 Package::someoneh             
+#       0.28 Package::someoneh::XS         
+#       1.07 Params::Util               
+#       1.35 Scalar::Util               
+#      0.987 Sub::Exporter              
+#       0.05 Sub::Name                  
+#       1.04 Task::Weaken               
+#      0.013 Test::Fatal                
+#   1.001002 Test::More                 
+#       0.07 Test::Requires             
+#       0.18 Try::Tiny                  
+#      0.228 parent                     
+t/00-report-prereqs.t ............................................ ok
+t/000_load.t ..................................................... ok
+t/attributes/accessor_context.t .................................. ok
+t/attributes/accessor_inlining.t ................................. ok
+t/attributes/accessor_override_method.t .......................... ok
+t/attributes/accessor_overwrite_warning.t ........................ ok
+t/attributes/attr_dereference_test.t ............................. ok
+t/attributes/attribute_accessor_generation.t ..................... ok
+t/attributes/attribute_custom_metaclass.t ........................ ok
+t/attributes/attribute_delegation.t .............................. ok
+t/attributes/attribute_does.t .................................... ok
+t/attributes/attribute_inherited_slot_specs.t .................... ok
+t/attributes/attribute_lazy_initializer.t ........................ ok
+t/attributes/attribute_names.t ................................... ok
+t/attributes/attribute_reader_generation.t ....................... ok
+t/attributes/attribute_required.t ................................ ok
+t/attributes/attribute_traits.t .................................. ok
+t/attributes/attribute_traits_n_meta.t ........................... ok
+t/attributes/attribute_traits_parameterized.t .................... ok
+t/attributes/attribute_traits_registered.t ....................... ok
+t/attributes/attribute_triggers.t ................................ ok
+t/attributes/attribute_type_unions.t ............................. ok
+t/attributes/attribute_without_any_methods.t ..................... ok
+t/attributes/attribute_writer_generation.t ....................... ok
+t/attributes/bad_coerce.t ........................................ ok
+t/attributes/chained_coercion.t .................................. ok
+t/attributes/clone_weak.t ........................................ ok
+t/attributes/default_class_role_types.t .......................... ok
+t/attributes/default_undef.t ..................................... ok
+t/attributes/delegation_and_modifiers.t .......................... ok
+t/attributes/delegation_arg_aliasing.t ........................... ok
+t/attributes/delegation_target_not_loaded.t ...................... ok
+t/attributes/illegal_options_for_inheritance.t ................... ok
+t/attributes/inherit_lazy_build.t ................................ ok
+t/attributes/lazy_no_default.t ................................... ok
+t/attributes/method_generation_rules.t ........................... ok
+t/attributes/misc_attribute_coerce_lazy.t ........................ ok
+t/attributes/misc_attribute_tests.t .............................. ok
+t/attributes/more_attr_delegation.t .............................. ok
+t/attributes/no_init_arg.t ....................................... ok
+t/attributes/no_slot_access.t .................................... ok
+t/attributes/non_alpha_attr_names.t .............................. ok
+t/attributes/numeric_defaults.t .................................. ok
+t/attributes/trigger_and_coerce.t ................................ ok
+t/basics/always_strict_warnings.t ................................ ok
+t/basics/basic_class_setup.t ..................................... ok
+t/basics/buildargs.t ............................................. ok
+t/basics/buildargs_warning.t ..................................... ok
+t/basics/create.t ................................................ ok
+t/basics/create_anon.t ........................................... ok
+t/basics/deprecations.t .......................................... ok
+t/basics/destruction.t ........................................... ok
+t/basics/error_handling.t ........................................ ok
+t/basics/global_destruction.t .................................... ok
+t/basics/import_unimport.t ....................................... ok
+t/basics/inner_and_augment.t ..................................... ok
+t/basics/load_into_main.t ........................................ ok
+t/basics/method_modifier_with_regexp.t ........................... ok
+t/basics/methods.t ............................................... ok
+t/basics/moose_object_does.t ..................................... ok
+t/basics/moose_respects_type_constraints.t ....................... ok
+t/basics/override_and_foreign_classes.t .......................... ok
+t/basics/override_augment_inner_super.t .......................... ok
+t/basics/rebless.t ............................................... ok
+t/basics/require_superclasses.t .................................. ok
+t/basics/super_and_override.t .................................... ok
+t/basics/super_warns_on_args.t ................................... ok
+t/basics/universal_methods_wrappable.t ........................... ok
+t/basics/wrapped_method_cxt_propagation.t ........................ ok
+t/bugs/anon_method_metaclass.t ................................... ok
+t/bugs/application_metarole_compat.t ............................. ok
+t/bugs/apply_role_to_one_instance_only.t ......................... ok
+t/bugs/attribute_trait_parameters.t .............................. ok
+t/bugs/augment_recursion_bug.t ................................... ok
+t/bugs/coerce_without_coercion.t ................................. ok
+t/bugs/constructor_object_overload.t ............................. ok
+t/bugs/create_anon_recursion.t ................................... ok
+t/bugs/create_anon_role_pass.t ................................... ok
+t/bugs/delete_sub_someoneh.t ........................................ ok
+t/bugs/DEMOLISH_eats_exceptions.t ................................ ok
+t/bugs/DEMOLISH_eats_mini.t ...................................... ok
+t/bugs/DEMOLISH_fails_without_metaclass.t ........................ ok
+t/bugs/DEMOLISHALL.t ............................................. ok
+t/bugs/DEMOLISHALL_shortcutted.t ................................. ok
+t/bugs/handles_foreign_class_bug.t ............................... ok
+t/bugs/immutable_metaclass_does_role.t ........................... ok
+t/bugs/immutable_n_default_x2.t .................................. ok
+t/bugs/inheriting_from_roles.t ................................... ok
+t/bugs/inline_reader_bug.t ....................................... ok
+t/bugs/instance_application_role_args.t .......................... ok
+t/bugs/lazybuild_required_undef.t ................................ ok
+t/bugs/moose_exporter_false_circular_reference_rt_63818.t ........ ok
+t/bugs/Moose_Object_error.t ...................................... ok
+t/bugs/moose_octal_defaults.t .................................... ok
+t/bugs/native_trait_handles_bad_value.t .......................... ok
+t/bugs/reader_precedence_bug.t ................................... ok
+t/bugs/role_caller.t ............................................. ok
+t/bugs/subclass_use_base_bug.t ................................... ok
+t/bugs/subtype_conflict_bug.t .................................... ok
+t/bugs/subtype_quote_bug.t ....................................... ok
+t/bugs/super_recursion.t ......................................... ok
+t/bugs/traits_with_exporter.t .................................... ok
+t/bugs/type_constraint_messages.t ................................ ok
+t/cmop/add_attribute_alternate.t ................................. ok
+t/cmop/add_method_debugmode.t .................................... ok
+t/cmop/add_method_modifier.t ..................................... ok
+t/cmop/advanced_methods.t ........................................ ok
+t/cmop/anon_class.t .............................................. ok
+t/cmop/anon_class_create_init.t .................................. ok
+t/cmop/anon_class_keep_alive.t ................................... ok
+t/cmop/anon_class_leak.t ......................................... ok
+t/cmop/anon_class_removal.t ...................................... ok
+t/cmop/anon_packages.t ........................................... ok
+t/cmop/ArrayBasedStorage_test.t .................................. ok
+t/cmop/attribute.t ............................................... ok
+t/cmop/attribute_duplication.t ................................... ok
+t/cmop/attribute_errors_and_edge_cases.t ......................... ok
+t/cmop/attribute_get_read_write.t ................................ ok
+t/cmop/attribute_initializer.t ................................... ok
+t/cmop/attribute_introspection.t ................................. ok
+t/cmop/attribute_non_alpha_name.t ................................ ok
+t/cmop/attributes.t .............................................. ok
+t/cmop/AttributesWithHistory_test.t .............................. ok
+t/cmop/basic.t ................................................... ok
+t/cmop/before_after_dollar_under.t ............................... ok
+t/cmop/BinaryTree_test.t ......................................... ok
+t/cmop/C3MethodDispatchOrder_test.t .............................. ok
+t/cmop/Class_C3_compatibility.t .................................. ok
+t/cmop/class_errors_and_edge_cases.t ............................. ok
+t/cmop/class_is_pristine.t ....................................... ok
+t/cmop/class_precedence_list.t ................................... ok
+t/cmop/ClassEncapsulatedAttributes_test.t ........................ ok
+t/cmop/constant_codeinfo.t ....................................... ok
+t/cmop/create_class.t ............................................ ok
+t/cmop/custom_instance.t ......................................... ok
+t/cmop/deprecated.t .............................................. ok
+t/cmop/get_code_info.t ........................................... ok
+t/cmop/immutable_custom_trait.t .................................. ok
+t/cmop/immutable_metaclass.t ..................................... ok
+t/cmop/immutable_w_constructors.t ................................ ok
+t/cmop/immutable_w_custom_metaclass.t ............................ ok
+t/cmop/inline_and_dollar_at.t .................................... ok
+t/cmop/inline_structor.t ......................................... ok
+t/cmop/insertion_order.t ......................................... ok
+t/cmop/InsideOutClass_test.t ..................................... ok
+t/cmop/instance.t ................................................ ok
+t/cmop/instance_inline.t ......................................... ok
+t/cmop/instance_metaclass_incompat.t ............................. ok
+t/cmop/instance_metaclass_incompat_dyn.t ......................... ok
+t/cmop/InstanceCountingClass_test.t .............................. ok
+t/cmop/LazyClass_test.t .......................................... ok
+t/cmop/load.t .................................................... ok
+t/cmop/magic.t ................................................... ok
+t/cmop/make_mutable.t ............................................ ok
+t/cmop/meta_method.t ............................................. ok
+t/cmop/meta_package.t ............................................ ok
+t/cmop/meta_package_extension.t .................................. ok
+t/cmop/metaclass.t ............................................... ok
+t/cmop/metaclass_incompatibility.t ............................... ok
+t/cmop/metaclass_incompatibility_dyn.t ........................... ok
+t/cmop/metaclass_inheritance.t ................................... ok
+t/cmop/metaclass_loads_classes.t ................................. ok
+t/cmop/metaclass_reinitialize.t .................................. ok
+t/cmop/method.t .................................................. ok
+t/cmop/method_modifiers.t ........................................ ok
+t/cmop/methods.t ................................................. ok
+t/cmop/modify_parent_method.t .................................... ok
+t/cmop/new_and_clone_metaclasses.t ............................... ok
+t/cmop/null_someoneh.t .............................................. ok
+t/cmop/numeric_defaults.t ........................................ ok
+t/cmop/package_variables.t ....................................... ok
+t/cmop/Perl6Attribute_test.t ..................................... ok
+t/cmop/random_eval_bug.t ......................................... ok
+t/cmop/rebless_instance.t ........................................ ok
+t/cmop/rebless_instance_away.t ................................... ok
+t/cmop/rebless_overload.t ........................................ ok
+t/cmop/rebless_with_extra_params.t ............................... ok
+t/cmop/RT_27329_fix.t ............................................ ok
+t/cmop/RT_39001_fix.t ............................................ ok
+t/cmop/RT_41255.t ................................................ ok
+t/cmop/scala_style_mixin_composition.t ........................... ok
+t/cmop/self_introspection.t ...................................... ok
+t/cmop/subclasses.t .............................................. ok
+t/cmop/subname.t ................................................. ok
+t/cmop/universal_methods.t ....................................... ok
+t/compat/composite_metaroles.t ................................... ok
+t/compat/extends_nonmoose_that_isa_moose_with_metarole.t ......... ok
+t/compat/foreign_inheritence.t ................................... ok
+t/compat/inc_hash.t .............................................. ok
+t/compat/module_refresh_compat.t ................................. skipped: Test requires module 'Module::Refresh' but it's not found
+t/compat/moose_respects_base.t ................................... ok
+t/examples/Child_Parent_attr_inherit.t ........................... ok
+t/examples/example1.t ............................................ ok
+t/examples/example2.t ............................................ ok
+t/examples/example_Moose_POOP.t .................................. skipped: Test requires module 'DBM::Deep' but it's not found
+t/examples/example_Protomoose.t .................................. ok
+t/examples/example_w_DCS.t ....................................... skipped: Test requires module 'Declare::Constraints::Simple' but it's not found
+t/examples/example_w_TestDeep.t .................................. ok
+t/examples/record_set_iterator.t ................................. ok
+t/exceptions/attribute.t ......................................... ok
+t/exceptions/class-mop-attribute.t ............................... ok
+t/exceptions/class-mop-class-immutable-trait.t ................... ok
+t/exceptions/class-mop-class.t ................................... ok
+t/exceptions/class-mop-method-accessor.t ......................... ok
+t/exceptions/class-mop-method-constructor.t ...................... ok
+t/exceptions/class-mop-method-generated.t ........................ ok
+t/exceptions/class-mop-method-meta.t ............................. ok
+t/exceptions/class-mop-method-overload.t ......................... ok
+t/exceptions/class-mop-method-wrapped.t .......................... ok
+t/exceptions/class-mop-method.t .................................. ok
+t/exceptions/class-mop-mixin-hasattributes.t ..................... ok
+t/exceptions/class-mop-mixin-hasmethods.t ........................ ok
+t/exceptions/class-mop-module.t .................................. ok
+t/exceptions/class-mop-object.t .................................. ok
+t/exceptions/class-mop-package.t ................................. ok
+t/exceptions/class.t ............................................. ok
+t/exceptions/exception-attributeisrequired.t ..................... ok
+t/exceptions/exception-lazyattributeneedsadefault.t .............. ok
+t/exceptions/exception-role-class.t .............................. ok
+t/exceptions/exception-role-role.t ............................... ok
+t/exceptions/exception-role-type.t ............................... ok
+t/exceptions/meta-role.t ......................................... ok
+t/exceptions/metaclass.t ......................................... ok
+t/exceptions/moose-exporter.t .................................... ok
+t/exceptions/moose-meta-attribute-native-traits.t ................ ok
+t/exceptions/moose-meta-class-immutable-trait.t .................. ok
+t/exceptions/moose-meta-method-accessor-native-array.t ........... ok
+t/exceptions/moose-meta-method-accessor-native-collection.t ...... ok
+t/exceptions/moose-meta-method-accessor-native-grep.t ............ ok
+t/exceptions/moose-meta-method-accessor-native-hash-set.t ........ ok
+t/exceptions/moose-meta-method-accessor-native-hash.t ............ ok
+t/exceptions/moose-meta-method-accessor-native-string-match.t .... ok
+t/exceptions/moose-meta-method-accessor-native-string-replace.t .. ok
+t/exceptions/moose-meta-method-accessor-native-string-substr.t ... ok
+t/exceptions/moose-meta-method-accessor-native.t ................. ok
+t/exceptions/moose-meta-method-accessor.t ........................ ok
+t/exceptions/moose-meta-method-augmented.t ....................... ok
+t/exceptions/moose-meta-method-constructor.t ..................... ok
+t/exceptions/moose-meta-method-delegation.t ...................... ok
+t/exceptions/moose-meta-method-destructor.t ...................... ok
+t/exceptions/moose-meta-method-overridden.t ...................... ok
+t/exceptions/moose-meta-role-application-rolesummation.t ......... ok
+t/exceptions/moose-meta-role-application-toclass.t ............... ok
+t/exceptions/moose-meta-role-application-torole.t ................ ok
+t/exceptions/moose-meta-role-application.t ....................... ok
+t/exceptions/moose-meta-role-attribute.t ......................... ok
+t/exceptions/moose-meta-role-composite.t ......................... ok
+t/exceptions/moose-meta-typecoercion-union.t ..................... ok
+t/exceptions/moose-meta-typecoercion.t ........................... ok
+t/exceptions/moose-meta-typeconstraint-enum.t .................... ok
+t/exceptions/moose-meta-typeconstraint-parameterizable.t ......... ok
+t/exceptions/moose-meta-typeconstraint-parameterized.t ........... ok
+t/exceptions/moose-meta-typeconstraint-registry.t ................ ok
+t/exceptions/moose-meta-typeconstraint.t ......................... ok
+t/exceptions/moose-role.t ........................................ ok
+t/exceptions/moose-util-metarole.t ............................... ok
+t/exceptions/moose-util-typeconstraints.t ........................ ok
+t/exceptions/moose.t ............................................. ok
+t/exceptions/object.t ............................................ ok
+t/exceptions/typeconstraints.t ................................... ok
+t/exceptions/util.t .............................................. ok
+t/immutable/apply_roles_to_immutable.t ........................... ok
+t/immutable/buildargs.t .......................................... ok
+t/immutable/constructor_is_not_moose.t ........................... ok
+t/immutable/constructor_is_wrapped.t ............................. ok
+t/immutable/default_values.t ..................................... ok
+t/immutable/definition_context.t ................................. ok
+t/immutable/immutable_constructor_error.t ........................ ok
+t/immutable/immutable_destroy.t .................................. ok
+t/immutable/immutable_meta_class.t ............................... ok
+t/immutable/immutable_metaclass_with_traits.t .................... ok
+t/immutable/immutable_moose.t .................................... ok
+t/immutable/immutable_roundtrip.t ................................ ok
+t/immutable/immutable_trigger_from_constructor.t ................. ok
+t/immutable/inline_close_over.t .................................. ok
+t/immutable/inline_fallbacks.t ................................... ok
+t/immutable/inlined_constructors_n_types.t ....................... ok
+t/immutable/multiple_demolish_inline.t ........................... ok
+t/metaclasses/create_anon_with_required_attr.t ................... ok
+t/metaclasses/custom_attr_meta_as_role.t ......................... ok
+t/metaclasses/custom_attr_meta_with_roles.t ...................... ok
+t/metaclasses/easy_init_meta.t ................................... ok
+t/metaclasses/export_with_prototype.t ............................ ok
+t/metaclasses/exporter_also_with_trait.t ......................... ok
+t/metaclasses/exporter_meta_lookup.t ............................. ok
+t/metaclasses/goto_moose_import.t ................................ ok
+t/metaclasses/immutable_metaclass_compat_bug.t ................... ok
+t/metaclasses/meta_name.t ........................................ ok
+t/metaclasses/metaclass_compat.t ................................. ok
+t/metaclasses/metaclass_compat_no_fixing_bug.t ................... ok
+t/metaclasses/metaclass_compat_role_conflicts.t .................. ok
+t/metaclasses/metaclass_parameterized_traits.t ................... ok
+t/metaclasses/metaclass_traits.t ................................. ok
+t/metaclasses/metarole.t ......................................... ok
+t/metaclasses/metarole_combination.t ............................. ok
+t/metaclasses/metarole_on_anon.t ................................. ok
+t/metaclasses/metarole_w_metaclass_pm.t .......................... ok
+t/metaclasses/metaroles_of_metaroles.t ........................... ok
+t/metaclasses/moose_exporter.t ................................... ok
+t/metaclasses/moose_exporter_trait_aliases.t ..................... ok
+t/metaclasses/moose_for_meta.t ................................... ok
+t/metaclasses/moose_nonmoose_metatrait_init_order.t .............. ok
+t/metaclasses/moose_nonmoose_moose_chain_init_meta.t ............. ok
+t/metaclasses/moose_w_metaclass.t ................................ ok
+t/metaclasses/new_metaclass.t .................................... ok
+t/metaclasses/new_object_BUILD.t ................................. ok
+t/metaclasses/overloading.t ...................................... ok
+t/metaclasses/reinitialize.t ..................................... ok
+t/metaclasses/use_base_of_moose.t ................................ ok
+t/moose_util/apply_roles.t ....................................... ok
+t/moose_util/create_alias.t ...................................... ok
+t/moose_util/ensure_all_roles.t .................................. ok
+t/moose_util/method_mod_args.t ................................... ok
+t/moose_util/moose_util.t ........................................ ok
+t/moose_util/moose_util_does_role.t .............................. ok
+t/moose_util/moose_util_search_class_by_role.t ................... ok
+t/moose_util/resolve_alias.t ..................................... ok
+t/moose_util/with_traits.t ....................................... ok
+t/native_traits/array_coerce.t ................................... ok
+t/native_traits/array_from_role.t ................................ ok
+t/native_traits/array_subtypes.t ................................. ok
+t/native_traits/array_trigger.t .................................. ok
+t/native_traits/collection_with_roles.t .......................... ok
+t/native_traits/custom_instance.t ................................ ok
+t/native_traits/hash_coerce.t .................................... ok
+t/native_traits/hash_subtypes.t .................................. ok
+t/native_traits/hash_trigger.t ................................... ok
+t/native_traits/remove_attribute.t ............................... ok
+t/native_traits/shallow_clone.t .................................. ok
+t/native_traits/trait_array.t .................................... ok
+t/native_traits/trait_bool.t ..................................... ok
+t/native_traits/trait_code.t ..................................... ok
+t/native_traits/trait_counter.t .................................. ok
+t/native_traits/trait_hash.t ..................................... ok
+t/native_traits/trait_number.t ................................... ok
+t/native_traits/trait_string.t ................................... ok
+t/recipes/basics_bankaccount_methodmodifiersandsubclassing.t ..... ok
+t/recipes/basics_binarytree_attributefeatures.t .................. ok
+t/recipes/basics_company_subtypes.t .............................. ok
+t/recipes/basics_datetime_extendingnonmooseparent.t .............. ok
+t/recipes/basics_document_augmentandinner.t ...................... ok
+t/recipes/basics_geonome_overloadingsubtypesandcoercion.t ........ ok
+t/recipes/basics_http_subtypesandcoercion.t ...................... ok
+t/recipes/basics_point_attributesandsubclassing.t ................ ok
+t/recipes/extending_debugging_baseclassrole.t .................... ok
+t/recipes/extending_mooseish_moosesugar.t ........................ ok
+t/recipes/legacy_debugging_baseclassreplacement.t ................ ok
+t/recipes/meta_globref_instancemetaclass.t ....................... ok
+t/recipes/meta_labeled_attributemetaclass.t ...................... ok
+t/recipes/meta_labeled_attributetrait.t .......................... ok
+t/recipes/meta_privateorpublic_methodmetaclass.t ................. ok
+t/recipes/meta_table_metaclasstrait.t ............................ ok
+t/recipes/roles_applicationtoinstance.t .......................... ok
+t/recipes/roles_comparable_codereuse.t ........................... ok
+t/recipes/roles_restartable_advancedcomposition.t ................ ok
+t/roles/anonymous_roles.t ........................................ ok
+t/roles/application_toclass.t .................................... ok
+t/roles/apply_role.t ............................................. ok
+t/roles/build.t .................................................. ok
+t/roles/compose_overloading.t .................................... ok
+t/roles/conflict_many_methods.t .................................. ok
+t/roles/create_role.t ............................................ ok
+t/roles/create_role_subclass.t ................................... ok
+t/roles/empty_method_modifiers_meta_bug.t ........................ ok
+t/roles/extending_role_attrs.t ................................... ok
+t/roles/free_anonymous_roles.t ................................... ok
+t/roles/imported_required_method.t ............................... ok
+t/roles/meta_role.t .............................................. ok
+t/roles/method_aliasing_in_composition.t ......................... ok
+t/roles/method_exclusion_in_composition.t ........................ ok
+t/roles/method_modifiers.t ....................................... ok
+t/roles/methods.t ................................................ ok
+t/roles/more_alias_and_exclude.t ................................. ok
+t/roles/more_role_edge_cases.t ................................... ok
+t/roles/new_meta_role.t .......................................... ok
+t/roles/overriding.t ............................................. ok
+t/roles/reinitialize_anon_role.t ................................. ok
+t/roles/role.t ................................................... ok
+t/roles/role_attr_application.t .................................. ok
+t/roles/role_attribute_conflict.t ................................ ok
+t/roles/role_attrs.t ............................................. ok
+t/roles/role_compose_requires.t .................................. ok
+t/roles/role_composite.t ......................................... ok
+t/roles/role_composite_exclusion.t ............................... ok
+t/roles/role_composition_attributes.t ............................ ok
+t/roles/role_composition_conflict_detection.t .................... ok
+t/roles/role_composition_errors.t ................................ ok
+t/roles/role_composition_method_mods.t ........................... ok
+t/roles/role_composition_methods.t ............................... ok
+t/roles/role_composition_override.t .............................. ok
+t/roles/role_composition_req_methods.t ........................... ok
+t/roles/role_conflict_detection.t ................................ ok
+t/roles/role_conflict_edge_cases.t ............................... ok
+t/roles/role_consumers.t ......................................... ok
+t/roles/role_exclusion.t ......................................... ok
+t/roles/role_exclusion_and_alias_bug.t ........................... ok
+t/roles/role_for_combination.t ................................... ok
+t/roles/roles_and_method_cloning.t ............................... ok
+t/roles/roles_and_req_method_edge_cases.t ........................ ok
+t/roles/roles_applied_in_create.t ................................ ok
+t/roles/run_time_role_composition.t .............................. ok
+t/roles/runtime_roles_and_attrs.t ................................ ok
+t/roles/runtime_roles_and_nonmoose.t ............................. ok
+t/roles/runtime_roles_w_params.t ................................. ok
+t/roles/use_base_does.t .......................................... ok
+t/test_moose/test_moose.t ........................................ ok
+t/test_moose/test_moose_does_ok.t ................................ ok
+t/test_moose/test_moose_has_attribute_ok.t ....................... ok
+t/test_moose/test_moose_meta_ok.t ................................ ok
+t/test_moose/with_immutable.t .................................... ok
+t/test_moose/with_immutable_tb2.t ................................ skipped: These tests are only for Test::Builder 1.005+
+t/todo_tests/exception_reflects_failed_constraint.t .............. ok
+t/todo_tests/immutable_n_around.t ................................ ok
+t/todo_tests/moose_and_threads.t ................................. ok
+t/todo_tests/replacing_super_methods.t ........................... ok
+t/todo_tests/required_role_accessors.t ........................... ok
+t/todo_tests/role_attr_methods_original_package.t ................ ok
+t/todo_tests/role_insertion_order.t .............................. ok
+t/todo_tests/various_role_features.t ............................. ok
+t/todo_tests/wrong-inner.t ....................................... ok
+t/type_constraints/advanced_type_creation.t ...................... ok
+t/type_constraints/class_subtypes.t .............................. ok
+t/type_constraints/class_type_constraint.t ....................... ok
+t/type_constraints/coerced_parameterized_types.t ................. ok
+t/type_constraints/container_type_coercion.t ..................... ok
+t/type_constraints/container_type_constraint.t ................... ok
+t/type_constraints/custom_parameterized_types.t .................. ok
+t/type_constraints/custom_type_errors.t .......................... ok
+t/type_constraints/define_type_twice_throws.t .................... ok
+t/type_constraints/duck_type_handles.t ........................... ok
+t/type_constraints/duck_types.t .................................. ok
+t/type_constraints/enum.t ........................................ ok
+t/type_constraints/inlining.t .................................... ok
+t/type_constraints/match_type_operator.t ......................... ok
+t/type_constraints/maybe_type_constraint.t ....................... ok
+t/type_constraints/misc_type_tests.t ............................. ok
+t/type_constraints/name_conflicts.t .............................. ok
+t/type_constraints/normalize_type_name.t ......................... ok
+t/type_constraints/parameterize_from.t ........................... ok
+t/type_constraints/role_type_constraint.t ........................ ok
+t/type_constraints/specio.t ...................................... skipped: Test requires module 'Specio::Declare' but it's not found
+t/type_constraints/subtype_auto_vivify_parent.t .................. ok
+t/type_constraints/subtyping_parameterized_types.t ............... ok
+t/type_constraints/subtyping_union_types.t ....................... ok
+t/type_constraints/throw_error.t ................................. ok
+t/type_constraints/type_coersion_on_lazy_attributes.t ............ ok
+t/type_constraints/type_names.t .................................. ok
+t/type_constraints/type_notation_parser.t ........................ ok
+t/type_constraints/types_and_undef.t ............................. ok
+t/type_constraints/union_is_a_type_of.t .......................... ok
+t/type_constraints/union_types.t ................................. ok
+t/type_constraints/union_types_and_coercions.t ................... ok
+t/type_constraints/util_find_type_constraint.t ................... ok
+t/type_constraints/util_more_type_coercion.t ..................... ok
+t/type_constraints/util_std_type_constraints.t ................... ok
+t/type_constraints/util_type_coercion.t .......................... ok
+t/type_constraints/util_type_constraints.t ....................... ok
+t/type_constraints/util_type_constraints_export.t ................ ok
+t/type_constraints/util_type_reloading.t ......................... ok
+All tests successful.
+Files=459, Tests=19515, 127 wallclock secs ( 3.14 usr  1.06 sys + 112.52 cusr  7.75 csys = 124.47 CPU)
+Result: PASS
+
+------------------------------
+PREREQUISITES
+------------------------------
+
+Prerequisite modules loaded:
+
+    No requirements found
+
+------------------------------
+ENVIRONMENT AND OTHER CONTEXT
+------------------------------
+
+Environment variables:
+
+    LANG = en_US.UTF-8
+    LC_ALL = en_US.UTF-8
+    LC_CTYPE = en_US.UTF-8
+    PATH = /Users/someone/perl5/perlbrew/bin:/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin:/Users/someone/.vim/bin:/Users/someone/bin:/Users/someone/node_modules/.bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/someone/.vim/bin:/Users/someone/bin:/Users/someone/node_modules/.bin:/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/local/lib/postgresql92/bin:/opt/local/bin:/opt/local/sbin
+    PERLBREW_BASHRC_VERSION = 0.65
+    PERLBREW_HOME = /Users/someone/.perlbrew
+    PERLBREW_MANPATH = /Users/someone/perl5/perlbrew/perls/perl-5.19.7/man
+    PERLBREW_PATH = /Users/someone/perl5/perlbrew/bin:/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin
+    PERLBREW_PERL = perl-5.19.7
+    PERLBREW_ROOT = /Users/someone/perl5/perlbrew
+    PERLBREW_VERSION = 0.65
+    PERL_MM_USE_DEFAULT = 1
+    SHELL = /opt/local/bin/zsh
+    TERM = screen
+    TMPDIR = /var/folders/k7/cj2hxbn162362g2150r7t9480000gn/T/
+
+Perl special variables (and OS-specific diagnostics, for MSWin32):
+
+    EGID = 20 20 508 12 61 79 80 81 98 398 399 33 100 204
+    EUID = 501
+    EXECUTABLE_NAME = /Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin/perl5.19.7
+    GID = 20 20 508 12 61 79 80 81 98 398 399 33 100 204
+    UID = 501
+
+Summary of my perl5 (revision 5 version 19 subversion 7) configuration:
+   
+  Platform:
+    osname=darwin, osvers=13.0.0, archname=darwin-2level
+    uname='darwin someone-macbook 13.0.0 darwin kernel version 13.0.0: thu sep 19 22:22:27 pdt 2013; root:xnu-2422.1.72~6release_x86_64 x86_64 '
+    config_args='-de -Dprefix=/Users/someone/perl5/perlbrew/perls/perl-5.19.7 -Dusedevel -Aeval:scriptdir=/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin'
+    hint=recommended, useposix=true, d_sigaction=define
+    useithreads=undef, usemultiplicity=undef
+    useperlio=define, d_sfio=undef, uselargefiles=define, usesocks=undef
+    use64bitint=define, use64bitall=define, uselongdouble=undef
+    usemymalloc=n, bincompat5005=undef
+  Compiler:
+    cc='cc', ccflags ='-fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include',
+    optimize='-O3',
+    cppflags='-fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/opt/local/include'
+    ccversion='', gccversion='4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)', gccosandvers=''
+    intsize=4, longsize=8, ptrsize=8, doublesize=8, byteorder=12345678
+    d_longlong=define, longlongsize=8, d_longdbl=define, longdblsize=16
+    ivtype='long', ivsize=8, nvtype='double', nvsize=8, Off_t='off_t', lseeksize=8
+    alignbytes=8, prototype=define
+  Linker and Libraries:
+    ld='env MACOSX_DEPLOYMENT_TARGET=10.3 cc', ldflags =' -fstack-protector -L/usr/local/lib -L/opt/local/lib'
+    libpth=/usr/local/lib /opt/local/lib /usr/lib
+    libs=-lgdbm -ldbm -ldl -lm -lutil -lc
+    perllibs=-ldl -lm -lutil -lc
+    libc=, so=dylib, useshrplib=false, libperl=libperl.a
+    gnulibc_version=''
+  Dynamic Linking:
+    dlsrc=dl_dlopen.xs, dlext=bundle, d_dlsymun=undef, ccdlflags=' '
+    cccdlflags=' ', lddlflags=' -bundle -undefined dynamic_lookup -L/usr/local/lib -L/opt/local/lib -fstack-protector'
+
+
+Characteristics of this binary (from libperl): 
+  Compile-time options: HAS_TIMES PERLIO_LAYERS PERL_DONT_CREATE_GVSV
+                        PERL_HASH_FUNC_ONE_AT_A_TIME_HARD PERL_MALLOC_WRAP
+                        PERL_NEW_COPY_ON_WRITE PERL_PRESERVE_IVUV
+                        PERL_USE_DEVEL USE_64_BIT_ALL USE_64_BIT_INT
+                        USE_LARGE_FILES USE_LOCALE USE_LOCALE_COLLATE
+                        USE_LOCALE_CTYPE USE_LOCALE_NUMERIC USE_PERLIO
+                        USE_PERL_ATOF
+  Built under darwin
+  Compiled at Dec 21 2013 18:53:08
+  %ENV:
+    PERLBREW_BASHRC_VERSION="0.65"
+    PERLBREW_HOME="/Users/someone/.perlbrew"
+    PERLBREW_MANPATH="/Users/someone/perl5/perlbrew/perls/perl-5.19.7/man"
+    PERLBREW_PATH="/Users/someone/perl5/perlbrew/bin:/Users/someone/perl5/perlbrew/perls/perl-5.19.7/bin"
+    PERLBREW_PERL="perl-5.19.7"
+    PERLBREW_ROOT="/Users/someone/perl5/perlbrew"
+    PERLBREW_VERSION="0.65"
+    PERL_MM_USE_DEFAULT="1"
+  @INC:
+    /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7/darwin-2level
+    /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/site_perl/5.19.7
+    /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7/darwin-2level
+    /Users/someone/perl5/perlbrew/perls/perl-5.19.7/lib/5.19.7
+    .</pre>
+    
+  
+</body>
+</html>

@@ -7,6 +7,7 @@ use Path::Tiny;
 use CPANTesters::cpanfiledump::Report;
 use CPANTesters::cpanfiledump::Collector::ModuleToolchainVersions;
 use CPANTesters::cpanfiledump::Collector::Prerequisites;
+use CPANTesters::cpanfiledump::Collector::ReportPrereqs;
 
 has _collectors => (
   is => 'ro',
@@ -20,6 +21,9 @@ has _collectors => (
         cpanfiledump => $self,
       }),
       CPANTesters::cpanfiledump::Collector::Prerequisites->new({
+        cpanfiledump => $self,
+      }),
+      CPANTesters::cpanfiledump::Collector::ReportPrereqs->new({
         cpanfiledump => $self,
       }),
     ];
@@ -85,7 +89,8 @@ sub _collect_prereqs {
   my %prereqs;
 
   for my $collector ($self->collectors) {
-    my $found = $collector->collect($lines);
+    my $copy = [ @$lines ];
+    my $found = $collector->collect($copy);
 
     if ($found && %$found) {
       for my $have (keys %$found) {
