@@ -37,8 +37,7 @@ perl -Ilib bin/cpantesters-report-to-cpanfile <some-report-from-cpantesters>
 
 # TODO
 
- - More collectors
  - Something to make it easy to exlude modules that are installed when the
    report notes that a module is recommended but missing
- - More tests for corner cases
+ - Tests for error conditions/weird module version mismatches
 
