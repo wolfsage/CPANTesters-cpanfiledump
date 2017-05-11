@@ -41,7 +41,7 @@ pageTracker._trackPageview();
 
   
     <pre>
-From: <strong>"Karen Etheridge ETHER" &lt;ether [at] cpan [dot] org&gt;</strong>
+From: <strong>"Some One"</strong>
 Subject: <strong>FAIL Moose-2.1200 v5.19.7 Mac OS X</strong>
 Date: <strong>2014-01-08T03:30:53Z</strong>
 
@@ -52,7 +52,7 @@ questions to cpan-testers-discuss@perl.org
 
 
 --
-Dear ETHER,
+Dear SOMEONE,
 
 This is a computer-generated report for Moose-2.1200
 on perl 5.19.7, created by App::cpanminus::reporter 0.10 (1.7001).
@@ -181,41 +181,41 @@ cp lib/Moose/Meta/Method/Accessor/Native/String/inc.pm blib/lib/Moose/Meta/Metho
 cp lib/Moose/Meta/Method/Constructor.pm blib/lib/Moose/Meta/Method/Constructor.pm
 Running Mkbootstrap for Moose ()
 chmod 644 Moose.bs
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Attribute.xs &gt; xs/Attribute.xsc &amp;&amp; mv xs/Attribute.xsc xs/Attribute.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Attribute.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Attribute.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/AttributeCore.xs &gt; xs/AttributeCore.xsc &amp;&amp; mv xs/AttributeCore.xsc xs/AttributeCore.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/AttributeCore.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/AttributeCore.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Class.xs &gt; xs/Class.xsc &amp;&amp; mv xs/Class.xsc xs/Class.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Class.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Class.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Generated.xs &gt; xs/Generated.xsc &amp;&amp; mv xs/Generated.xsc xs/Generated.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Generated.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Generated.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/HasAttributes.xs &gt; xs/HasAttributes.xsc &amp;&amp; mv xs/HasAttributes.xsc xs/HasAttributes.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/HasAttributes.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/HasAttributes.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/HasMethods.xs &gt; xs/HasMethods.xsc &amp;&amp; mv xs/HasMethods.xsc xs/HasMethods.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/HasMethods.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/HasMethods.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Inlined.xs &gt; xs/Inlined.xsc &amp;&amp; mv xs/Inlined.xsc xs/Inlined.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Inlined.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Inlined.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Instance.xs &gt; xs/Instance.xsc &amp;&amp; mv xs/Instance.xsc xs/Instance.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Instance.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Instance.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Method.xs &gt; xs/Method.xsc &amp;&amp; mv xs/Method.xsc xs/Method.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Method.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Method.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Moose.xs &gt; xs/Moose.xsc &amp;&amp; mv xs/Moose.xsc xs/Moose.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Moose.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Moose.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/MOP.xs &gt; xs/MOP.xsc &amp;&amp; mv xs/MOP.xsc xs/MOP.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/MOP.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/MOP.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Overload.xs &gt; xs/Overload.xsc &amp;&amp; mv xs/Overload.xsc xs/Overload.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Overload.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Overload.c
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Package.xs &gt; xs/Package.xsc &amp;&amp; mv xs/Package.xsc xs/Package.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Package.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Package.c
-cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o mop.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   mop.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Attribute.xs &gt; xs/Attribute.xsc &amp;&amp; mv xs/Attribute.xsc xs/Attribute.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Attribute.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Attribute.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/AttributeCore.xs &gt; xs/AttributeCore.xsc &amp;&amp; mv xs/AttributeCore.xsc xs/AttributeCore.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/AttributeCore.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/AttributeCore.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Class.xs &gt; xs/Class.xsc &amp;&amp; mv xs/Class.xsc xs/Class.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Class.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Class.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Generated.xs &gt; xs/Generated.xsc &amp;&amp; mv xs/Generated.xsc xs/Generated.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Generated.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Generated.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/HasAttributes.xs &gt; xs/HasAttributes.xsc &amp;&amp; mv xs/HasAttributes.xsc xs/HasAttributes.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/HasAttributes.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/HasAttributes.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/HasMethods.xs &gt; xs/HasMethods.xsc &amp;&amp; mv xs/HasMethods.xsc xs/HasMethods.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/HasMethods.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/HasMethods.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Inlined.xs &gt; xs/Inlined.xsc &amp;&amp; mv xs/Inlined.xsc xs/Inlined.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Inlined.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Inlined.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Instance.xs &gt; xs/Instance.xsc &amp;&amp; mv xs/Instance.xsc xs/Instance.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Instance.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Instance.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Method.xs &gt; xs/Method.xsc &amp;&amp; mv xs/Method.xsc xs/Method.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Method.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Method.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Moose.xs &gt; xs/Moose.xsc &amp;&amp; mv xs/Moose.xsc xs/Moose.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Moose.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Moose.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/MOP.xs &gt; xs/MOP.xsc &amp;&amp; mv xs/MOP.xsc xs/MOP.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/MOP.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/MOP.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Overload.xs &gt; xs/Overload.xsc &amp;&amp; mv xs/Overload.xsc xs/Overload.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Overload.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Overload.c
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Package.xs &gt; xs/Package.xsc &amp;&amp; mv xs/Package.xsc xs/Package.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Package.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Package.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o mop.o  "-I/Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   mop.c
 rm -f blib/arch/auto/Moose/Moose.bundle
 env MACOSX_DEPLOYMENT_TARGET=10.3 cc  -bundle -undefined dynamic_lookup -L/usr/local/lib -L/opt/local/lib -fstack-protector xs/Attribute.o xs/AttributeCore.o xs/Class.o xs/Generated.o xs/HasAttributes.o xs/HasMethods.o xs/Inlined.o xs/Instance.o xs/Method.o xs/Moose.o xs/MOP.o xs/Overload.o xs/Package.o mop.o  -o blib/arch/auto/Moose/Moose.bundle 	\
 	     	\
 	  
 chmod 755 blib/arch/auto/Moose/Moose.bundle
-/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 -MExtUtils::Command::MM -e 'cp_nonempty' -- Moose.bs blib/arch/auto/Moose/Moose.bs 644
+/Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7 -MExtUtils::Command::MM -e 'cp_nonempty' -- Moose.bs blib/arch/auto/Moose/Moose.bs 644
 make: *** No rule to make target `bin/moose-outdated', needed by `blib/script/moose-outdated'.  Stop.
--&gt; FAIL Installing Moose::Meta::Attribute failed. See /Users/ether/.cpanm/work/1389151841.46466/build.log for details. Retry with --force to force install it.
+-&gt; FAIL Installing Moose::Meta::Attribute failed. See /Users/someone/.cpanm/work/1389151841.46466/build.log for details. Retry with --force to force install it.
 
 ------------------------------
 PREREQUISITES
@@ -232,21 +232,21 @@ ENVIRONMENT AND OTHER CONTEXT
 Environment variables:
 
     LANG = en_CA.UTF-8
-    PATH = /Users/ether/.perlbrew/libs/19.7@std/bin:/Users/ether/perl5/perlbrew/bin:/Users/ether/perl5/perlbrew/perls/19.7/bin:/Users/ether/perl5/perlbrew/bin:/Users/ether/perl5/perlbrew/perls/19.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/ether/bin:/Users/ether/git/misc/install/tequila/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/git-core/contrib/workdir
-    PERL5LIB = /Users/ether/.perlbrew/libs/19.7@std/lib/perl5
+    PATH = /Users/someone/.perlbrew/libs/19.7@std/bin:/Users/someone/perl5/perlbrew/bin:/Users/someone/perl5/perlbrew/perls/19.7/bin:/Users/someone/perl5/perlbrew/bin:/Users/someone/perl5/perlbrew/perls/19.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/someone/bin:/Users/someone/git/misc/install/tequila/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/git-core/contrib/workdir
+    PERL5LIB = /Users/someone/.perlbrew/libs/19.7@std/lib/perl5
     PERLBREW_BASHRC_VERSION = 0.66
-    PERLBREW_HOME = /Users/ether/.perlbrew
+    PERLBREW_HOME = /Users/someone/.perlbrew
     PERLBREW_LIB = std
-    PERLBREW_MANPATH = /Users/ether/.perlbrew/libs/19.7@std/man:/Users/ether/perl5/perlbrew/perls/19.7/man
-    PERLBREW_PATH = /Users/ether/.perlbrew/libs/19.7@std/bin:/Users/ether/perl5/perlbrew/bin:/Users/ether/perl5/perlbrew/perls/19.7/bin
+    PERLBREW_MANPATH = /Users/someone/.perlbrew/libs/19.7@std/man:/Users/someone/perl5/perlbrew/perls/19.7/man
+    PERLBREW_PATH = /Users/someone/.perlbrew/libs/19.7@std/bin:/Users/someone/perl5/perlbrew/bin:/Users/someone/perl5/perlbrew/perls/19.7/bin
     PERLBREW_PERL = 19.7
-    PERLBREW_ROOT = /Users/ether/perl5/perlbrew
+    PERLBREW_ROOT = /Users/someone/perl5/perlbrew
     PERLBREW_VERSION = 0.67
     PERLDOC_PAGER = less -sicMr
     PERL_AUTOINSTALL_PREFER_CPAN = 1
-    PERL_LOCAL_LIB_ROOT = /Users/ether/.perlbrew/libs/19.7@std
-    PERL_MB_OPT = --install_base /Users/ether/.perlbrew/libs/19.7@std
-    PERL_MM_OPT = INSTALL_BASE=/Users/ether/.perlbrew/libs/19.7@std
+    PERL_LOCAL_LIB_ROOT = /Users/someone/.perlbrew/libs/19.7@std
+    PERL_MB_OPT = --install_base /Users/someone/.perlbrew/libs/19.7@std
+    PERL_MM_OPT = INSTALL_BASE=/Users/someone/.perlbrew/libs/19.7@std
     SHELL = /bin/bash
     TERM = xterm-color
     TMPDIR = /var/folders/+h/+hzG2W8MHem4qQiRP616jE+++TQ/-Tmp-/
@@ -255,7 +255,7 @@ Perl special variables (and OS-specific diagnostics, for MSWin32):
 
     EGID = 20 20 402 204 100 98 81 80 79 61 12 401 403
     EUID = 503
-    EXECUTABLE_NAME = /Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7
+    EXECUTABLE_NAME = /Users/someone/perl5/perlbrew/perls/19.7/bin/perl5.19.7
     GID = 20 20 402 204 100 98 81 80 79 61 12 401 403
     UID = 503
 
@@ -292,7 +292,7 @@ Summary of my perl5 (revision 5 version 19 subversion 7) configuration:
   Platform:
     osname=darwin, osvers=10.8.0, archname=darwin-2level
     uname='darwin tequila 10.8.0 darwin kernel version 10.8.0: tue jun 7 16:33:36 pdt 2011; root:xnu-1504.15.3~1release_i386 i386 '
-    config_args='-de -Dprefix=/Users/ether/perl5/perlbrew/perls/19.7 -Dman1dir=none -Dman3dir=none -Dusedevel -Aeval:scriptdir=/Users/ether/perl5/perlbrew/perls/19.7/bin'
+    config_args='-de -Dprefix=/Users/someone/perl5/perlbrew/perls/19.7 -Dman1dir=none -Dman3dir=none -Dusedevel -Aeval:scriptdir=/Users/someone/perl5/perlbrew/perls/19.7/bin'
     hint=recommended, useposix=true, d_sigaction=define
     useithreads=undef, usemultiplicity=undef
     useperlio=define, d_sfio=undef, uselargefiles=define, usesocks=undef
@@ -330,27 +330,27 @@ Characteristics of this binary (from libperl):
   Built under darwin
   Compiled at Dec 20 2013 17:39:25
   %ENV:
-    PERL5LIB="/Users/ether/.perlbrew/libs/19.7@std/lib/perl5"
+    PERL5LIB="/Users/someone/.perlbrew/libs/19.7@std/lib/perl5"
     PERLBREW_BASHRC_VERSION="0.66"
-    PERLBREW_HOME="/Users/ether/.perlbrew"
+    PERLBREW_HOME="/Users/someone/.perlbrew"
     PERLBREW_LIB="std"
-    PERLBREW_MANPATH="/Users/ether/.perlbrew/libs/19.7@std/man:/Users/ether/perl5/perlbrew/perls/19.7/man"
-    PERLBREW_PATH="/Users/ether/.perlbrew/libs/19.7@std/bin:/Users/ether/perl5/perlbrew/bin:/Users/ether/perl5/perlbrew/perls/19.7/bin"
+    PERLBREW_MANPATH="/Users/someone/.perlbrew/libs/19.7@std/man:/Users/someone/perl5/perlbrew/perls/19.7/man"
+    PERLBREW_PATH="/Users/someone/.perlbrew/libs/19.7@std/bin:/Users/someone/perl5/perlbrew/bin:/Users/someone/perl5/perlbrew/perls/19.7/bin"
     PERLBREW_PERL="19.7"
-    PERLBREW_ROOT="/Users/ether/perl5/perlbrew"
+    PERLBREW_ROOT="/Users/someone/perl5/perlbrew"
     PERLBREW_VERSION="0.67"
     PERLDOC_PAGER="less -sicMr"
     PERL_AUTOINSTALL_PREFER_CPAN="1"
-    PERL_LOCAL_LIB_ROOT="/Users/ether/.perlbrew/libs/19.7@std"
-    PERL_MB_OPT="--install_base /Users/ether/.perlbrew/libs/19.7@std"
-    PERL_MM_OPT="INSTALL_BASE=/Users/ether/.perlbrew/libs/19.7@std"
+    PERL_LOCAL_LIB_ROOT="/Users/someone/.perlbrew/libs/19.7@std"
+    PERL_MB_OPT="--install_base /Users/someone/.perlbrew/libs/19.7@std"
+    PERL_MM_OPT="INSTALL_BASE=/Users/someone/.perlbrew/libs/19.7@std"
   @INC:
-    /Users/ether/.perlbrew/libs/19.7@std/lib/perl5/darwin-2level
-    /Users/ether/.perlbrew/libs/19.7@std/lib/perl5
-    /Users/ether/perl5/perlbrew/perls/19.7/lib/site_perl/5.19.7/darwin-2level
-    /Users/ether/perl5/perlbrew/perls/19.7/lib/site_perl/5.19.7
-    /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level
-    /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7
+    /Users/someone/.perlbrew/libs/19.7@std/lib/perl5/darwin-2level
+    /Users/someone/.perlbrew/libs/19.7@std/lib/perl5
+    /Users/someone/perl5/perlbrew/perls/19.7/lib/site_perl/5.19.7/darwin-2level
+    /Users/someone/perl5/perlbrew/perls/19.7/lib/site_perl/5.19.7
+    /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level
+    /Users/someone/perl5/perlbrew/perls/19.7/lib/5.19.7
     .</pre>
     
   

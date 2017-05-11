@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use CPANTesters::cpanfiledump;
+
+my $dumper = CPANTesters::cpanfiledump->new;
+
+my $file = shift || die "Usage: $0 <report_file>\n";
+
+print $dumper->parse_raw($file)->to_cpanfile;

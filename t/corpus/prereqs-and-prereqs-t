@@ -41,7 +41,7 @@ pageTracker._trackPageview();
 
   
     <pre>
-From: <strong>"Slaven Rezi&#x0107; SREZIC" &lt;srezic [at] cpan [dot] org&gt;</strong>
+From: <strong>Someone</strong>
 Subject: <strong>PASS Moose-2.1401 v5.20.0 FreeBSD</strong>
 Date: <strong>2014-11-03T22:41:26Z</strong>
 
@@ -52,7 +52,7 @@ questions to cpan-testers-discuss@perl.org
 
 
 --
-Dear Karen Etheridge,
+Dear Someone,
 
 This is a computer-generated report for Moose-2.1401
 on perl 5.20.0, created by CPAN-Reporter-1.2011.
