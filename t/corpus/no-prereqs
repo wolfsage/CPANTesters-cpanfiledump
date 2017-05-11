@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head>
+
+
+<title>CPAN Testers Reports: Report for Moose-2.1200</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="title"       content="CPAN Testers Reports" />
+<meta name="author"      content="Barbie" />
+<meta name="language"    content="en" />
+<meta name="keywords"    content="perl, cpan, test, testing, tester, testers, reports, smoke, smoker, black box, automated, automation" />
+<meta name="description" content="Report listings of distributions and authors from reports submitted by the CPAN Testers community, who automatically black box test submissions to Perl's CPAN code repository" />
+
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="/css/layout2_setup.css" />
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="/css/layout2_text.css" />
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1826389-16");
+pageTracker._trackPageview();
+</script>
+
+<!--
+    Site Layout, Design &amp; Development by Miss Barbell Productions
+
+    Valid XHTML 1.0 - http://validator.w3.org/check?uri=referer
+    Powered by LAMP (Linux, Apache, MySQL &amp; Perl) technologies.
+    Produced by LABYRINTH, a state of the art Website Management System
+    available from Miss Barbell Productions.
+    For more information contact Barbie <barbie@missbarbell.co.uk>
+
+-->
+
+</head>
+<body  >
+
+  
+    <pre>
+From: <strong>"Karen Etheridge ETHER" &lt;ether [at] cpan [dot] org&gt;</strong>
+Subject: <strong>FAIL Moose-2.1200 v5.19.7 Mac OS X</strong>
+Date: <strong>2014-01-08T03:30:53Z</strong>
+
+This distribution has been tested as part of the CPAN Testers
+project, supporting the Perl programming language.  See
+http://wiki.cpantesters.org/ for more information or email
+questions to cpan-testers-discuss@perl.org
+
+
+--
+Dear ETHER,
+
+This is a computer-generated report for Moose-2.1200
+on perl 5.19.7, created by App::cpanminus::reporter 0.10 (1.7001).
+
+Thank you for uploading your work to CPAN.  However, there was a problem
+testing your distribution.
+
+If you think this report is invalid, please consult the CPAN Testers Wiki
+for suggestions on how to avoid getting FAIL reports for missing library
+or binary dependencies, unsupported operating systems, and so on:
+
+http://wiki.cpantesters.org/wiki/CPANAuthorNotes
+
+Sections of this report:
+
+    * Tester comments
+    * Program output
+    * Prerequisites
+    * Environment and other context
+
+------------------------------
+TESTER COMMENTS
+------------------------------
+
+Additional comments from tester:
+
+none provided
+
+------------------------------
+PROGRAM OUTPUT
+------------------------------
+
+Output from '':
+
+Building and testing Moose-2.1200
+cp lib/Moose/Object.pm blib/lib/Moose/Object.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/append.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/append.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Collection.pm blib/lib/Moose/Meta/Method/Accessor/Native/Collection.pm
+cp lib/Moose/Util/MetaRole.pm blib/lib/Moose/Util/MetaRole.pm
+cp lib/Moose/Meta/Method/Accessor.pm blib/lib/Moose/Meta/Method/Accessor.pm
+cp lib/Moose/Manual.pod blib/lib/Moose/Manual.pod
+cp lib/Moose/Meta/TypeConstraint/DuckType.pm blib/lib/Moose/Meta/TypeConstraint/DuckType.pm
+cp lib/Moose/Meta/Role/Application/ToRole.pm blib/lib/Moose/Meta/Role/Application/ToRole.pm
+cp lib/Moose/Meta/Object/Trait.pm blib/lib/Moose/Meta/Object/Trait.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Array.pm blib/lib/Moose/Meta/Method/Accessor/Native/Array.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/length.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/length.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/accessor.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/accessor.pm
+cp lib/Moose/Meta/Role.pm blib/lib/Moose/Meta/Role.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/defined.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/defined.pm
+cp lib/Moose/Exporter.pm blib/lib/Moose/Exporter.pm
+cp lib/Moose/Role.pm blib/lib/Moose/Role.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/mul.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/mul.pm
+cp lib/Moose/Meta/Method/Accessor/Native.pm blib/lib/Moose/Meta/Method/Accessor/Native.pm
+cp lib/Moose/Util/TypeConstraints.pm blib/lib/Moose/Util/TypeConstraints.pm
+cp lib/Moose/Meta/TypeConstraint.pm blib/lib/Moose/Meta/TypeConstraint.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/set.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/set.pm
+cp lib/Moose/Meta/TypeConstraint/Registry.pm blib/lib/Moose/Meta/TypeConstraint/Registry.pm
+cp lib/metaclass.pm blib/lib/metaclass.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/chop.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/chop.pm
+cp lib/Moose/Meta/TypeConstraint/Enum.pm blib/lib/Moose/Meta/TypeConstraint/Enum.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Reader.pm blib/lib/Moose/Meta/Method/Accessor/Native/Reader.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/match.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/match.pm
+cp lib/Moose/Conflicts.pm blib/lib/Moose/Conflicts.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/sub.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/sub.pm
+cp lib/Moose/Meta/TypeConstraint/Union.pm blib/lib/Moose/Meta/TypeConstraint/Union.pm
+cp lib/Test/Moose.pm blib/lib/Test/Moose.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/mod.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/mod.pm
+cp lib/Moose/Meta/Role/Application/ToClass.pm blib/lib/Moose/Meta/Role/Application/ToClass.pm
+cp lib/Moose/Meta/Role/Application/RoleSummation.pm blib/lib/Moose/Meta/Role/Application/RoleSummation.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/replace.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/replace.pm
+cp lib/Moose/Meta/Method/Augmented.pm blib/lib/Moose/Meta/Method/Augmented.pm
+cp lib/Moose/Meta/Method/Meta.pm blib/lib/Moose/Meta/Method/Meta.pm
+cp lib/Moose/Meta/Method.pm blib/lib/Moose/Meta/Method.pm
+cp lib/Moose/Meta/Method/Destructor.pm blib/lib/Moose/Meta/Method/Destructor.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/kv.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/kv.pm
+cp lib/Moose/Meta/TypeCoercion.pm blib/lib/Moose/Meta/TypeCoercion.pm
+cp lib/Moose/Meta/Role/Method/Conflicting.pm blib/lib/Moose/Meta/Role/Method/Conflicting.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/delete.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/delete.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/elements.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/elements.pm
+cp lib/Moose.pm blib/lib/Moose.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/count.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/count.pm
+cp lib/Moose/Meta/Method/Overridden.pm blib/lib/Moose/Meta/Method/Overridden.pm
+cp lib/Moose/Meta/TypeConstraint/Parameterizable.pm blib/lib/Moose/Meta/TypeConstraint/Parameterizable.pm
+cp lib/Moose/Meta/TypeConstraint/Role.pm blib/lib/Moose/Meta/TypeConstraint/Role.pm
+cp lib/Moose/Meta/Role/Method/Required.pm blib/lib/Moose/Meta/Role/Method/Required.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Writer.pm blib/lib/Moose/Meta/Method/Accessor/Native/Writer.pm
+cp lib/Moose/Meta/Method/Delegation.pm blib/lib/Moose/Meta/Method/Delegation.pm
+cp lib/Moose/Meta/Role/Attribute.pm blib/lib/Moose/Meta/Role/Attribute.pm
+cp lib/Moose/Meta/Attribute.pm blib/lib/Moose/Meta/Attribute.pm
+cp lib/Moose/Util.pm blib/lib/Moose/Util.pm
+cp lib/Moose/Meta/Role/Composite.pm blib/lib/Moose/Meta/Role/Composite.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/is_empty.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/is_empty.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/exists.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/exists.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/abs.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/abs.pm
+cp lib/Moose/Cookbook.pod blib/lib/Moose/Cookbook.pod
+cp lib/Moose/Meta/Role/Application/ToInstance.pm blib/lib/Moose/Meta/Role/Application/ToInstance.pm
+cp lib/Moose/Meta/TypeCoercion/Union.pm blib/lib/Moose/Meta/TypeCoercion/Union.pm
+cp lib/Moose/Meta/Instance.pm blib/lib/Moose/Meta/Instance.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/shallow_clone.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/shallow_clone.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/div.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/div.pm
+cp lib/Moose/Util/TypeConstraints/Builtins.pm blib/lib/Moose/Util/TypeConstraints/Builtins.pm
+cp lib/Moose/Intro.pod blib/lib/Moose/Intro.pod
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/keys.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/keys.pm
+cp lib/Moose/Meta/Role/Method.pm blib/lib/Moose/Meta/Role/Method.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Number/add.pm blib/lib/Moose/Meta/Method/Accessor/Native/Number/add.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/clear.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/clear.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/set.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/set.pm
+cp lib/oose.pm blib/lib/oose.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/values.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/values.pm
+cp lib/Moose/Meta/Method/Accessor/Native/Hash/get.pm blib/lib/Moose/Meta/Method/Accessor/Native/Hash/get.pm
+cp lib/Moose/Meta/Role/Application.pm blib/lib/Moose/Meta/Role/Application.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/substr.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/substr.pm
+cp lib/Moose/Exception.pm blib/lib/Moose/Exception.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/clear.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/clear.pm
+cp lib/Moose/Meta/Mixin/AttributeCore.pm blib/lib/Moose/Meta/Mixin/AttributeCore.pm
+cp lib/Moose/Unsweetened.pod blib/lib/Moose/Unsweetened.pod
+cp lib/Moose/Meta/Method/Accessor/Native/String/chomp.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/chomp.pm
+cp lib/Moose/Deprecated.pm blib/lib/Moose/Deprecated.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/prepend.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/prepend.pm
+cp lib/Moose/Meta/TypeConstraint/Class.pm blib/lib/Moose/Meta/TypeConstraint/Class.pm
+cp lib/Moose/Spec/Role.pod blib/lib/Moose/Spec/Role.pod
+cp lib/Moose/Meta/Class.pm blib/lib/Moose/Meta/Class.pm
+cp lib/Moose/Meta/TypeConstraint/Parameterized.pm blib/lib/Moose/Meta/TypeConstraint/Parameterized.pm
+cp lib/Moose/Meta/Method/Accessor/Native/String/inc.pm blib/lib/Moose/Meta/Method/Accessor/Native/String/inc.pm
+cp lib/Moose/Meta/Method/Constructor.pm blib/lib/Moose/Meta/Method/Constructor.pm
+Running Mkbootstrap for Moose ()
+chmod 644 Moose.bs
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Attribute.xs &gt; xs/Attribute.xsc &amp;&amp; mv xs/Attribute.xsc xs/Attribute.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Attribute.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Attribute.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/AttributeCore.xs &gt; xs/AttributeCore.xsc &amp;&amp; mv xs/AttributeCore.xsc xs/AttributeCore.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/AttributeCore.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/AttributeCore.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Class.xs &gt; xs/Class.xsc &amp;&amp; mv xs/Class.xsc xs/Class.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Class.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Class.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Generated.xs &gt; xs/Generated.xsc &amp;&amp; mv xs/Generated.xsc xs/Generated.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Generated.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Generated.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/HasAttributes.xs &gt; xs/HasAttributes.xsc &amp;&amp; mv xs/HasAttributes.xsc xs/HasAttributes.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/HasAttributes.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/HasAttributes.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/HasMethods.xs &gt; xs/HasMethods.xsc &amp;&amp; mv xs/HasMethods.xsc xs/HasMethods.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/HasMethods.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/HasMethods.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Inlined.xs &gt; xs/Inlined.xsc &amp;&amp; mv xs/Inlined.xsc xs/Inlined.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Inlined.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Inlined.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Instance.xs &gt; xs/Instance.xsc &amp;&amp; mv xs/Instance.xsc xs/Instance.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Instance.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Instance.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Method.xs &gt; xs/Method.xsc &amp;&amp; mv xs/Method.xsc xs/Method.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Method.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Method.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Moose.xs &gt; xs/Moose.xsc &amp;&amp; mv xs/Moose.xsc xs/Moose.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Moose.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Moose.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/MOP.xs &gt; xs/MOP.xsc &amp;&amp; mv xs/MOP.xsc xs/MOP.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/MOP.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/MOP.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Overload.xs &gt; xs/Overload.xsc &amp;&amp; mv xs/Overload.xsc xs/Overload.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Overload.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Overload.c
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/xsubpp  -typemap /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/ExtUtils/typemap  xs/Package.xs &gt; xs/Package.xsc &amp;&amp; mv xs/Package.xsc xs/Package.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o xs/Package.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   xs/Package.c
+cc -c   -fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include -I. -O3   -DVERSION=\"2.1200\" -DXS_VERSION=\"2.1200\" -o mop.o  "-I/Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level/CORE"   mop.c
+rm -f blib/arch/auto/Moose/Moose.bundle
+env MACOSX_DEPLOYMENT_TARGET=10.3 cc  -bundle -undefined dynamic_lookup -L/usr/local/lib -L/opt/local/lib -fstack-protector xs/Attribute.o xs/AttributeCore.o xs/Class.o xs/Generated.o xs/HasAttributes.o xs/HasMethods.o xs/Inlined.o xs/Instance.o xs/Method.o xs/Moose.o xs/MOP.o xs/Overload.o xs/Package.o mop.o  -o blib/arch/auto/Moose/Moose.bundle 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/Moose/Moose.bundle
+/Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7 -MExtUtils::Command::MM -e 'cp_nonempty' -- Moose.bs blib/arch/auto/Moose/Moose.bs 644
+make: *** No rule to make target `bin/moose-outdated', needed by `blib/script/moose-outdated'.  Stop.
+-&gt; FAIL Installing Moose::Meta::Attribute failed. See /Users/ether/.cpanm/work/1389151841.46466/build.log for details. Retry with --force to force install it.
+
+------------------------------
+PREREQUISITES
+------------------------------
+
+Prerequisite modules loaded:
+
+    No requirements found
+
+------------------------------
+ENVIRONMENT AND OTHER CONTEXT
+------------------------------
+
+Environment variables:
+
+    LANG = en_CA.UTF-8
+    PATH = /Users/ether/.perlbrew/libs/19.7@std/bin:/Users/ether/perl5/perlbrew/bin:/Users/ether/perl5/perlbrew/perls/19.7/bin:/Users/ether/perl5/perlbrew/bin:/Users/ether/perl5/perlbrew/perls/19.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/ether/bin:/Users/ether/git/misc/install/tequila/bin:/opt/local/bin:/opt/local/sbin:/opt/local/share/git-core/contrib/workdir
+    PERL5LIB = /Users/ether/.perlbrew/libs/19.7@std/lib/perl5
+    PERLBREW_BASHRC_VERSION = 0.66
+    PERLBREW_HOME = /Users/ether/.perlbrew
+    PERLBREW_LIB = std
+    PERLBREW_MANPATH = /Users/ether/.perlbrew/libs/19.7@std/man:/Users/ether/perl5/perlbrew/perls/19.7/man
+    PERLBREW_PATH = /Users/ether/.perlbrew/libs/19.7@std/bin:/Users/ether/perl5/perlbrew/bin:/Users/ether/perl5/perlbrew/perls/19.7/bin
+    PERLBREW_PERL = 19.7
+    PERLBREW_ROOT = /Users/ether/perl5/perlbrew
+    PERLBREW_VERSION = 0.67
+    PERLDOC_PAGER = less -sicMr
+    PERL_AUTOINSTALL_PREFER_CPAN = 1
+    PERL_LOCAL_LIB_ROOT = /Users/ether/.perlbrew/libs/19.7@std
+    PERL_MB_OPT = --install_base /Users/ether/.perlbrew/libs/19.7@std
+    PERL_MM_OPT = INSTALL_BASE=/Users/ether/.perlbrew/libs/19.7@std
+    SHELL = /bin/bash
+    TERM = xterm-color
+    TMPDIR = /var/folders/+h/+hzG2W8MHem4qQiRP616jE+++TQ/-Tmp-/
+
+Perl special variables (and OS-specific diagnostics, for MSWin32):
+
+    EGID = 20 20 402 204 100 98 81 80 79 61 12 401 403
+    EUID = 503
+    EXECUTABLE_NAME = /Users/ether/perl5/perlbrew/perls/19.7/bin/perl5.19.7
+    GID = 20 20 402 204 100 98 81 80 79 61 12 401 403
+    UID = 503
+
+Perl module toolchain versions installed:
+
+    Module              Have    
+    ------------------- --------
+    CPAN                2.03    
+    CPAN::Meta          2.133380
+    Cwd                 3.45    
+    ExtUtils::CBuilder  0.280212
+    ExtUtils::Command   1.18    
+    ExtUtils::Install   1.61    
+    ExtUtils::MakeMaker 6.86    
+    ExtUtils::Manifest  1.63    
+    ExtUtils::ParseXS   3.23    
+    File::Spec          3.45    
+    JSON                2.90    
+    JSON::PP            2.27203 
+    Module::Build       0.4203  
+    Module::Signature   n/a     
+    Parse::CPAN::Meta   1.4409  
+    Test::Harness       3.30    
+    Test::More          1.001002
+    YAML                0.88    
+    YAML::Syck          1.27    
+    version             0.9906  
+
+
+--
+
+Summary of my perl5 (revision 5 version 19 subversion 7) configuration:
+   
+  Platform:
+    osname=darwin, osvers=10.8.0, archname=darwin-2level
+    uname='darwin tequila 10.8.0 darwin kernel version 10.8.0: tue jun 7 16:33:36 pdt 2011; root:xnu-1504.15.3~1release_i386 i386 '
+    config_args='-de -Dprefix=/Users/ether/perl5/perlbrew/perls/19.7 -Dman1dir=none -Dman3dir=none -Dusedevel -Aeval:scriptdir=/Users/ether/perl5/perlbrew/perls/19.7/bin'
+    hint=recommended, useposix=true, d_sigaction=define
+    useithreads=undef, usemultiplicity=undef
+    useperlio=define, d_sfio=undef, uselargefiles=define, usesocks=undef
+    use64bitint=define, use64bitall=define, uselongdouble=undef
+    usemymalloc=n, bincompat5005=undef
+  Compiler:
+    cc='cc', ccflags ='-fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include',
+    optimize='-O3',
+    cppflags='-fno-common -DPERL_DARWIN -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include -I/opt/local/include'
+    ccversion='', gccversion='4.2.1 (Apple Inc. build 5666) (dot 3)', gccosandvers=''
+    intsize=4, longsize=8, ptrsize=8, doublesize=8, byteorder=12345678
+    d_longlong=define, longlongsize=8, d_longdbl=define, longdblsize=16
+    ivtype='long', ivsize=8, nvtype='double', nvsize=8, Off_t='off_t', lseeksize=8
+    alignbytes=8, prototype=define
+  Linker and Libraries:
+    ld='env MACOSX_DEPLOYMENT_TARGET=10.3 cc', ldflags =' -fstack-protector -L/usr/local/lib -L/opt/local/lib'
+    libpth=/usr/local/lib /opt/local/lib /usr/lib
+    libs=-lgdbm -ldbm -ldl -lm -lutil -lc
+    perllibs=-ldl -lm -lutil -lc
+    libc=, so=dylib, useshrplib=false, libperl=libperl.a
+    gnulibc_version=''
+  Dynamic Linking:
+    dlsrc=dl_dlopen.xs, dlext=bundle, d_dlsymun=undef, ccdlflags=' '
+    cccdlflags=' ', lddlflags=' -bundle -undefined dynamic_lookup -L/usr/local/lib -L/opt/local/lib -fstack-protector'
+
+
+Characteristics of this binary (from libperl): 
+  Compile-time options: HAS_TIMES PERLIO_LAYERS PERL_DONT_CREATE_GVSV
+                        PERL_HASH_FUNC_ONE_AT_A_TIME_HARD PERL_MALLOC_WRAP
+                        PERL_NEW_COPY_ON_WRITE PERL_PRESERVE_IVUV
+                        PERL_USE_DEVEL USE_64_BIT_ALL USE_64_BIT_INT
+                        USE_LARGE_FILES USE_LOCALE USE_LOCALE_COLLATE
+                        USE_LOCALE_CTYPE USE_LOCALE_NUMERIC USE_PERLIO
+                        USE_PERL_ATOF
+  Built under darwin
+  Compiled at Dec 20 2013 17:39:25
+  %ENV:
+    PERL5LIB="/Users/ether/.perlbrew/libs/19.7@std/lib/perl5"
+    PERLBREW_BASHRC_VERSION="0.66"
+    PERLBREW_HOME="/Users/ether/.perlbrew"
+    PERLBREW_LIB="std"
+    PERLBREW_MANPATH="/Users/ether/.perlbrew/libs/19.7@std/man:/Users/ether/perl5/perlbrew/perls/19.7/man"
+    PERLBREW_PATH="/Users/ether/.perlbrew/libs/19.7@std/bin:/Users/ether/perl5/perlbrew/bin:/Users/ether/perl5/perlbrew/perls/19.7/bin"
+    PERLBREW_PERL="19.7"
+    PERLBREW_ROOT="/Users/ether/perl5/perlbrew"
+    PERLBREW_VERSION="0.67"
+    PERLDOC_PAGER="less -sicMr"
+    PERL_AUTOINSTALL_PREFER_CPAN="1"
+    PERL_LOCAL_LIB_ROOT="/Users/ether/.perlbrew/libs/19.7@std"
+    PERL_MB_OPT="--install_base /Users/ether/.perlbrew/libs/19.7@std"
+    PERL_MM_OPT="INSTALL_BASE=/Users/ether/.perlbrew/libs/19.7@std"
+  @INC:
+    /Users/ether/.perlbrew/libs/19.7@std/lib/perl5/darwin-2level
+    /Users/ether/.perlbrew/libs/19.7@std/lib/perl5
+    /Users/ether/perl5/perlbrew/perls/19.7/lib/site_perl/5.19.7/darwin-2level
+    /Users/ether/perl5/perlbrew/perls/19.7/lib/site_perl/5.19.7
+    /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7/darwin-2level
+    /Users/ether/perl5/perlbrew/perls/19.7/lib/5.19.7
+    .</pre>
+    
+  
+</body>
+</html>

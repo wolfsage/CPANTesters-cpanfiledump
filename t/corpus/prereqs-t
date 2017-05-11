@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head>
+
+
+<title>CPAN Testers Reports: Report for Moose-2.1401</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="title"       content="CPAN Testers Reports" />
+<meta name="author"      content="Barbie" />
+<meta name="language"    content="en" />
+<meta name="keywords"    content="perl, cpan, test, testing, tester, testers, reports, smoke, smoker, black box, automated, automation" />
+<meta name="description" content="Report listings of distributions and authors from reports submitted by the CPAN Testers community, who automatically black box test submissions to Perl's CPAN code repository" />
+
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="/css/layout2_setup.css" />
+<link rel="stylesheet" type="text/css" media="screen,projection,print" href="/css/layout2_text.css" />
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1826389-16");
+pageTracker._trackPageview();
+</script>
+
+<!--
+    Site Layout, Design &amp; Development by Miss Barbell Productions
+
+    Valid XHTML 1.0 - http://validator.w3.org/check?uri=referer
+    Powered by LAMP (Linux, Apache, MySQL &amp; Perl) technologies.
+    Produced by LABYRINTH, a state of the art Website Management System
+    available from Miss Barbell Productions.
+    For more information contact Barbie <barbie@missbarbell.co.uk>
+
+-->
+
+</head>
+<body  >
+
+  
+    <pre>
+From: <strong>"Chris Williams BINGOS" &lt;chris [at] bingosnet [dot] co [dot] uk&gt;</strong>
+Subject: <strong>FAIL Moose-2.1401 v5.20.0 FreeBSD</strong>
+Date: <strong>2014-11-06T01:19:37Z</strong>
+
+This distribution has been tested as part of the CPAN Testers
+project, supporting the Perl programming language.  See
+http://wiki.cpantesters.org/ for more information or email
+questions to cpan-testers-discuss@perl.org
+
+
+--
+
+Dear ETHER,
+
+This is a computer-generated error report created automatically by
+CPANPLUS, version 0.9152. Testers personal comments may appear
+at the end of this report.
+
+
+Thank you for uploading your work to CPAN.  However, it appears that
+there were some problems testing your distribution.
+
+TEST RESULTS:
+
+Below is the error stack from stage 'make test':
+
+Running Mkbootstrap for Moose ()
+chmod 644 Moose.bs
+PERL_DL_NONLAZY=1 /usr/home/cpan/pit/bare/perl-5.20.0/bin/perl5.20.0 "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t t/attributes/*.t t/basics/*.t t/bugs/*.t t/cmop/*.t t/compat/*.t t/examples/*.t t/exceptions/*.t t/immutable/*.t t/metaclasses/*.t t/moose_util/*.t t/native_traits/*.t t/recipes/*.t t/roles/*.t t/test_moose/*.t t/todo_tests/*.t t/type_constraints/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module               Want     Have
+#     -------------------- ---- --------
+#     Dist::CheckConflicts 0.02     0.11
+#     ExtUtils::CBuilder   0.27 0.280220
+#     ExtUtils::MakeMaker   any     6.98
+#     File::Spec            any     3.47
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 6.98
+# 
+# === Test Requires ===
+# 
+#     Module                    Want     Have
+#     ------------------------ ----- --------
+#     CPAN::Meta::Check        0.007    0.009
+#     CPAN::Meta::Requirements   any    2.125
+#     ExtUtils::MakeMaker        any     6.98
+#     File::Spec                 any     3.47
+#     Test::CleanNamespaces     0.13     0.16
+#     Test::Fatal              0.001    0.013
+#     Test::More                0.88 1.001006
+#     Test::Requires            0.05     0.08
+#     Test::Warnings           0.016    0.016
+# 
+# === Test Recommends ===
+# 
+#     Module         Want     Have
+#     ---------- -------- --------
+#     CPAN::Meta 2.120900 2.142690
+# 
+# === Runtime Requires ===
+# 
+#     Module                       Want   Have
+#     --------------------------- ----- ------
+#     Carp                         1.22 1.3301
+#     Class::Load                  0.09   0.22
+#     Class::Load::XS              0.01   0.08
+#     Data::OptList               0.107  0.109
+#     Devel::GlobalDestruction      any   0.13
+#     Devel::OverloadInfo         0.002  0.002
+#     Devel::StackTrace            1.33   2.00
+#     Dist::CheckConflicts         0.02   0.11
+#     Eval::Closure                0.04   0.11
+#     List::MoreUtils              0.28   0.33
+#     List::Util                   1.33   1.38
+#     MRO::Compat                  0.05   0.12
+#     Module::Runtime             0.014  0.014
+#     Module::Runtime::Conflicts    any  0.001
+#     Package::DeprecationManager  0.11   0.13
+#     Package::Stash               0.32   0.37
+#     Package::Stash::XS           0.24   0.28
+#     Params::Util                 1.00   1.07
+#     Scalar::Util                 1.19   1.38
+#     Sub::Exporter               0.980  0.987
+#     Sub::Name                    0.05   0.12
+#     Task::Weaken                  any   1.04
+#     Try::Tiny                    0.02   0.22
+#     parent                      0.223  0.228
+#     strict                       1.03   1.08
+#     warnings                     1.03   1.23
+# 
+# === Runtime Recommends ===
+# 
+#     Module             Want    Have
+#     ------------------ ---- -------
+#     Devel::PartialDump 0.14 missing
+# 
+# === Other Modules ===
+# 
+#     Module                       Want    Have
+#     ---------------------------- ---- -------
+#     Algorithm::C3                 any missing
+#     DBM::Deep                     any missing
+#     DateTime                      any missing
+#     DateTime::Calendar::Mayan     any missing
+#     DateTime::Format::MySQL       any missing
+#     Declare::Constraints::Simple  any missing
+#     Dist::CheckConflicts          any    0.11
+#     HTTP::Headers                 any missing
+#     IO::File                      any    1.16
+#     IO::String                    any missing
+#     Locale::US                    any missing
+#     Module::Refresh               any missing
+#     MooseX::NonMoose              any missing
+#     Params::Coerce                any missing
+#     Regexp::Common                any missing
+#     SUPER                         any missing
+#     Test::Deep                    any   0.113
+#     Test::DependentModules        any missing
+#     Test::LeakTrace               any missing
+#     Test::Output                  any missing
+#     URI                           any missing
+# 
+t/00-report-prereqs.t ............................................ ok
+t/000_load.t ..................................................... ok
+t/attributes/accessor_context.t .................................. ok
+t/attributes/accessor_inlining.t ................................. ok
+t/attributes/accessor_override_method.t .......................... skipped: Test requires module 'Test::Output' but it's not found
+t/attributes/accessor_overwrite_warning.t ........................ skipped: Test requires module 'Test::Output' but it's not found
+t/attributes/attr_dereference_test.t ............................. ok
+t/attributes/attribute_accessor_generation.t ..................... ok
+t/attributes/attribute_custom_metaclass.t ........................ ok
+t/attributes/attribute_delegation.t .............................. ok
+t/attributes/attribute_does.t .................................... ok
+t/attributes/attribute_inherited_slot_specs.t .................... ok
+t/attributes/attribute_lazy_initializer.t ........................ ok
+t/attributes/attribute_names.t ................................... ok
+t/attributes/attribute_reader_generation.t ....................... ok
+t/attributes/attribute_required.t ................................ ok
+t/attributes/attribute_traits.t .................................. ok
+t/attributes/attribute_traits_n_meta.t ........................... ok
+t/attributes/attribute_traits_parameterized.t .................... ok
+t/attributes/attribute_traits_registered.t ....................... ok
+t/attributes/attribute_triggers.t ................................ ok
+t/attributes/attribute_type_unions.t ............................. ok
+t/attributes/attribute_without_any_methods.t ..................... ok
+t/attributes/attribute_writer_generation.t ....................... ok
+t/attributes/bad_coerce.t ........................................ ok
+t/attributes/chained_coercion.t .................................. ok
+t/attributes/clone_weak.t ........................................ ok
+t/attributes/default_class_role_types.t .......................... ok
+t/attributes/default_undef.t ..................................... ok
+t/attributes/delegation_and_modifiers.t .......................... ok
+t/attributes/delegation_arg_aliasing.t ........................... ok
+t/attributes/delegation_target_not_loaded.t ...................... ok
+t/attributes/illegal_options_for_inheritance.t ................... ok
+t/attributes/inherit_lazy_build.t ................................ ok
+t/attributes/lazy_no_default.t ................................... ok
+t/attributes/method_generation_rules.t ........................... ok
+t/attributes/misc_attribute_coerce_lazy.t ........................ ok
+t/attributes/misc_attribute_tests.t .............................. ok
+t/attributes/more_attr_delegation.t .............................. ok
+t/attributes/no_init_arg.t ....................................... ok
+t/attributes/no_slot_access.t .................................... ok
+t/attributes/non_alpha_attr_names.t .............................. ok
+t/attributes/numeric_defaults.t .................................. ok
+t/attributes/trigger_and_coerce.t ................................ ok
+t/basics/always_strict_warnings.t ................................ ok
+t/basics/basic_class_setup.t ..................................... ok
+t/basics/buildargs.t ............................................. ok
+t/basics/buildargs_warning.t ..................................... skipped: Test requires module 'Test::Output' but it's not found
+t/basics/create.t ................................................ ok
+t/basics/create_anon.t ........................................... ok
+t/basics/deprecations.t .......................................... ok
+t/basics/destruction.t ........................................... ok
+t/basics/error_handling.t ........................................ ok
+t/basics/global_destruction.t .................................... ok
+t/basics/import_unimport.t ....................................... ok
+t/basics/inner_and_augment.t ..................................... ok
+t/basics/load_into_main.t ........................................ ok
+t/basics/method_modifier_with_regexp.t ........................... ok
+t/basics/methods.t ............................................... ok
+t/basics/moose_object_does.t ..................................... ok
+t/basics/moose_respects_type_constraints.t ....................... ok
+t/basics/override_and_foreign_classes.t .......................... ok
+t/basics/override_augment_inner_super.t .......................... ok
+t/basics/rebless.t ............................................... ok
+t/basics/require_superclasses.t .................................. ok
+t/basics/super_and_override.t .................................... ok
+t/basics/super_warns_on_args.t ................................... skipped: Test requires module 'Test::Output' but it's not found
+t/basics/universal_methods_wrappable.t ........................... ok
+t/basics/wrapped_method_cxt_propagation.t ........................ ok
+t/bugs/anon_method_metaclass.t ................................... ok
+t/bugs/application_metarole_compat.t ............................. ok
+t/bugs/apply_role_to_one_instance_only.t ......................... ok
+t/bugs/attribute_trait_parameters.t .............................. skipped: Test requires module 'Test::Output' but it's not found
+t/bugs/augment_recursion_bug.t ................................... ok
+t/bugs/coerce_without_coercion.t ................................. ok
+t/bugs/constructor_object_overload.t ............................. ok
+t/bugs/create_anon_recursion.t ................................... ok
+t/bugs/create_anon_role_pass.t ................................... ok
+t/bugs/delete_sub_stash.t ........................................ ok
+t/bugs/DEMOLISH_eats_exceptions.t ................................ ok
+t/bugs/DEMOLISH_eats_mini.t ...................................... ok
+t/bugs/DEMOLISH_fails_without_metaclass.t ........................ ok
+t/bugs/DEMOLISHALL.t ............................................. ok
+t/bugs/DEMOLISHALL_shortcutted.t ................................. ok
+t/bugs/handles_foreign_class_bug.t ............................... ok
+t/bugs/immutable_metaclass_does_role.t ........................... ok
+t/bugs/immutable_n_default_x2.t .................................. ok
+t/bugs/inheriting_from_roles.t ................................... ok
+t/bugs/inline_reader_bug.t ....................................... ok
+t/bugs/instance_application_role_args.t .......................... ok
+t/bugs/lazybuild_required_undef.t ................................ ok
+Can't locate Test/Exception.pm in @INC (you may need to install the Test::Exception module) (@INC contains: /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-0.014/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-0.014/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Try-Tiny-0.22/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Try-Tiny-0.22/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Fatal-0.013/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Fatal-0.013/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Dist-CheckConflicts-0.11/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Dist-CheckConflicts-0.11/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Tester-0.109/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Tester-0.109/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-NoWarnings-1.04/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-NoWarnings-1.04/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Deep-0.113/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Deep-0.113/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/CPAN-Meta-Check-0.009/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/CPAN-Meta-Check-0.009/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Params-Util-1.07/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Params-Util-1.07/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Install-0.928/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Install-0.928/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Data-OptList-0.109/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Data-OptList-0.109/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Requires-0.08/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Requires-0.08/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Implementation-0.09/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Implementation-0.09/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-XS-0.28/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-XS-0.28/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-Hide-0.0009/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-Hide-0.0009/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-Progressive-0.001011/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-Progressive-0.001011/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Variable-Magic-0.55/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Variable-Magic-0.55/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/B-Hooks-EndOfScope-0.13/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/B-Hooks-EndOfScope-0.13/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/namespace-clean-0.25/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/namespace-clean-0.25/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-0.22/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-0.22/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-XS-0.08/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-XS-0.08/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-GlobalDestruction-0.13/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-GlobalDestruction-0.13/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/MRO-Compat-0.12/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/MRO-Compat-0.12/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Identify-0.08/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Identify-0.08/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-OverloadInfo-0.002/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-OverloadInfo-0.002/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-StackTrace-2.00/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-StackTrace-2.00/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Eval-Closure-0.11/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Eval-Closure-0.11/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/List-MoreUtils-0.33/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/List-MoreUtils-0.33/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-Conflicts-0.001/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-Conflicts-0.001/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-DeprecationManager-0.13/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-DeprecationManager-0.13/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-0.987/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-0.987/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-CheckBin-0.02/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-CheckBin-0.02/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Name-0.12/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Name-0.12/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Task-Weaken-1.04/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Task-Weaken-1.04/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Number-Compare-0.03/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Number-Compare-0.03/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Text-Glob-0.09/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Text-Glob-0.09/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-Perl-1.13/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-Perl-1.13/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Warnings-0.016/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Warnings-0.016/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-CleanNamespaces-0.16/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-CleanNamespaces-0.16/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-0.014/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-0.014/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Try-Tiny-0.22/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Try-Tiny-0.22/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Fatal-0.013/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Fatal-0.013/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Dist-CheckConflicts-0.11/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Dist-CheckConflicts-0.11/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Tester-0.109/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Tester-0.109/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-NoWarnings-1.04/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-NoWarnings-1.04/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Deep-0.113/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Deep-0.113/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/CPAN-Meta-Check-0.009/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/CPAN-Meta-Check-0.009/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Params-Util-1.07/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Params-Util-1.07/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Install-0.928/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Install-0.928/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Data-OptList-0.109/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Data-OptList-0.109/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Requires-0.08/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Requires-0.08/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Implementation-0.09/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Implementation-0.09/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-XS-0.28/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-XS-0.28/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-Hide-0.0009/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-Hide-0.0009/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-Progressive-0.001011/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-Progressive-0.001011/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Variable-Magic-0.55/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Variable-Magic-0.55/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/B-Hooks-EndOfScope-0.13/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/B-Hooks-EndOfScope-0.13/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/namespace-clean-0.25/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/namespace-clean-0.25/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-0.22/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-0.22/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-XS-0.08/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-XS-0.08/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-GlobalDestruction-0.13/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-GlobalDestruction-0.13/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/MRO-Compat-0.12/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/MRO-Compat-0.12/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Identify-0.08/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Identify-0.08/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-OverloadInfo-0.002/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-OverloadInfo-0.002/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-StackTrace-2.00/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-StackTrace-2.00/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Eval-Closure-0.11/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Eval-Closure-0.11/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/List-MoreUtils-0.33/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/List-MoreUtils-0.33/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-Conflicts-0.001/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-Conflicts-0.001/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-DeprecationManager-0.13/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-DeprecationManager-0.13/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-0.987/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-0.987/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-CheckBin-0.02/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-CheckBin-0.02/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Name-0.12/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Name-0.12/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Task-Weaken-1.04/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Task-Weaken-1.04/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Number-Compare-0.03/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Number-Compare-0.03/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Text-Glob-0.09/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Text-Glob-0.09/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-Perl-1.13/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-Perl-1.13/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Warnings-0.016/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Warnings-0.016/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-CleanNamespaces-0.16/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-CleanNamespaces-0.16/blib/arch /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/lib /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/arch /usr/home/cpan/pit/bare/perl-5.20.0/lib/site_perl/5.20.0/amd64-freebsd /usr/home/cpan/pit/bare/perl-5.20.0/lib/site_perl/5.20.0 /usr/home/cpan/pit/bare/perl-5.20.0/lib/5.20.0/amd64-freebsd /usr/home/cpan/pit/bare/perl-5.20.0/lib/5.20.0 .) at t/bugs/mark_as_methods_overloading_breakage.t line 9.
+BEGIN failed--compilation aborted at t/bugs/mark_as_methods_overloading_breakage.t line 9.
+t/bugs/mark_as_methods_overloading_breakage.t .................... 
+Dubious, test returned 2 (wstat 512, 0x200)
+No subtests run 
+t/bugs/moose_exporter_false_circular_reference_rt_63818.t ........ ok
+t/bugs/Moose_Object_error.t ...................................... ok
+t/bugs/moose_octal_defaults.t .................................... ok
+t/bugs/native_trait_handles_bad_value.t .......................... ok
+t/bugs/overloading_edge_cases.t .................................. ok
+t/bugs/reader_precedence_bug.t ................................... ok
+t/bugs/role_caller.t ............................................. ok
+t/bugs/subclass_use_base_bug.t ................................... ok
+t/bugs/subtype_conflict_bug.t .................................... ok
+t/bugs/subtype_quote_bug.t ....................................... ok
+t/bugs/super_recursion.t ......................................... ok
+t/bugs/traits_with_exporter.t .................................... ok
+t/bugs/type_constraint_messages.t ................................ ok
+t/cmop/add_attribute_alternate.t ................................. ok
+t/cmop/add_method_debugmode.t .................................... ok
+t/cmop/add_method_modifier.t ..................................... ok
+t/cmop/advanced_methods.t ........................................ ok
+t/cmop/anon_class.t .............................................. ok
+t/cmop/anon_class_create_init.t .................................. ok
+t/cmop/anon_class_keep_alive.t ................................... ok
+t/cmop/anon_class_leak.t ......................................... skipped: Test requires module 'Test::LeakTrace' but it's not found
+t/cmop/anon_class_removal.t ...................................... ok
+t/cmop/anon_packages.t ........................................... ok
+t/cmop/ArrayBasedStorage_test.t .................................. ok
+t/cmop/attribute.t ............................................... ok
+t/cmop/attribute_duplication.t ................................... ok
+t/cmop/attribute_errors_and_edge_cases.t ......................... ok
+t/cmop/attribute_get_read_write.t ................................ ok
+t/cmop/attribute_initializer.t ................................... ok
+t/cmop/attribute_introspection.t ................................. ok
+t/cmop/attribute_non_alpha_name.t ................................ ok
+t/cmop/attributes.t .............................................. ok
+t/cmop/AttributesWithHistory_test.t .............................. ok
+t/cmop/basic.t ................................................... ok
+t/cmop/before_after_dollar_under.t ............................... ok
+t/cmop/BinaryTree_test.t ......................................... ok
+t/cmop/C3MethodDispatchOrder_test.t .............................. skipped: Test requires module 'Algorithm::C3' but it's not found
+t/cmop/Class_C3_compatibility.t .................................. ok
+t/cmop/class_errors_and_edge_cases.t ............................. ok
+t/cmop/class_is_pristine.t ....................................... ok
+t/cmop/class_precedence_list.t ................................... ok
+t/cmop/ClassEncapsulatedAttributes_test.t ........................ ok
+t/cmop/constant_codeinfo.t ....................................... ok
+t/cmop/create_class.t ............................................ ok
+t/cmop/custom_instance.t ......................................... ok
+t/cmop/deprecated.t .............................................. ok
+t/cmop/get_code_info.t ........................................... ok
+t/cmop/immutable_custom_trait.t .................................. ok
+t/cmop/immutable_metaclass.t ..................................... ok
+t/cmop/immutable_w_constructors.t ................................ ok
+t/cmop/immutable_w_custom_metaclass.t ............................ ok
+t/cmop/inline_and_dollar_at.t .................................... ok
+t/cmop/inline_structor.t ......................................... skipped: Test requires module 'Test::Output' but it's not found
+t/cmop/insertion_order.t ......................................... ok
+t/cmop/InsideOutClass_test.t ..................................... ok
+t/cmop/instance.t ................................................ ok
+t/cmop/instance_inline.t ......................................... ok
+t/cmop/instance_metaclass_incompat.t ............................. ok
+t/cmop/instance_metaclass_incompat_dyn.t ......................... ok
+t/cmop/InstanceCountingClass_test.t .............................. ok
+t/cmop/LazyClass_test.t .......................................... ok
+t/cmop/load.t .................................................... ok
+t/cmop/magic.t ................................................... ok
+t/cmop/make_mutable.t ............................................ ok
+t/cmop/meta_method.t ............................................. ok
+t/cmop/meta_package.t ............................................ ok
+t/cmop/meta_package_extension.t .................................. ok
+t/cmop/metaclass.t ............................................... ok
+t/cmop/metaclass_incompatibility.t ............................... ok
+t/cmop/metaclass_incompatibility_dyn.t ........................... ok
+t/cmop/metaclass_inheritance.t ................................... ok
+t/cmop/metaclass_loads_classes.t ................................. ok
+t/cmop/metaclass_reinitialize.t .................................. ok
+t/cmop/method.t .................................................. ok
+t/cmop/method_modifiers.t ........................................ ok
+t/cmop/methods.t ................................................. ok
+t/cmop/modify_parent_method.t .................................... ok
+t/cmop/new_and_clone_metaclasses.t ............................... ok
+t/cmop/null_stash.t .............................................. ok
+t/cmop/numeric_defaults.t ........................................ ok
+t/cmop/package_variables.t ....................................... ok
+t/cmop/Perl6Attribute_test.t ..................................... ok
+t/cmop/random_eval_bug.t ......................................... ok
+t/cmop/rebless_instance.t ........................................ ok
+t/cmop/rebless_instance_away.t ................................... ok
+t/cmop/rebless_overload.t ........................................ ok
+t/cmop/rebless_with_extra_params.t ............................... ok
+t/cmop/RT_27329_fix.t ............................................ ok
+t/cmop/RT_39001_fix.t ............................................ ok
+t/cmop/RT_41255.t ................................................ ok
+t/cmop/scala_style_mixin_composition.t ........................... skipped: Test requires module 'SUPER' but it's not found
+t/cmop/self_introspection.t ...................................... ok
+t/cmop/subclasses.t .............................................. ok
+t/cmop/subname.t ................................................. ok
+t/cmop/universal_methods.t ....................................... ok
+t/compat/composite_metaroles.t ................................... ok
+t/compat/extends_nonmoose_that_isa_moose_with_metarole.t ......... ok
+t/compat/foreign_inheritence.t ................................... ok
+t/compat/inc_hash.t .............................................. ok
+t/compat/module_refresh_compat.t ................................. skipped: Test requires module 'Module::Refresh' but it's not found
+t/compat/moose_respects_base.t ................................... ok
+t/examples/Child_Parent_attr_inherit.t ........................... ok
+t/examples/example1.t ............................................ ok
+t/examples/example2.t ............................................ ok
+t/examples/example_Moose_POOP.t .................................. skipped: Test requires module 'DateTime::Format::MySQL' but it's not found
+t/examples/example_Protomoose.t .................................. ok
+t/examples/example_w_DCS.t ....................................... skipped: Test requires module 'Declare::Constraints::Simple' but it's not found
+t/examples/example_w_TestDeep.t .................................. ok
+t/examples/record_set_iterator.t ................................. ok
+t/exceptions/attribute.t ......................................... ok
+t/exceptions/class-mop-attribute.t ............................... ok
+t/exceptions/class-mop-class-immutable-trait.t ................... ok
+t/exceptions/class-mop-class.t ................................... ok
+t/exceptions/class-mop-method-accessor.t ......................... ok
+t/exceptions/class-mop-method-constructor.t ...................... ok
+t/exceptions/class-mop-method-generated.t ........................ ok
+t/exceptions/class-mop-method-meta.t ............................. ok
+t/exceptions/class-mop-method-wrapped.t .......................... ok
+t/exceptions/class-mop-method.t .................................. ok
+t/exceptions/class-mop-mixin-hasattributes.t ..................... ok
+t/exceptions/class-mop-mixin-hasmethods.t ........................ ok
+t/exceptions/class-mop-module.t .................................. ok
+t/exceptions/class-mop-object.t .................................. ok
+t/exceptions/class-mop-package.t ................................. ok
+t/exceptions/class.t ............................................. ok
+t/exceptions/cmop.t .............................................. ok
+t/exceptions/exception-lazyattributeneedsadefault.t .............. ok
+t/exceptions/frame-leak.t ........................................ skipped: Test requires module 'Test::Memory::Cycle' but it's not found
+t/exceptions/meta-role.t ......................................... ok
+t/exceptions/metaclass.t ......................................... ok
+t/exceptions/moose-exporter.t .................................... ok
+t/exceptions/moose-meta-attribute-native-traits.t ................ ok
+t/exceptions/moose-meta-class-immutable-trait.t .................. ok
+t/exceptions/moose-meta-method-accessor-native-array.t ........... ok
+t/exceptions/moose-meta-method-accessor-native-collection.t ...... ok
+t/exceptions/moose-meta-method-accessor-native-grep.t ............ ok
+t/exceptions/moose-meta-method-accessor-native-hash-set.t ........ ok
+t/exceptions/moose-meta-method-accessor-native-hash.t ............ ok
+t/exceptions/moose-meta-method-accessor-native-string-match.t .... ok
+t/exceptions/moose-meta-method-accessor-native-string-replace.t .. ok
+t/exceptions/moose-meta-method-accessor-native-string-substr.t ... ok
+t/exceptions/moose-meta-method-accessor-native.t ................. ok
+t/exceptions/moose-meta-method-accessor.t ........................ ok
+t/exceptions/moose-meta-method-augmented.t ....................... ok
+t/exceptions/moose-meta-method-constructor.t ..................... ok
+t/exceptions/moose-meta-method-delegation.t ...................... ok
+t/exceptions/moose-meta-method-destructor.t ...................... ok
+t/exceptions/moose-meta-method-overridden.t ...................... ok
+t/exceptions/moose-meta-role-application-rolesummation.t ......... ok
+t/exceptions/moose-meta-role-application-toclass.t ............... ok
+t/exceptions/moose-meta-role-application-torole.t ................ ok
+t/exceptions/moose-meta-role-application.t ....................... ok
+t/exceptions/moose-meta-role-attribute.t ......................... ok
+t/exceptions/moose-meta-role-composite.t ......................... ok
+t/exceptions/moose-meta-typecoercion-union.t ..................... ok
+t/exceptions/moose-meta-typecoercion.t ........................... ok
+t/exceptions/moose-meta-typeconstraint-enum.t .................... ok
+t/exceptions/moose-meta-typeconstraint-parameterizable.t ......... ok
+t/exceptions/moose-meta-typeconstraint-parameterized.t ........... ok
+t/exceptions/moose-meta-typeconstraint-registry.t ................ ok
+t/exceptions/moose-meta-typeconstraint.t ......................... ok
+t/exceptions/moose-role.t ........................................ ok
+t/exceptions/moose-util-metarole.t ............................... ok
+t/exceptions/moose-util-typeconstraints.t ........................ ok
+t/exceptions/moose.t ............................................. ok
+t/exceptions/object.t ............................................ ok
+t/exceptions/overload.t .......................................... ok
+t/exceptions/rt-92818.t .......................................... ok
+t/exceptions/rt-94795.t .......................................... ok
+t/exceptions/stringify.t ......................................... ok
+t/exceptions/traits.t ............................................ ok
+t/exceptions/typeconstraints.t ................................... ok
+t/exceptions/util.t .............................................. ok
+t/immutable/apply_roles_to_immutable.t ........................... ok
+t/immutable/buildargs.t .......................................... ok
+t/immutable/constructor_is_not_moose.t ........................... skipped: Test requires module 'Test::Output' but it's not found
+t/immutable/constructor_is_wrapped.t ............................. skipped: Test requires module 'Test::Output' but it's not found
+t/immutable/default_values.t ..................................... ok
+t/immutable/definition_context.t ................................. ok
+t/immutable/immutable_constructor_error.t ........................ ok
+t/immutable/immutable_destroy.t .................................. ok
+t/immutable/immutable_meta_class.t ............................... ok
+t/immutable/immutable_metaclass_with_traits.t .................... ok
+t/immutable/immutable_moose.t .................................... ok
+t/immutable/immutable_roundtrip.t ................................ skipped: Test requires module 'Test::Output' but it's not found
+t/immutable/immutable_trigger_from_constructor.t ................. ok
+t/immutable/inline_close_over.t .................................. skipped: Test requires module 'Data::Visitor' but it's not found
+t/immutable/inline_fallbacks.t ................................... ok
+t/immutable/inlined_constructors_n_types.t ....................... ok
+t/immutable/multiple_demolish_inline.t ........................... ok
+t/metaclasses/create_anon_with_required_attr.t ................... ok
+t/metaclasses/custom_attr_meta_as_role.t ......................... ok
+t/metaclasses/custom_attr_meta_with_roles.t ...................... ok
+t/metaclasses/easy_init_meta.t ................................... ok
+t/metaclasses/export_with_prototype.t ............................ ok
+t/metaclasses/exporter_also_with_trait.t ......................... ok
+t/metaclasses/exporter_meta_lookup.t ............................. ok
+t/metaclasses/exporter_sub_names.t ............................... ok
+t/metaclasses/goto_moose_import.t ................................ ok
+t/metaclasses/immutable_metaclass_compat_bug.t ................... ok
+t/metaclasses/meta_name.t ........................................ ok
+t/metaclasses/metaclass_compat.t ................................. ok
+t/metaclasses/metaclass_compat_no_fixing_bug.t ................... ok
+t/metaclasses/metaclass_compat_role_conflicts.t .................. ok
+t/metaclasses/metaclass_parameterized_traits.t ................... ok
+t/metaclasses/metaclass_traits.t ................................. ok
+t/metaclasses/metarole.t ......................................... ok
+t/metaclasses/metarole_combination.t ............................. ok
+t/metaclasses/metarole_on_anon.t ................................. ok
+t/metaclasses/metarole_w_metaclass_pm.t .......................... ok
+t/metaclasses/metaroles_of_metaroles.t ........................... ok
+t/metaclasses/moose_exporter.t ................................... skipped: Test requires module 'Test::Output' but it's not found
+t/metaclasses/moose_exporter_trait_aliases.t ..................... ok
+t/metaclasses/moose_for_meta.t ................................... ok
+t/metaclasses/moose_nonmoose_metatrait_init_order.t .............. ok
+t/metaclasses/moose_nonmoose_moose_chain_init_meta.t ............. ok
+t/metaclasses/moose_w_metaclass.t ................................ ok
+t/metaclasses/new_metaclass.t .................................... ok
+t/metaclasses/new_object_BUILD.t ................................. ok
+t/metaclasses/overloading.t ...................................... ok
+t/metaclasses/reinitialize.t ..................................... ok
+t/metaclasses/use_base_of_moose.t ................................ ok
+t/moose_util/apply_roles.t ....................................... ok
+t/moose_util/create_alias.t ...................................... ok
+t/moose_util/ensure_all_roles.t .................................. ok
+t/moose_util/method_mod_args.t ................................... ok
+t/moose_util/moose_util.t ........................................ ok
+t/moose_util/moose_util_does_role.t .............................. ok
+t/moose_util/moose_util_search_class_by_role.t ................... ok
+t/moose_util/resolve_alias.t ..................................... ok
+t/moose_util/with_traits.t ....................................... ok
+t/native_traits/array_coerce.t ................................... ok
+t/native_traits/array_from_role.t ................................ ok
+t/native_traits/array_subtypes.t ................................. ok
+t/native_traits/array_trigger.t .................................. ok
+t/native_traits/collection_with_roles.t .......................... ok
+t/native_traits/custom_instance.t ................................ ok
+t/native_traits/hash_coerce.t .................................... ok
+t/native_traits/hash_subtypes.t .................................. ok
+t/native_traits/hash_trigger.t ................................... ok
+t/native_traits/remove_attribute.t ............................... ok
+t/native_traits/shallow_clone.t .................................. ok
+t/native_traits/trait_array.t .................................... ok
+t/native_traits/trait_bool.t ..................................... ok
+t/native_traits/trait_code.t ..................................... ok
+t/native_traits/trait_counter.t .................................. ok
+t/native_traits/trait_hash.t ..................................... ok
+t/native_traits/trait_number.t ................................... ok
+t/native_traits/trait_string.t ................................... ok
+t/recipes/basics_bankaccount_methodmodifiersandsubclassing.t ..... ok
+t/recipes/basics_binarytree_attributefeatures.t .................. ok
+t/recipes/basics_company_subtypes.t .............................. ok
+t/recipes/basics_datetime_extendingnonmooseparent.t .............. ok
+t/recipes/basics_document_augmentandinner.t ...................... ok
+t/recipes/basics_genome_overloadingsubtypesandcoercion.t ......... ok
+t/recipes/basics_http_subtypesandcoercion.t ...................... ok
+t/recipes/basics_point_attributesandsubclassing.t ................ ok
+t/recipes/extending_debugging_baseclassrole.t .................... ok
+t/recipes/extending_mooseish_moosesugar.t ........................ ok
+t/recipes/legacy_debugging_baseclassreplacement.t ................ ok
+t/recipes/legacy_labeled_attributemetaclass.t .................... ok
+t/recipes/meta_globref_instancemetaclass.t ....................... ok
+t/recipes/meta_labeled_attributetrait.t .......................... ok
+t/recipes/meta_privateorpublic_methodmetaclass.t ................. ok
+t/recipes/meta_table_metaclasstrait.t ............................ ok
+t/recipes/roles_applicationtoinstance.t .......................... ok
+t/recipes/roles_comparable_codereuse.t ........................... ok
+t/recipes/roles_restartable_advancedcomposition.t ................ ok
+t/roles/anonymous_roles.t ........................................ ok
+t/roles/application_toclass.t .................................... ok
+t/roles/apply_role.t ............................................. ok
+t/roles/build.t .................................................. skipped: Test requires module 'Test::Output' but it's not found
+t/roles/conflict_many_methods.t .................................. ok
+t/roles/create_role.t ............................................ ok
+t/roles/create_role_subclass.t ................................... ok
+t/roles/empty_method_modifiers_meta_bug.t ........................ ok
+t/roles/extending_role_attrs.t ................................... ok
+t/roles/free_anonymous_roles.t ................................... ok
+t/roles/imported_required_method.t ............................... ok
+t/roles/meta_role.t .............................................. ok
+t/roles/method_aliasing_in_composition.t ......................... ok
+t/roles/method_exclusion_in_composition.t ........................ ok
+t/roles/method_modifiers.t ....................................... ok
+t/roles/methods.t ................................................ ok
+t/roles/more_alias_and_exclude.t ................................. ok
+t/roles/more_role_edge_cases.t ................................... ok
+t/roles/new_meta_role.t .......................................... ok
+t/roles/overloading_combine_to_class.t ........................... ok
+t/roles/overloading_combine_to_instance.t ........................ ok
+t/roles/overloading_combine_to_role.t ............................ ok
+t/roles/overloading_composition_errors.t ......................... ok
+t/roles/overloading_remove_attributes_bug.t ...................... ok
+t/roles/overloading_to_class.t ................................... ok
+t/roles/overloading_to_instance.t ................................ ok
+t/roles/overloading_to_role.t .................................... ok
+t/roles/overriding.t ............................................. ok
+t/roles/reinitialize_anon_role.t ................................. ok
+t/roles/role.t ................................................... ok
+t/roles/role_attr_application.t .................................. ok
+t/roles/role_attribute_conflict.t ................................ ok
+t/roles/role_attrs.t ............................................. ok
+t/roles/role_compose_requires.t .................................. ok
+t/roles/role_composite.t ......................................... ok
+t/roles/role_composite_exclusion.t ............................... ok
+t/roles/role_composition_attributes.t ............................ ok
+t/roles/role_composition_conflict_detection.t .................... ok
+t/roles/role_composition_errors.t ................................ ok
+t/roles/role_composition_method_mods.t ........................... ok
+t/roles/role_composition_methods.t ............................... ok
+t/roles/role_composition_override.t .............................. ok
+t/roles/role_composition_req_methods.t ........................... ok
+t/roles/role_conflict_detection.t ................................ ok
+t/roles/role_conflict_edge_cases.t ............................... ok
+t/roles/role_consumers.t ......................................... ok
+t/roles/role_exclusion.t ......................................... ok
+t/roles/role_exclusion_and_alias_bug.t ........................... ok
+t/roles/role_for_combination.t ................................... ok
+t/roles/roles_and_method_cloning.t ............................... ok
+t/roles/roles_and_req_method_edge_cases.t ........................ ok
+t/roles/roles_applied_in_create.t ................................ ok
+t/roles/run_time_role_composition.t .............................. ok
+t/roles/runtime_roles_and_attrs.t ................................ ok
+t/roles/runtime_roles_and_nonmoose.t ............................. ok
+t/roles/runtime_roles_w_params.t ................................. ok
+t/roles/use_base_does.t .......................................... ok
+t/test_moose/test_moose.t ........................................ ok
+t/test_moose/test_moose_does_ok.t ................................ ok
+t/test_moose/test_moose_has_attribute_ok.t ....................... ok
+t/test_moose/test_moose_meta_ok.t ................................ ok
+t/test_moose/with_immutable.t .................................... ok
+t/todo_tests/exception_reflects_failed_constraint.t .............. ok
+t/todo_tests/immutable_n_around.t ................................ ok
+t/todo_tests/moose_and_threads.t ................................. ok
+t/todo_tests/replacing_super_methods.t ........................... ok
+t/todo_tests/required_role_accessors.t ........................... ok
+t/todo_tests/role_attr_methods_original_package.t ................ ok
+t/todo_tests/role_insertion_order.t .............................. ok
+t/todo_tests/various_role_features.t ............................. ok
+t/todo_tests/wrong-inner.t ....................................... ok
+t/type_constraints/advanced_type_creation.t ...................... ok
+t/type_constraints/class_subtypes.t .............................. ok
+t/type_constraints/class_type_constraint.t ....................... ok
+t/type_constraints/coerced_parameterized_types.t ................. ok
+t/type_constraints/container_type_coercion.t ..................... ok
+t/type_constraints/container_type_constraint.t ................... ok
+t/type_constraints/custom_parameterized_types.t .................. ok
+t/type_constraints/custom_type_errors.t .......................... ok
+t/type_constraints/define_type_twice_throws.t .................... ok
+t/type_constraints/duck_type_handles.t ........................... ok
+t/type_constraints/duck_types.t .................................. ok
+t/type_constraints/enum.t ........................................ ok
+t/type_constraints/inlining.t .................................... ok
+t/type_constraints/match_type_operator.t ......................... ok
+t/type_constraints/maybe_type_constraint.t ....................... ok
+t/type_constraints/misc_type_tests.t ............................. ok
+t/type_constraints/name_conflicts.t .............................. ok
+t/type_constraints/normalize_type_name.t ......................... ok
+t/type_constraints/parameterize_from.t ........................... ok
+t/type_constraints/role_type_constraint.t ........................ ok
+t/type_constraints/subtype_auto_vivify_parent.t .................. ok
+t/type_constraints/subtyping_parameterized_types.t ............... ok
+t/type_constraints/subtyping_union_types.t ....................... ok
+t/type_constraints/throw_error.t ................................. ok
+t/type_constraints/type_coersion_on_lazy_attributes.t ............ ok
+t/type_constraints/type_names.t .................................. ok
+t/type_constraints/type_notation_parser.t ........................ ok
+t/type_constraints/types_and_undef.t ............................. ok
+t/type_constraints/union_is_a_type_of.t .......................... ok
+t/type_constraints/union_types.t ................................. ok
+t/type_constraints/union_types_and_coercions.t ................... skipped: Test requires module 'IO::String' but it's not found
+t/type_constraints/util_find_type_constraint.t ................... ok
+t/type_constraints/util_more_type_coercion.t ..................... ok
+t/type_constraints/util_std_type_constraints.t ................... ok
+t/type_constraints/util_type_coercion.t .......................... ok
+t/type_constraints/util_type_constraints.t ....................... ok
+t/type_constraints/util_type_constraints_export.t ................ ok
+t/type_constraints/util_type_reloading.t ......................... ok
+t/type_constraints/with-specio.t ................................. skipped: Test requires module 'Specio::Library::Builtins' but it's not found
+t/zzz-check-breaks.t ............................................. ok
+
+Test Summary Report
+-------------------
+t/bugs/mark_as_methods_overloading_breakage.t                  (Wstat: 512 Tests: 0 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: No plan found in TAP output
+t/metaclasses/meta_name.t                                      (Wstat: 0 Tests: 13 Failed: 0)
+  TODO passed:   11-13
+Files=471, Tests=19081, 356 wallclock secs ( 2.92 usr  1.69 sys + 97.42 cusr 52.46 csys = 154.49 CPU)
+Result: FAIL
+Failed 1/471 test programs. 0/19081 subtests failed.
+*** Error code 255
+
+Stop.
+make: stopped in /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401
+
+
+
+MISSING PREREQUISITES:
+
+It was observed that the test suite seem to fail without these modules:
+
+Test::Exception
+
+As such, adding the prerequisite module(s) to 'PREREQ_PM' in your
+Makefile.PL should solve this problem.  For example:
+
+WriteMakefile(
+    AUTHOR      =&gt; 'ETHER (cpanplus-info@lists.sf.net)',
+    ... # other information
+    PREREQ_PM   =&gt; {
+	'Test::Exception'	=&gt; '0', # or a minimum working version
+    }
+);
+
+Thanks! :-)
+
+PREREQUISITES:
+
+Here is a list of prerequisites you specified and versions we
+managed to load:
+
+	  Module Name                        Have     Want
+	  CPAN::Meta::Check                 0.009    0.007
+	  CPAN::Meta::Requirements          2.125        0
+	  Carp                             1.3301     1.22
+	  Class::Load                        0.22     0.09
+	  Class::Load::XS                    0.08     0.01
+	  Data::OptList                     0.109    0.107
+	  Devel::GlobalDestruction           0.13        0
+	  Devel::OverloadInfo               0.002    0.002
+	  Devel::StackTrace                  2.00     1.33
+	  Dist::CheckConflicts               0.11     0.02
+	  Eval::Closure                      0.11     0.04
+	  ExtUtils::MakeMaker                6.98        0
+	  File::Spec                         3.47        0
+	  List::MoreUtils                    0.33     0.28
+	  List::Util                         1.38     1.33
+	  MRO::Compat                        0.12     0.05
+	  Module::Runtime                   0.014    0.014
+	  Module::Runtime::Conflicts        0.001        0
+	  Package::DeprecationManager        0.13     0.11
+	  Package::Stash                     0.37     0.32
+	  Package::Stash::XS                 0.28     0.24
+	  Params::Util                       1.07     1.00
+	  Scalar::Util                       1.38     1.19
+	  Sub::Exporter                     0.987    0.980
+	  Sub::Name                          0.12     0.05
+	  Task::Weaken                       1.04        0
+	  Test::CleanNamespaces              0.16     0.13
+	  Test::Fatal                       0.013    0.001
+	  Test::More                     1.001006     0.88
+	  Test::Requires                     0.08     0.05
+	  Test::Warnings                    0.016    0.016
+	  Try::Tiny                          0.22     0.02
+	  parent                            0.228    0.223
+	  strict                             1.08     1.03
+	  warnings                           1.23     1.03
+
+Perl module toolchain versions installed:
+	Module Name                        Have
+	CPANPLUS                         0.9152
+	CPANPLUS::Dist::Build              0.78
+	Cwd                                3.47
+	ExtUtils::CBuilder             0.280220
+	ExtUtils::Command                  1.18
+	ExtUtils::Install                  2.04
+	ExtUtils::MakeMaker                6.98
+	ExtUtils::Manifest                 1.68
+	ExtUtils::ParseXS                  3.24
+	File::Spec                         3.47
+	Module::Build                    0.4210
+	Pod::Parser                        1.62
+	Pod::Simple                        3.28
+	Test::Harness                      3.33
+	Test::More                     1.001006
+	version                          0.9909
+
+******************************** NOTE ********************************
+The comments above are created mechanically, possibly without manual
+checking by the sender.  As there are many people performing automatic
+tests on each upload to CPAN, it is likely that you will receive
+identical messages about the same problem.
+
+If you believe that the message is mistaken, please reply to the first
+one with correction and/or additional informations, and do not take
+it personally.  We appreciate your patience. :)
+**********************************************************************
+
+Additional comments:
+
+
+This report was machine-generated by CPANPLUS::Dist::YACSmoke 0.90.
+Powered by minismokebox version 0.58
+
+------------------------------
+ENVIRONMENT AND OTHER CONTEXT
+------------------------------
+
+Environment variables:
+
+    AUTOMATED_TESTING = 1
+    NONINTERACTIVE_TESTING = 1
+    PATH = /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/script:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/script:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/script:/sbin:/bin:/usr/sbin:/usr/bin:/usr/games:/usr/local/sbin:/usr/local/bin:/home/cpan/bin
+    PERL5LIB = :/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-0.014/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-0.014/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Try-Tiny-0.22/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Try-Tiny-0.22/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Fatal-0.013/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Fatal-0.013/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Dist-CheckConflicts-0.11/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Dist-CheckConflicts-0.11/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Tester-0.109/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Tester-0.109/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-NoWarnings-1.04/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-NoWarnings-1.04/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Deep-0.113/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Deep-0.113/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/CPAN-Meta-Check-0.009/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/CPAN-Meta-Check-0.009/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Params-Util-1.07/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Params-Util-1.07/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Install-0.928/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Install-0.928/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Data-OptList-0.109/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Data-OptList-0.109/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Requires-0.08/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Requires-0.08/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Implementation-0.09/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Implementation-0.09/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-XS-0.28/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-XS-0.28/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-Hide-0.0009/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-Hide-0.0009/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-Progressive-0.001011/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-Progressive-0.001011/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Variable-Magic-0.55/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Variable-Magic-0.55/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/B-Hooks-EndOfScope-0.13/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/B-Hooks-EndOfScope-0.13/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/namespace-clean-0.25/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/namespace-clean-0.25/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-0.22/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-0.22/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-XS-0.08/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-XS-0.08/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-GlobalDestruction-0.13/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-GlobalDestruction-0.13/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/MRO-Compat-0.12/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/MRO-Compat-0.12/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Identify-0.08/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Identify-0.08/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-OverloadInfo-0.002/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-OverloadInfo-0.002/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-StackTrace-2.00/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-StackTrace-2.00/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Eval-Closure-0.11/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Eval-Closure-0.11/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/List-MoreUtils-0.33/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/List-MoreUtils-0.33/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-Conflicts-0.001/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-Conflicts-0.001/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-DeprecationManager-0.13/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-DeprecationManager-0.13/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-0.987/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-0.987/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-CheckBin-0.02/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-CheckBin-0.02/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Name-0.12/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Name-0.12/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Task-Weaken-1.04/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Task-Weaken-1.04/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Number-Compare-0.03/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Number-Compare-0.03/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Text-Glob-0.09/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Text-Glob-0.09/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-Perl-1.13/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-Perl-1.13/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Warnings-0.016/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Warnings-0.016/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-CleanNamespaces-0.16/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-CleanNamespaces-0.16/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/arch
+    PERL5_CPANPLUS_IS_RUNNING = 31376
+    PERL5_CPANPLUS_IS_VERSION = 0.9152
+    PERL5_MINISMOKEBOX = 0.58
+    PERL5_YACSMOKE_BASE = /usr/home/cpan/pit/bare/conf/perl-5.20.0
+    PERL_EXTUTILS_AUTOINSTALL = --defaultdeps
+    PERL_MM_USE_DEFAULT = 1
+    SHELL = /usr/local/bin/bash
+    TERM = screen
+
+Perl special variables (and OS-specific diagnostics, for MSWin32):
+
+    Perl: $^X = /usr/home/cpan/pit/bare/perl-5.20.0/bin/perl5.20.0
+    UID:  $&lt;  = 1002
+    EUID: $&gt;  = 1002
+    GID:  $(  = 1002 1002
+    EGID: $)  = 1002 1002
+
+
+-------------------------------
+
+
+--
+
+Summary of my perl5 (revision 5 version 20 subversion 0) configuration:
+   
+  Platform:
+    osname=freebsd, osvers=10.0-release-p9, archname=amd64-freebsd
+    uname='freebsd fferi 10.0-release-p9 freebsd 10.0-release-p9 #0: mon sep 15 14:35:52 utc 2014 root@amd64-builder.daemonology.net:usrobjusrsrcsysgeneric amd64 '
+    config_args='-des -Dprefix=/usr/home/cpan/pit/bare/perl-5.20.0'
+    hint=recommended, useposix=true, d_sigaction=define
+    useithreads=undef, usemultiplicity=undef
+    use64bitint=define, use64bitall=define, uselongdouble=undef
+    usemymalloc=n, bincompat5005=undef
+  Compiler:
+    cc='cc', ccflags ='-DHAS_FPSETMASK -DHAS_FLOATINGPOINT_H -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include',
+    optimize='-O',
+    cppflags='-DHAS_FPSETMASK -DHAS_FLOATINGPOINT_H -fno-strict-aliasing -pipe -fstack-protector -I/usr/local/include'
+    ccversion='', gccversion='4.2.1 Compatible FreeBSD Clang 3.3 (tags/RELEASE_33/final 183502)', gccosandvers=''
+    intsize=4, longsize=8, ptrsize=8, doublesize=8, byteorder=12345678
+    d_longlong=define, longlongsize=8, d_longdbl=define, longdblsize=16
+    ivtype='long', ivsize=8, nvtype='double', nvsize=8, Off_t='off_t', lseeksize=8
+    alignbytes=8, prototype=define
+  Linker and Libraries:
+    ld='cc', ldflags ='-Wl,-E  -fstack-protector -L/usr/local/lib'
+    libpth=/usr/lib /usr/local/lib /usr/include/clang/3.3 /usr/lib
+    libs=-lgdbm -lm -lcrypt -lutil -lc
+    perllibs=-lm -lcrypt -lutil -lc
+    libc=, so=so, useshrplib=false, libperl=libperl.a
+    gnulibc_version=''
+  Dynamic Linking:
+    dlsrc=dl_dlopen.xs, dlext=so, d_dlsymun=undef, ccdlflags=' '
+    cccdlflags='-DPIC -fPIC', lddlflags='-shared  -L/usr/local/lib -fstack-protector'
+
+
+Characteristics of this binary (from libperl): 
+  Compile-time options: HAS_TIMES PERLIO_LAYERS PERL_DONT_CREATE_GVSV
+                        PERL_HASH_FUNC_ONE_AT_A_TIME_HARD PERL_MALLOC_WRAP
+                        PERL_NEW_COPY_ON_WRITE PERL_PRESERVE_IVUV
+                        USE_64_BIT_ALL USE_64_BIT_INT USE_LARGE_FILES
+                        USE_LOCALE USE_LOCALE_COLLATE USE_LOCALE_CTYPE
+                        USE_LOCALE_NUMERIC USE_PERLIO USE_PERL_ATOF
+  Built under freebsd
+  Compiled at Sep 29 2014 12:27:29
+  %ENV:
+    PERL5LIB=":/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-0.014/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-0.014/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Try-Tiny-0.22/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Try-Tiny-0.22/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Fatal-0.013/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Fatal-0.013/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Dist-CheckConflicts-0.11/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Dist-CheckConflicts-0.11/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Tester-0.109/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Tester-0.109/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-NoWarnings-1.04/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-NoWarnings-1.04/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Deep-0.113/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Deep-0.113/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/CPAN-Meta-Check-0.009/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/CPAN-Meta-Check-0.009/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Params-Util-1.07/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Params-Util-1.07/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Install-0.928/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Install-0.928/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Data-OptList-0.109/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Data-OptList-0.109/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Requires-0.08/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Requires-0.08/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Implementation-0.09/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Implementation-0.09/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-XS-0.28/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-XS-0.28/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-Hide-0.0009/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-Hide-0.0009/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-Progressive-0.001011/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-Progressive-0.001011/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Variable-Magic-0.55/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Variable-Magic-0.55/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/B-Hooks-EndOfScope-0.13/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/B-Hooks-EndOfScope-0.13/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/namespace-clean-0.25/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/namespace-clean-0.25/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-0.22/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-0.22/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-XS-0.08/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-XS-0.08/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-GlobalDestruction-0.13/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-GlobalDestruction-0.13/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/MRO-Compat-0.12/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/MRO-Compat-0.12/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Identify-0.08/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Identify-0.08/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-OverloadInfo-0.002/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-OverloadInfo-0.002/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-StackTrace-2.00/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-StackTrace-2.00/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Eval-Closure-0.11/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Eval-Closure-0.11/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/List-MoreUtils-0.33/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/List-MoreUtils-0.33/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-Conflicts-0.001/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-Conflicts-0.001/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-DeprecationManager-0.13/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-DeprecationManager-0.13/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-0.987/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-0.987/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-CheckBin-0.02/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-CheckBin-0.02/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Name-0.12/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Name-0.12/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Task-Weaken-1.04/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Task-Weaken-1.04/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Number-Compare-0.03/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Number-Compare-0.03/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Text-Glob-0.09/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Text-Glob-0.09/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-Perl-1.13/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-Perl-1.13/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Warnings-0.016/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Warnings-0.016/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-CleanNamespaces-0.16/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-CleanNamespaces-0.16/blib/arch:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/lib:/usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/arch"
+    PERL5_CPANPLUS_IS_RUNNING="31376"
+    PERL5_CPANPLUS_IS_VERSION="0.9152"
+    PERL5_MINISMOKEBOX="0.58"
+    PERL5_YACSMOKE_BASE="/usr/home/cpan/pit/bare/conf/perl-5.20.0"
+    PERL_EXTUTILS_AUTOINSTALL="--defaultdeps"
+    PERL_MM_USE_DEFAULT="1"
+  @INC:
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-0.014/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-0.014/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Try-Tiny-0.22/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Try-Tiny-0.22/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Fatal-0.013/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Fatal-0.013/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Dist-CheckConflicts-0.11/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Dist-CheckConflicts-0.11/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Tester-0.109/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Tester-0.109/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-NoWarnings-1.04/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-NoWarnings-1.04/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Deep-0.113/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Deep-0.113/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/CPAN-Meta-Check-0.009/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/CPAN-Meta-Check-0.009/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Params-Util-1.07/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Params-Util-1.07/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Install-0.928/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Install-0.928/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Data-OptList-0.109/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Data-OptList-0.109/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Requires-0.08/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Requires-0.08/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Implementation-0.09/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Implementation-0.09/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-XS-0.28/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-XS-0.28/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-Stash-0.37/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-Hide-0.0009/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-Hide-0.0009/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-Progressive-0.001011/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-Progressive-0.001011/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Variable-Magic-0.55/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Variable-Magic-0.55/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/B-Hooks-EndOfScope-0.13/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/B-Hooks-EndOfScope-0.13/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/namespace-clean-0.25/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/namespace-clean-0.25/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-0.22/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-0.22/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-XS-0.08/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Class-Load-XS-0.08/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-GlobalDestruction-0.13/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-GlobalDestruction-0.13/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/MRO-Compat-0.12/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/MRO-Compat-0.12/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Identify-0.08/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Identify-0.08/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-OverloadInfo-0.002/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-OverloadInfo-0.002/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-StackTrace-2.00/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-StackTrace-2.00/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Eval-Closure-0.11/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Eval-Closure-0.11/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/List-MoreUtils-0.33/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/List-MoreUtils-0.33/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-Conflicts-0.001/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Module-Runtime-Conflicts-0.001/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-DeprecationManager-0.13/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Package-DeprecationManager-0.13/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-0.987/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Exporter-0.987/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-CheckBin-0.02/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Devel-CheckBin-0.02/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Name-0.12/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Sub-Name-0.12/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Task-Weaken-1.04/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Task-Weaken-1.04/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Number-Compare-0.03/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Number-Compare-0.03/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Text-Glob-0.09/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Text-Glob-0.09/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-0.33/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-Perl-1.13/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/File-Find-Rule-Perl-1.13/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Warnings-0.016/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-Warnings-0.016/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-CleanNamespaces-0.16/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Test-CleanNamespaces-0.16/blib/arch
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/lib
+    /usr/home/cpan/pit/bare/conf/perl-5.20.0/.cpanplus/5.20.0/build/Moose-2.1401/blib/arch
+    /usr/home/cpan/pit/bare/perl-5.20.0/lib/site_perl/5.20.0/amd64-freebsd
+    /usr/home/cpan/pit/bare/perl-5.20.0/lib/site_perl/5.20.0
+    /usr/home/cpan/pit/bare/perl-5.20.0/lib/5.20.0/amd64-freebsd
+    /usr/home/cpan/pit/bare/perl-5.20.0/lib/5.20.0
+    .</pre>
+    
+  
+</body>
+</html>
